@@ -438,6 +438,41 @@ export default function Home() {
                 </button>
               ))}
             </div>
+
+              {/* FCSD School Board Callout */}
+              <div
+                style={{
+                  background: 'linear-gradient(135deg, #e8f0ff 0%, #f0f4ff 100%)',
+                  border: '1px solid #c0d0f0',
+                  borderRadius: 8,
+                  padding: '14px 18px',
+                  marginBottom: 12,
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 12,
+                  cursor: 'pointer',
+                }}
+                onClick={() => window.open('https://fairfieldsfuture.diligent.community/portal/', '_blank')}
+              >
+                <span style={{ fontSize: 20 }}>🏫</span>
+                <div style={{ flex: 1 }}>
+                  <span style={{ fontWeight: 700, fontSize: 13, color: '#1a4fa0' }}>
+                    FCSD School Board Meetings
+                  </span>
+                  <span style={{ fontSize: 12, color: '#555', marginLeft: 8 }}>
+                    Agendas &amp; minutes via Diligent Community portal
+                  </span>
+                </div>
+                <a
+                  href="https://fairfieldsfuture.diligent.community/portal/"
+                  target="_blank"
+                  rel="noopener"
+                  onClick={e => e.stopPropagation()}
+                  style={{ fontSize: 12, color: '#1a4fa0', fontWeight: 600, textDecoration: 'none', whiteSpace: 'nowrap' }}
+                >
+                  Open →
+                </a>
+              </div>
             <hr style={{ border:'none', borderTop:'2px solid #3B4FC4', marginBottom:20 }} />
             {conTab === 'articles' && (
               <div>
