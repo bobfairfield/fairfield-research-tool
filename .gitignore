@@ -1,0 +1,6 @@
+.env.local
+.env.sh
+.env.sh
+node_modules/
+node_modules/
+.next/

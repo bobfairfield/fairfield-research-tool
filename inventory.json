@@ -1,0 +1,376 @@
+[
+  {
+    "source": "City of Fairfield",
+    "vectorCount": 2299,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "cityoffairfieldiowa.com",
+    "vectorCount": 1053,
+    "categories": {
+      "municipal_code": [
+        "building_codes",
+        "health_sanitation",
+        "property_regulations",
+        "public_peace",
+        "zoning"
+      ],
+      "(uncategorized)": [
+        "property_regulations"
+      ]
+    },
+    "titles": [
+      "Title 11 - Streets Sidewalks and Public Property",
+      "Title 17 - Buildings and Construction",
+      "Title 19 - Subdivisions",
+      "Title 20 - Zoning",
+      "Title 6 - Animals",
+      "Title 7 - Health and Sanitation",
+      "Title 9 Ch 9.04-9.28 - Breach of Peace",
+      "Title 9 Ch 9.30 - Peddlers and Solicitors",
+      "Title 9 Ch 9.32-9.38 - Alcoholic Liquor",
+      "Title 9 Ch 9.40-9.60 - Dangerous Acts through Trespass",
+      "Title 9 Ch 9.68 - Nuisances",
+      "Title 9 Ch 9.72 - Noise",
+      "Title 9 Ch 9.76 - Vegetation Regulations",
+      "Title 9 Ch 9.88-9.96 - Penalties and Housing Discrimination"
+    ]
+  },
+  {
+    "source": "jeffersoncounty.iowa.gov",
+    "vectorCount": 506,
+    "categories": {
+      "county_government": [
+        "agendas_minutes",
+        "ambulance",
+        "auditor",
+        "board_of_supervisors",
+        "child_health",
+        "clerk_of_court",
+        "county_attorney",
+        "county_engineer",
+        "county_history",
+        "county_ordinances",
+        "department_directory",
+        "elections",
+        "environmental_health",
+        "fairfield_resources",
+        "faqs",
+        "general_assistance",
+        "news_announcements",
+        "public_health",
+        "recorder",
+        "recorder_boats",
+        "recorder_land_records",
+        "recorder_offroad_atv",
+        "sheriff",
+        "sheriff_civil_division",
+        "sheriff_jail",
+        "sheriff_sales",
+        "sheriff_sex_offender_registry",
+        "sheriff_weapon_permits",
+        "treasurer",
+        "veterans_affairs",
+        "weed_commissioner"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "jeffersoncountyhealthcenter.org",
+    "vectorCount": 369,
+    "categories": {
+      "healthcare": [
+        "about",
+        "patients",
+        "services"
+      ],
+      "community_resources": [
+        "community_resource_directory"
+      ]
+    },
+    "titles": [
+      "Jefferson County Community Resource Directory 2024"
+    ]
+  },
+  {
+    "source": "Fairfield Public Library",
+    "vectorCount": 262,
+    "categories": {
+      "Education": [
+        "About",
+        "Digital_Library",
+        "Digital_Library/Government_Resources",
+        "Services",
+        "Services/Meeting_Spaces",
+        "Support_Your_Library"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "maharishi_school",
+    "vectorCount": 255,
+    "categories": {
+      "educational_institutions": [
+        "maharishi_school"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "fairfieldiowa.com",
+    "vectorCount": 168,
+    "categories": {
+      "community_organizations": [
+        "chamber_of_commerce"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "jeffersoncountyconservation.com",
+    "vectorCount": 157,
+    "categories": {
+      "parks_recreation": [
+        "about",
+        "activities",
+        "board",
+        "contact",
+        "foundation",
+        "land_stewardship",
+        "nature_center",
+        "nearby_attractions",
+        "news",
+        "parks",
+        "reservations"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "City of Fairfield Website",
+    "vectorCount": 146,
+    "categories": {
+      "City Records": [
+        "Boards_and_Commissions",
+        "Community",
+        "Departments",
+        "The_City"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "miu",
+    "vectorCount": 141,
+    "categories": {
+      "educational_institutions": [
+        "maharishi_international_university"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "Grow Fairfield",
+    "vectorCount": 101,
+    "categories": {
+      "Community Organizations": []
+    },
+    "titles": []
+  },
+  {
+    "source": "fran",
+    "vectorCount": 82,
+    "categories": {
+      "community-organizations": [
+        "fran"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "fairfield_community_school_district",
+    "vectorCount": 81,
+    "categories": {
+      "educational_institutions": [
+        "fairfield_community_school_district"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "jchc",
+    "vectorCount": 80,
+    "categories": {
+      "jefferson-county": [
+        "health-center"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "jefferson-county",
+    "vectorCount": 75,
+    "categories": {
+      "county-government": [
+        "administration",
+        "conservation",
+        "health-services",
+        "land-infrastructure",
+        "legal-safety"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "singing_cedars_school",
+    "vectorCount": 52,
+    "categories": {
+      "educational_institutions": [
+        "singing_cedars_school"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "jefferson.iowaassessors.com",
+    "vectorCount": 42,
+    "categories": {
+      "county_government": [
+        "assessor",
+        "assessor_exemptions",
+        "assessor_tax"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "Fairfield Area Chamber of Commerce",
+    "vectorCount": 30,
+    "categories": {
+      "Community Organizations": [
+        "Chamber Members",
+        "Chamber Website/.",
+        "Chamber Website/About",
+        "Chamber Website/Calendar",
+        "Chamber Website/Community",
+        "Chamber Website/Contact",
+        "Chamber Website/Join",
+        "Chamber Website/Sponsor"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "fairfield-acc",
+    "vectorCount": 21,
+    "categories": {
+      "community-organizations": [
+        "facc"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "cityoffanrfieldiowa.com",
+    "vectorCount": 16,
+    "categories": {
+      "municipal_code": [
+        "public_peace"
+      ]
+    },
+    "titles": [
+      "Title 9 Ch 9.31 - Mobile Food Units"
+    ]
+  },
+  {
+    "source": "City Attorney",
+    "vectorCount": 14,
+    "categories": {
+      "walton_lake": []
+    },
+    "titles": []
+  },
+  {
+    "source": "golden_magnolia_sanctuary",
+    "vectorCount": 9,
+    "categories": {
+      "community_organizations": [
+        "golden_magnolia_sanctuary"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "Fairfield Cares",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "ffcolab.com",
+    "vectorCount": 5,
+    "categories": {
+      "economic_development": [
+        "entrepreneurship"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "opportunityiowa.gov",
+    "vectorCount": 4,
+    "categories": {
+      "economic_development": [
+        "downtown_revitalization"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "sustainablelivingcoalition.org",
+    "vectorCount": 3,
+    "categories": {
+      "community_organizations": [
+        "food_security"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "thewelliowa.org",
+    "vectorCount": 3,
+    "categories": {
+      "community_organizations": [
+        "social_services"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "growfairfield.com",
+    "vectorCount": 3,
+    "categories": {
+      "economic_development": [
+        "entrepreneurship"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "wildspiritsfarm.com",
+    "vectorCount": 2,
+    "categories": {
+      "community_organizations": [
+        "food_security"
+      ]
+    },
+    "titles": []
+  }
+]

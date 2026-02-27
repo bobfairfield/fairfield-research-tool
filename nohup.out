@@ -1,0 +1,141 @@
+[dotenv@17.3.1] injecting env (5) from .env.local -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+
+████████████████████████████████████████████████████████████
+  Fairfield Community Orgs — Pinecone Indexer
+  Running 2 scrapers (faith)
+████████████████████████████████████████████████████████████
+
+
+► Starting: First United Methodist Church
+[dotenv@17.3.1] injecting env (0) from .env.local -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+
+════════════════════════════════════════════════════════════
+🌐  First United Methodist Church Fairfield
+    https://www.fairfieldmethodistchurch.org
+    Category: faith-community | Max pages: 40
+────────────────────────────────────────────────────────────
+
+  [1/40] https://www.fairfieldmethodistchurch.org                                    (node:16629) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ (3.3k chars)
+  [2/40] https://www.fairfieldmethodistchurch.org/about                              ✓ (2.2k chars)
+  [3/40] https://www.fairfieldmethodistchurch.org/ministries                         ✓ (1.5k chars)
+  [4/40] https://www.fairfieldmethodistchurch.org/community                          ✗
+  [5/40] https://www.fairfieldmethodistchurch.org/events                             ✓ (1.6k chars)
+  [6/40] https://www.fairfieldmethodistchurch.org/news                               ✓ (1.9k chars)
+  [7/40] https://www.fairfieldmethodistchurch.org/dismiss_livestream_countdown       ✗
+  [8/40] https://www.fairfieldmethodistchurch.org/live                               ✓ (1.4k chars)
+  [9/40] https://www.fairfieldmethodistchurch.org/pages/reading-file                 ✓ (2.3k chars)
+  [10/40] https://www.fairfieldmethodistchurch.org/contact                            ✓ (1.8k chars)
+  [11/40] https://www.fairfieldmethodistchurch.org/give                               ✓ (2.2k chars)
+  [12/40] https://www.fairfieldmethodistchurch.org/about/our-team                     ✓ (1.8k chars)
+  [13/40] https://www.fairfieldmethodistchurch.org/about/im-new                       ✓ (3.0k chars)
+  [14/40] https://www.fairfieldmethodistchurch.org/about/our-beliefs                  ✓ (2.3k chars)
+  [15/40] https://www.fairfieldmethodistchurch.org/ministries/childrens-ministry      ✓ (1.7k chars)
+  [16/40] https://www.fairfieldmethodistchurch.org/ministries/youth-ministry          ✓ (1.7k chars)
+  [17/40] https://www.fairfieldmethodistchurch.org/ministries/adult-ministry          ✓ (1.7k chars)
+  [18/40] https://www.fairfieldmethodistchurch.org/events/calendar                    ✓ (1.4k chars)
+  [19/40] null/events.ics                                                             ✗
+  [20/40] https://www.fairfieldmethodistchurch.org/events/sunday-worship/2026-03-01   ✓ (1.5k chars)
+  [21/40] https://www.fairfieldmethodistchurch.org/news/were-delighted-to-welcome-jj- ✓ (1.9k chars)
+  [22/40] https://www.fairfieldmethodistchurch.org/news/sample-news-post-2--1         ✓ (1.6k chars)
+  [23/40] https://www.fairfieldmethodistchurch.org/news/sample-news-post-3            ✓ (1.6k chars)
+  [24/40] https://www.fairfieldmethodistchurch.org/livestreams/22                     ✓ (1.4k chars)
+  [25/40] https://www.fairfieldmethodistchurch.org/livestreams/27                     ✓ (1.4k chars)
+  [26/40] https://www.fairfieldmethodistchurch.org/livestreams/21                     ✓ (1.4k chars)
+  [27/40] https://www.fairfieldmethodistchurch.org/livestreams/20                     ✓ (1.4k chars)
+  [28/40] https://www.fairfieldmethodistchurch.org/livestreams/19                     ✓ (1.4k chars)
+  [29/40] https://www.fairfieldmethodistchurch.org/livestreams/18                     ✓ (1.4k chars)
+  [30/40] https://www.fairfieldmethodistchurch.org/livestreams/17                     ✓ (1.4k chars)
+  [31/40] https://www.fairfieldmethodistchurch.org/livestreams/26                     ✓ (1.4k chars)
+  [32/40] https://www.fairfieldmethodistchurch.org/livestreams/25                     ✓ (1.4k chars)
+  [33/40] https://www.fairfieldmethodistchurch.org/livestreams/16                     ✓ (1.4k chars)
+  [34/40] https://www.fairfieldmethodistchurch.org/reading-file/pages/reading-archive ✓ (1.7k chars)
+  [35/40] https://www.fairfieldmethodistchurch.org/users/al-coffin                    ✓ (1.3k chars)
+  [36/40] https://www.fairfieldmethodistchurch.org/users/elly-stremsterfer            ✓ (1.4k chars)
+  [37/40] https://www.fairfieldmethodistchurch.org/users/devon-jj-williamson          ✓ (1.3k chars)
+  [38/40] https://www.fairfieldmethodistchurch.org/users/steve-swanson                ✓ (1.3k chars)
+  [39/40] https://www.fairfieldmethodistchurch.org/collections/ministries             ✓ (1.5k chars)
+  [40/40] https://www.fairfieldmethodistchurch.org/events/sunday-worship/2026-03-08   ✓ (1.5k chars)
+
+  Pages collected: 37
+  ✅ https://www.fairfieldmethodistchurch.org → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/about → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/ministries → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/events → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/news → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/pages/reading-file → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/contact → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/give → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/about/our-team → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/about/im-new → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/about/our-beliefs → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/ministries/childrens-min → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/ministries/youth-ministr → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/ministries/adult-ministr → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/events/calendar → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/events/sunday-worship/20 → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/news/were-delighted-to-w → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/news/sample-news-post-2- → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/news/sample-news-post-3 → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/reading-file/pages/readi → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/users/al-coffin → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/users/elly-stremsterfer → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/users/devon-jj-williamso → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/users/steve-swanson → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/collections/ministries → 1 chunks
+  ✅ https://www.fairfieldmethodistchurch.org/events/sunday-worship/20 → 1 chunks
+
+────────────────────────────────────────────────────────────
+  ✅ First United Methodist Church Fairfield complete
+     Pages: 37 | Chunks: 26 | Errors: 0
+════════════════════════════════════════════════════════════
+
+
+► Starting: Fairfield Friends Church
+[dotenv@17.3.1] injecting env (0) from .env.local -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+
+════════════════════════════════════════════════════════════
+🌐  Fairfield Friends Church
+    https://www.fairfieldfriendschurch.org
+    Category: faith-community | Max pages: 40
+────────────────────────────────────────────────────────────
+
+  [1/40] https://www.fairfieldfriendschurch.org                                      (node:16642) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+✓ (3.1k chars)
+  [2/40] https://www.fairfieldfriendschurch.org/about                                ✗
+  [3/40] https://www.fairfieldfriendschurch.org/ministries                           ✓ (0.8k chars)
+  [4/40] https://www.fairfieldfriendschurch.org/community                            ✗
+  [5/40] https://www.fairfieldfriendschurch.org/events                               ✗
+  [6/40] https://www.fairfieldfriendschurch.org/news                                 ✗
+  [7/40] https://www.fairfieldfriendschurch.org/hp_wordpress/xmlrpc.php              ✗
+  [8/40] https://www.fairfieldfriendschurch.org/home                                 ✓ (1.3k chars)
+  [9/40] https://www.fairfieldfriendschurch.org/visit                                ✓ (0.9k chars)
+  [10/40] https://www.fairfieldfriendschurch.org/leadership                           ✓ (0.6k chars)
+  [11/40] https://www.fairfieldfriendschurch.org/give                                 ✓ (0.7k chars)
+  [12/40] https://www.fairfieldfriendschurch.org/connect                              ✓ (0.7k chars)
+
+  Pages collected: 7
+  ✅ https://www.fairfieldfriendschurch.org → 1 chunks
+  ✅ https://www.fairfieldfriendschurch.org/ministries → 1 chunks
+  ✅ https://www.fairfieldfriendschurch.org/home → 1 chunks
+  ✅ https://www.fairfieldfriendschurch.org/visit → 1 chunks
+  ✅ https://www.fairfieldfriendschurch.org/leadership → 1 chunks
+  ✅ https://www.fairfieldfriendschurch.org/give → 1 chunks
+  ✅ https://www.fairfieldfriendschurch.org/connect → 1 chunks
+
+────────────────────────────────────────────────────────────
+  ✅ Fairfield Friends Church complete
+     Pages: 7 | Chunks: 7 | Errors: 0
+════════════════════════════════════════════════════════════
+
+
+
+████████████████████████████████████████████████████████████
+  Run Complete — 1.7 minutes
+────────────────────────────────────────────────────────────
+  ✅  First United Methodist Church
+  ✅  Fairfield Friends Church
+████████████████████████████████████████████████████████████
+

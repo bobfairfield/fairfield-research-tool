@@ -1,0 +1,335 @@
+Title: Sample Page
+URL: https://franiowa.org/sample-page/
+Type: page
+Source: franiowa.org
+------------------------------------------------------------
+
+Elements
+
+The purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+H3 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Agendas, Minutes & Recent Docs
+
+View or download these pdf documents
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+Just A Standard Page
+
+Nunc et vestibulum velit. Suspendisse euismod eros vel urna bibendum gravida. Phasellus et metus nec dui ornare molestie. In consequat urna sed tincidunt euismod. Praesent non pharetra arcu, at tincidunt sapien. Nullam lobortis ultricies bibendum.
+
+Elements
+
+The purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+H2 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+H3 and Paragraph
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo.
+
+ 
+
+List Types h2
+
+Ordered List h3
+
+List Item 1
+
+List Item 2
+
+List Item 3
+
+Unordered List h3
+
+List Item 1
+
+List Item 2
+
+List Item 3
+
+Definition List h3
+
+Definition List Title
+This is a definition list division.
+
+Forms
+
+Legend
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+
+Form Element
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
+
+Text Field:
+
+Text Area:
+
+Select Element:
+ 
+
+Option 1Option 2Option 3
+
+ 
+
+Option 1Option 2Option 3
+
+ 
+
+Radio Buttons:
+
+ Radio 1
+ Radio 2
+ Radio 3
+
+Checkboxes:
+
+ Radio 1
+ Radio 2
+ Radio 3
+
+Password:
+
+File Input:
+
+ 
+
+[top]
+
+Tables
+
+Table Header 1
+Table Header 2
+Table Header 3
+
+Division 1
+Division 2
+Division 3
+
+Division 1
+Division 2
+Division 3
+
+Division 1
+Division 2
+Division 3
+
+[top]
+
+Misc Stuff
+
+Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. . Lorem superscript dolor subscript amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. cite. Nunc iaculis suscipit dui.
+
+“This stylesheet is going to help so freaking much.”
+-Blockquote
+
+Lorem Ipsum Dolor
+
+Nunc et vestibulum velit. Suspendisse euismod eros vel urna bibendum gravida. Phasellus et metus nec dui ornare molestie. In consequat urna sed tincidunt euismod. Praesent non pharetra arcu, at tincidunt sapien. Nullam lobortis ultricies bibendum. Duis elit leo, porta vel nisl in, ullamcorper scelerisque velit. Fusce volutpat purus dolor, vel pulvinar dui porttitor sed. Phasellus ac odio eu quam varius elementum sit amet euismod justo.
+
+Lorem Ipsum Dolor
+
+Nunc et vestibulum velit. Suspendisse euismod eros vel urna bibendum gravida. Phasellus et metus nec dui ornare molestie. In consequat urna sed tincidunt euismod. Praesent non pharetra arcu, at tincidunt sapien. Nullam lobortis ultricies bibendum. Duis elit leo, porta vel nisl in, ullamcorper scelerisque velit. Fusce volutpat purus dolor, vel pulvinar dui porttitor sed. Phasellus ac odio eu quam varius elementum sit amet euismod justo.
+
+Lorem Ipsum Dolor
+
+Nunc et vestibulum velit. Suspendisse euismod eros vel urna bibendum gravida. Phasellus et metus nec dui ornare molestie. In consequat urna sed tincidunt euismod. Praesent non pharetra arcu, at tincidunt sapien. Nullam lobortis ultricies bibendum. Duis elit leo, porta vel nisl in, ullamcorper scelerisque velit. Fusce volutpat purus dolor, vel pulvinar dui porttitor sed. Phasellus ac odio eu quam varius elementum sit amet euismod justo.
+
+Lorem Ipsum Dolor
+
+Nunc et vestibulum velit. Suspendisse euismod eros vel urna bibendum gravida. Phasellus et metus nec dui ornare molestie. In consequat urna sed tincidunt euismod. Praesent non pharetra arcu, at tincidunt sapien. Nullam lobortis ultricies bibendum. Duis elit leo, porta vel nisl in, ullamcorper scelerisque velit. Fusce volutpat purus dolor, vel pulvinar dui porttitor sed. Phasellus ac odio eu quam varius elementum sit amet euismod justo.
+
+Lorem Ipsum Dolor
+
+Nunc et vestibulum velit. Suspendisse euismod eros vel urna bibendum gravida. Phasellus et metus nec dui ornare molestie. In consequat urna sed tincidunt euismod. Praesent non pharetra arcu, at tincidunt sapien. Nullam lobortis ultricies bibendum. Duis elit leo, porta vel nisl in, ullamcorper scelerisque velit. Fusce volutpat purus dolor, vel pulvinar dui porttitor sed. Phasellus ac odio eu quam varius elementum sit amet euismod justo.
+
+ 
+ Search for:
+ 
+ 
+ 
+ 
+More FRAN Updates
+
+ 
+ 
+ 
+ 
+Stewardship and Service | Community Dialogue with Faith Reeves and Pete Tollenaere
+
+ 
+ 
+Faith | August 29, 2025 | Private Land Stewardship
+
+ 
+ 
+ 
+ 
+ 
+Smith’s Helping Hands | Community Dialogue with Faith Reeves and Mindy Smith
+
+ 
+ 
+Faith | July 25, 2025 | Enterprise Solutions & Community Connections
