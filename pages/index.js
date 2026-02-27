@@ -357,6 +357,19 @@ export default function Home() {
             </button>
           </div>
 
+          {/* Council Meetings Archive Callout */}
+          <div style={{ display:'flex', alignItems:'center', gap:14, backgroundColor:'#f0f4ff', border:'1px solid #d0d9f5', borderLeft:'4px solid #3b82f6', borderRadius:10, padding:'14px 18px', marginBottom:20, cursor:'pointer' }} onClick={() => window.location.href='/meetings'}>
+            <span style={{ fontSize:22, flexShrink:0 }}>🎬</span>
+            <div style={{ flex:1 }}>
+              <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:3 }}>
+                <span style={{ backgroundColor:'#dbeafe', color:'#1e40af', fontSize:10, fontWeight:800, letterSpacing:'.08em', textTransform:'uppercase', padding:'2px 7px', borderRadius:6 }}>Archive</span>
+                <span style={{ fontSize:14, fontWeight:700, color:'#1a1a2e' }}>14 Years of City Council Meetings — Fully Searchable</span>
+              </div>
+              <p style={{ margin:0, fontSize:12, color:'#555', lineHeight:1.5 }}>Every word from 338 meetings (2012–2026) is indexed in this tool. Ask anything about past council discussions, or browse the full archive.</p>
+            </div>
+            <span style={{ fontSize:12, fontWeight:600, color:'#3b82f6', whiteSpace:'nowrap', flexShrink:0 }}>Browse →</span>
+          </div>
+
           <div style={{ display:'flex', gap:10, marginBottom:24 }}>
             <button onClick={() => { setShowConstitution(true); setConTab('articles'); }}
               style={{ flex:1, backgroundColor:'white', border:'1px solid #e2e8f0', borderRadius:10, padding:'12px 16px', cursor:'pointer', textAlign:'left', display:'flex', alignItems:'center', gap:10 }}>
