@@ -58,6 +58,9 @@ const KB = [
       { title:'Agriculture and Local Economy', links:[
         { text:'ISU Extension — Jefferson County', url:'https://www.extension.iastate.edu/jefferson' },
         { text:'Jefferson County Fair', url:'https://www.jeffersoncofair.com' },
+        { text:'Pathfinders RC&D', url:'https://pathfindersrcd.org' },
+        { text:'Pathfinders Community Resource Guide', url:'https://pathfindersrcd.org/what-we-do/community-development/communityresourceguide/' },
+        { text:'Fairfield Farmers Market', url:'https://fairfieldiowafarmersmarket.farm' },
       ]},
     ],
     local:true, localNote:'Indexed in Pinecone: Grow Fairfield website (substantial — economic development pages); 2024 Downtown Assessment (FULL text); Fairfield Area Chamber of Commerce website (substantial — 116 pages, 325 chunks; news archive, Main Street materials, calendar, community content); Visit Fairfield Iowa CVB website (substantial — 62 pages, 97 chunks; dining, lodging, attractions, itineraries, blog posts); Greater Jefferson County Foundation (substantial — 25 pages, 40 chunks; grants, scholarships, history); ISU Extension Jefferson County (substantial — 54 pages, 87 chunks; 4-H, agriculture, community development programs); Jefferson County Fair (surface — 2 pages, 5 chunks; seasonal site with minimal static content).; Pathfinders RC&D (substantial — 79 pages, 105 chunks; community development, housing, water quality, soil health, Historic Hills Scenic Byway, small business loans, grant services); Pathfinders Community Resource Guide (substantial — 322 pages, 274 chunks; comprehensive directory of 138 Jefferson County human services, parks, housing, health, legal aid, and community organizations); Fairfield Farmers Market (surface — 9 pages, 16 chunks; about, market locations, merchant guidelines).'
@@ -92,6 +95,9 @@ const KB = [
         { text:'Iowa Dance Collective', url:'https://iowadancecollective.com' },
         { text:'Fairfield Cultural District', url:'http://www.fairfieldculturaldistrict.org' },
         { text:'Fairfield First Fridays', url:'https://fairfieldfirstfridays.org' },
+        { text:'ICON — Iowa Contemporary Art', url:'https://www.icon-art.org' },
+        { text:'Wege Center for the Arts', url:'https://www.wegecenter.org' },
+        { text:'Kufner Art Gallery', url:'https://www.kufnerart.com' },
       ]},
     ],
     local:true, localNote:'Indexed in Pinecone: Iowa Dance Collective (substantial — website, programs, bios, event materials; 14 PDFs + 6 text files, 126 chunks); Iowa Source newspaper (substantial — 76 pages, 217 chunks; article archive spanning 2012–2026, community news, arts, culture, food, environment); Fairfield Media Center website (surface — 14 pages, 30 chunks; static pages only, includes limited city council and county supervisors meeting content published by the Media Center — not a comprehensive meeting archive); Fairfield Arts & Convention Center website (surface — 6 pages, 7 chunks; JS-rendered site with limited extractable text); Fairfield Cultural Alliance website (substantial — 48 pages, 138 chunks; heritage site documentation, Blue Zone materials, gala coverage, community directory); Fairfield First Fridays Art Walk (surface — 12 pages, 10 chunks; Wix site, limited static content); Jefferson County Heritage Foundation (surface — 6 pages, 8 chunks; Carnegie Museum, Maasdam Barns, Bonnifield Cabin, McElhinney House).; ICON — Iowa Contemporary Art (substantial — 23 pages, 54 chunks; exhibition history, art radio archive, Hudson Collection, events, donors); Wege Center for the Arts (substantial — 30 pages, 34 chunks; current and past exhibitions, artist lecture series, MFA/BFA thesis shows, WHIRL program); Kufner Art Gallery (substantial — 22 pages, 24 chunks; artist bio, landscapes, figurative, devotional, abstract, and photography portfolios).'
