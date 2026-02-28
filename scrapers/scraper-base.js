@@ -7,11 +7,20 @@
  *
  * Usage from ~/fairfield-research-tool:
  *   node scrapers/education/miu.js
+ *
+ * Change detection:
+ *   A manifest file (scrape-manifest.json) tracks a SHA-256 hash of each
+ *   page's text content. On re-runs, unchanged pages are skipped entirely.
+ *   Changed pages have their old Pinecone vectors deleted before new ones
+ *   are upserted. Pass { force: true } in config to bypass the manifest.
  */
 
 require('dotenv').config({ path: '.env.local' });
 const https  = require('https');
 const http   = require('http');
+const crypto = require('crypto');
+const fs     = require('fs');
+const path   = require('path');
 const { URL } = require('url');
 const { Pinecone } = require('@pinecone-database/pinecone');
 const OpenAI = require('openai');
@@ -22,7 +31,39 @@ const index = pc.index('fairfield-civic-docs');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-// ─── HTTP fetch (follows one redirect) ───────────────────────────────────────
+// ─── Manifest helpers ─────────────────────────────────────────────────────────
+const MANIFEST_PATH = path.join(__dirname, '..', 'scrape-manifest.json');
+
+function loadManifest() {
+  try {
+    if (fs.existsSync(MANIFEST_PATH)) {
+      return JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
+    }
+  } catch (e) {
+    console.warn(`  ⚠️  Could not read manifest: ${e.message}`);
+  }
+  return {};
+}
+
+function saveManifest(manifest) {
+  try {
+    fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2), 'utf8');
+  } catch (e) {
+    console.warn(`  ⚠️  Could not write manifest: ${e.message}`);
+  }
+}
+
+function hashText(text) {
+  return crypto.createHash('sha256').update(text).digest('hex').slice(0, 16);
+}
+
+// Reconstruct vector IDs for a given orgId + url + chunkCount so we can delete them
+function vectorIds(orgId, url, chunkCount) {
+  const b64 = Buffer.from(url).toString('base64').slice(0, 20);
+  return Array.from({ length: chunkCount }, (_, i) => `${orgId}-${b64}-${i}`);
+}
+
+// ─── HTTP fetch (follows redirects) ──────────────────────────────────────────
 function fetchPage(rawUrl, timeoutMs = 15000) {
   return new Promise((resolve) => {
     let resolved = false;
@@ -65,7 +106,6 @@ function fetchPage(rawUrl, timeoutMs = 15000) {
 function htmlToText(html) {
   if (!html) return '';
 
-  // Remove noisy sections wholesale
   let s = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
@@ -74,13 +114,9 @@ function htmlToText(html) {
     .replace(/<footer[\s\S]*?<\/footer>/gi, ' ')
     .replace(/<!--[\s\S]*?-->/g, ' ');
 
-  // Block elements → newline
   s = s.replace(/<\/?(p|div|section|article|h[1-6]|li|tr|br|blockquote)[^>]*>/gi, '\n');
-
-  // Strip remaining tags
   s = s.replace(/<[^>]+>/g, ' ');
 
-  // Decode common HTML entities
   s = s
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
@@ -89,7 +125,6 @@ function htmlToText(html) {
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n)))
     .replace(/&[a-z]+;/gi, ' ');
 
-  // Clean whitespace
   s = s.replace(/[ \t]+/g, ' ');
   s = s.replace(/\n{3,}/g, '\n\n');
   return s.trim();
@@ -104,9 +139,7 @@ function extractLinks(html, baseUrl) {
   while ((m = re.exec(html)) !== null) {
     try {
       const u = new URL(m[1], baseUrl);
-      // Same hostname only
       if (u.hostname === base.hostname) {
-        // Normalize: no trailing slash, no fragment
         const clean = u.origin + u.pathname.replace(/\/$/, '');
         if (clean !== base.origin) links.add(clean);
       }
@@ -124,43 +157,6 @@ const SKIP_PATTERNS = [
 
 function shouldSkip(url) {
   return SKIP_PATTERNS.some(p => p.test(url));
-}
-
-// ─── Crawl a site up to maxPages ─────────────────────────────────────────────
-async function crawlSite(startUrl, maxPages = 60, delayMs = 500) {
-  const visited = new Set();
-  const queue   = [startUrl];
-  const results = []; // { url, text }
-
-  while (queue.length > 0 && visited.size < maxPages) {
-    const url = queue.shift();
-    if (visited.has(url) || shouldSkip(url)) continue;
-    visited.add(url);
-
-    process.stdout.write(`  Fetching [${visited.size}/${maxPages}] ${url.slice(0, 80)}...`);
-    const res = await fetchPage(url);
-    if (!res) { console.log(' ✗'); await sleep(delayMs); continue; }
-
-    const text = htmlToText(res.body);
-    if (text.length > 200) {
-      results.push({ url, text });
-      console.log(` ✓ (${text.length} chars)`);
-    } else {
-      console.log(' (skipped — too short)');
-    }
-
-    // Enqueue new links
-    const links = extractLinks(res.body, url);
-    for (const link of links) {
-      if (!visited.has(link) && !shouldSkip(link) && !queue.includes(link)) {
-        queue.push(link);
-      }
-    }
-
-    await sleep(delayMs);
-  }
-
-  return results;
 }
 
 // ─── Chunk text into ~400-word blocks ────────────────────────────────────────
@@ -183,7 +179,6 @@ function chunkText(text, maxWords = 400) {
     const words = para.split(/\s+/).length;
     if (wordCount + words > maxWords) flush();
     if (words > maxWords) {
-      // Split long paragraph by sentences
       const sentences = para.match(/[^.!?]+[.!?]+/g) || [para];
       for (const sent of sentences) {
         const sw = sent.split(/\s+/).length;
@@ -224,6 +219,16 @@ async function upsertBatch(vectors) {
   }
 }
 
+// ─── Delete vectors for a page ───────────────────────────────────────────────
+async function deletePageVectors(orgId, url, chunkCount) {
+  if (!chunkCount || chunkCount === 0) return;
+  const ids = vectorIds(orgId, url, chunkCount);
+  for (let i = 0; i < ids.length; i += 100) {
+    await index.deleteMany(ids.slice(i, i + 100));
+    await sleep(200);
+  }
+}
+
 // ─── Main runner ─────────────────────────────────────────────────────────────
 /**
  * @param {object} config
@@ -234,6 +239,7 @@ async function upsertBatch(vectors) {
  * @param {string[]} [config.seedUrls] - Additional URLs to seed (optional)
  * @param {number}   [config.maxPages] - Max pages to crawl (default 60)
  * @param {number}   [config.delay]    - Delay between requests in ms (default 600)
+ * @param {boolean}  [config.force]    - Skip manifest check and re-index everything (default false)
  */
 async function runScraper(config) {
   const {
@@ -243,20 +249,26 @@ async function runScraper(config) {
     startUrl,
     seedUrls = [],
     maxPages = 60,
-    delay = 600
+    delay = 600,
+    force = false
   } = config;
 
   console.log(`\n${'═'.repeat(60)}`);
   console.log(`🌐  ${orgName}`);
   console.log(`    ${startUrl}`);
   console.log(`    Category: ${category} | Max pages: ${maxPages}`);
+  if (force) console.log(`    Mode: FORCE (manifest ignored)`);
   console.log(`${'─'.repeat(60)}\n`);
+
+  // Load manifest
+  const manifest = loadManifest();
+  const orgManifest = manifest[orgId] || {};
 
   // Crawl
   const allUrls = [startUrl, ...seedUrls];
   const visited = new Set();
   const queue   = [...allUrls];
-  const pages   = [];
+  const pages   = []; // { url, text }
 
   while (queue.length > 0 && visited.size < maxPages) {
     const url = queue.shift();
@@ -287,11 +299,30 @@ async function runScraper(config) {
 
   console.log(`\n  Pages collected: ${pages.length}`);
 
-  // Chunk, embed, upsert
-  let totalChunks = 0;
-  let errors = 0;
+  // Chunk, embed, upsert — with change detection
+  let totalChunks  = 0;
+  let skippedPages = 0;
+  let changedPages = 0;
+  let errors       = 0;
+  const updatedOrgManifest = { ...orgManifest };
 
   for (const page of pages) {
+    const hash = hashText(page.text);
+    const prior = orgManifest[page.url];
+
+    // Skip unchanged pages (unless force)
+    if (!force && prior && prior.hash === hash) {
+      console.log(`  ⏭  ${page.url.slice(0, 65)} — unchanged`);
+      totalChunks += prior.chunks;
+      skippedPages++;
+      continue;
+    }
+
+    // Page is new or changed — delete old vectors if we know how many there were
+    if (prior && prior.chunks > 0) {
+      await deletePageVectors(orgId, page.url, prior.chunks);
+    }
+
     const chunks = chunkText(page.text);
     if (chunks.length === 0) continue;
 
@@ -320,15 +351,32 @@ async function runScraper(config) {
 
     await upsertBatch(vectors);
     totalChunks += vectors.length;
-    console.log(`  ✅ ${page.url.slice(0, 65)} → ${vectors.length} chunks`);
+    changedPages++;
+
+    const label = prior ? '🔄' : '✅';
+    console.log(`  ${label} ${page.url.slice(0, 65)} → ${vectors.length} chunks`);
+
+    // Update manifest entry for this page
+    updatedOrgManifest[page.url] = {
+      hash,
+      chunks: vectors.length,
+      lastScraped: new Date().toISOString()
+    };
   }
+
+  // Persist updated manifest
+  manifest[orgId] = updatedOrgManifest;
+  saveManifest(manifest);
 
   console.log(`\n${'─'.repeat(60)}`);
   console.log(`  ✅ ${orgName} complete`);
   console.log(`     Pages: ${pages.length} | Chunks: ${totalChunks} | Errors: ${errors}`);
+  if (skippedPages > 0 || changedPages > 0) {
+    console.log(`     Unchanged (skipped): ${skippedPages} | New/changed (re-indexed): ${changedPages}`);
+  }
   console.log(`${'═'.repeat(60)}\n`);
 
-  return { pages: pages.length, chunks: totalChunks, errors };
+  return { pages: pages.length, chunks: totalChunks, errors, skipped: skippedPages, changed: changedPages };
 }
 
 module.exports = { runScraper };
