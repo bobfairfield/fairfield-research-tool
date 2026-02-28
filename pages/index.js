@@ -587,49 +587,7 @@ export default function Home() {
               <button type="button" onClick={() => setShowHistory(v => !v)} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'12px 16px', fontSize:13, borderRadius:8, cursor:'pointer' }}>
                 History ({sessions.length})
 
-          {/* FCSD SCHOOL BOARD CALLOUT */}
-          React.createElement('a', {
-            href: 'https://fairfieldsfuture.diligent.community/portal/',
-            target: '_blank',
-            rel: 'noopener noreferrer',
-            style: {
-              display: 'flex',
-              alignItems: 'center',
-              background: '#eef2fc',
-              border: '1px solid #c5d3f0',
-              borderLeft: '4px solid #1a4fa0',
-              borderRadius: 8,
-              padding: '14px 20px',
-              marginBottom: 16,
-              gap: 14,
-              textDecoration: 'none',
-              color: 'inherit',
-            }
-          },
-            React.createElement('span', { style: { fontSize: 20, flexShrink: 0 } }, '🏫'),
-            React.createElement('div', { style: { flex: 1 } },
-              React.createElement('div', { style: { display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' } },
-                React.createElement('span', {
-                  style: {
-                    background: '#1a4fa0', color: '#fff',
-                    fontSize: 10, fontWeight: 700,
-                    padding: '2px 7px', borderRadius: 10,
-                    letterSpacing: '0.5px',
-                  }
-                }, 'SCHOOL BOARD'),
-                React.createElement('span', {
-                  style: { fontSize: 14, fontWeight: 600, color: '#1a1a2e' }
-                }, 'FCSD Board of Education — Agendas & Minutes')
-              ),
-              React.createElement('div', {
-                style: { fontSize: 12, color: '#666', marginTop: 3 }
-              }, '1st & 3rd Monday · 6:30 PM · ACT Center Board Room · Open to the public')
-            ),
-            React.createElement('span', {
-              style: { color: '#1a4fa0', fontWeight: 600, fontSize: 13, whiteSpace: 'nowrap' }
-            }, 'Portal →')
-          ),
-          {/* END FCSD SCHOOL BOARD CALLOUT */}
+                    {/* END FCSD SCHOOL BOARD CALLOUT */}
 
               </button>
             </div>
