@@ -8,7 +8,7 @@ const SEARCH_EXAMPLES = [
 ];
 
 const RESEARCH_EXAMPLES = [
-  "I'm wondering about the new development proposed near my neighborhood \u2014 what should I know and how can I get involved?",
+  "I'm wondering about the new development proposed near my neighborhood — what should I know and how can I get involved?",
   'What are the pros and cons of converting downtown to two-way traffic?',
   'How might the new fire station impact our property taxes?',
   'What options exist for affordable housing development in Fairfield?',
@@ -169,7 +169,7 @@ function KBTree() {
               <span style={{ fontSize:14, fontWeight:600, color:'#1a1a2e' }}>{cat.label}</span>
               {cat.local && <span style={{ fontSize:11, backgroundColor:'#f0fdf4', color:'#15803d', border:'1px solid #bbf7d0', borderRadius:4, padding:'1px 6px' }}>+ Local files</span>}
             </span>
-            <span style={{ color:'#3B4FC4', fontSize:14, flexShrink:0 }}>{open[cat.id] ? '\u25b2' : '\u25bc'}</span>
+            <span style={{ color:'#3B4FC4', fontSize:14, flexShrink:0 }}>{open[cat.id] ? '▲' : '▼'}</span>
           </button>
           {open[cat.id] && (
             <div style={{ backgroundColor:'#f8f9ff', border:'1px solid #c7d9fa', borderTop:'none', borderRadius:'0 0 8px 8px', padding:'14px 16px 16px' }}>
@@ -187,7 +187,7 @@ function KBTree() {
                 <div style={{ marginTop:4 }}>
                   <button onClick={() => togD(cat.id)} style={{ width:'100%', textAlign:'left', backgroundColor:'#eef4ff', border:'1px solid #c7d9fa', borderRadius:6, padding:'9px 12px', cursor:'pointer', fontSize:13, fontWeight:600, color:'#1E3A8A', display:'flex', justifyContent:'space-between', alignItems:'center' }}>
                     <span>📅 {cat.dropdown.label}</span>
-                    <span>{drop[cat.id] ? '\u25b2' : '\u25bc'}</span>
+                    <span>{drop[cat.id] ? '▲' : '▼'}</span>
                   </button>
                   {drop[cat.id] && (
                     <div style={{ backgroundColor:'white', border:'1px solid #c7d9fa', borderTop:'none', borderRadius:'0 0 6px 6px', padding:'8px 12px' }}>
@@ -225,7 +225,7 @@ function FollowUp({ onSubmit, appMode }) {
         rows={3}
         style={{ width:'100%', padding:12, fontSize:13, border:'1px solid #c7d9fa', borderRadius:8, resize:'vertical', boxSizing:'border-box', outline:'none', color:'#374151', fontFamily:'inherit', lineHeight:1.6, backgroundColor:'white' }} />
       <button type="submit" style={{ marginTop:10, backgroundColor: appMode === 'search' ? '#0f766e' : '#3b4fc4', color:'white', border:'none', padding:'11px 22px', fontSize:14, fontWeight:600, borderRadius:8, cursor:'pointer' }}>
-        {appMode === 'search' ? 'Search Again \u2192' : 'Ask Follow-Up \u2192'}
+        {appMode === 'search' ? 'Search Again →' : 'Ask Follow-Up →'}
       </button>
     </form>
   );
@@ -293,14 +293,14 @@ export default function Home() {
 
   const handleExportWord = () => {
     if (!result || result.error) return;
-    const bom = '\\uFEFF';
+    const bom = '\﻿';
     const modeLabel = isSearch ? 'Search Result' : 'Civic Research Analysis';
     const html = '<html><head><meta charset="UTF-8"></head><body>'
       + '<h1 style="color:#1a1a2e;font-family:Arial,sans-serif;">Fairfield & Jefferson County Civic Intelligence Hub</h1>'
       + '<p style="color:#888;font-size:12px;">Generated: ' + new Date().toLocaleString() + ' | Mode: ' + modeLabel + '</p>'
       + '<h2 style="font-family:Arial,sans-serif;">Question</h2><p>' + question + '</p>'
       + '<h2 style="font-family:Arial,sans-serif;">' + modeLabel + '</h2><p style="line-height:1.7;">' + result.analysis.replace(/\n/g,'<br>') + '</p>'
-      + '<hr><p style="color:#888;font-size:11px;">Fairfield & Jefferson County Civic Intelligence Hub \u2014 City Council Member Bob Ferguson</p></body></html>';
+      + '<hr><p style="color:#888;font-size:11px;">Fairfield & Jefferson County Civic Intelligence Hub — City Council Member Bob Ferguson</p></body></html>';
     const blob = new Blob([bom + html], { type:'application/msword' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -420,7 +420,7 @@ export default function Home() {
 
         <footer style={{ borderTop:'1px solid #e2e8f0', backgroundColor:'white', textAlign:'center', padding:'20px 24px' }}>
           <p style={{ margin:'0 0 6px 0', fontSize:13, color:'#555' }}>Powered by Claude AI | For City Council At-Large Member Bob Ferguson</p>
-          <a href="https://www.fairfieldiowa.com" target="_blank" rel="noopener noreferrer" style={{ fontSize:13, color:'#3b4fc4', textDecoration:'none' }}>Visit Official Fairfield City Website \u2197</a>
+          <a href="https://www.fairfieldiowa.com" target="_blank" rel="noopener noreferrer" style={{ fontSize:13, color:'#3b4fc4', textDecoration:'none' }}>Visit Official Fairfield City Website ↗</a>
         </footer>
 
         {showKB && (
@@ -436,11 +436,11 @@ export default function Home() {
           <Modal onClose={() => setShowConstitution(false)}>
             <p style={{ margin:'0 0 4px 0', fontSize:11, fontWeight:700, letterSpacing:2, textTransform:'uppercase', color:'#3B4FC4' }}>Governing Document</p>
             <h2 style={{ margin:'0 0 4px 0', fontSize:22, fontWeight:700, color:'#1a1a2e' }}>Fairfield & Jefferson County Civic Intelligence Hub</h2>
-            <p style={{ margin:'0 0 20px 0', fontSize:14, color:'#3B4FC4', fontWeight:600 }}>Constitution and Knowledge Base Disclosure \u2014 February 2026</p>
+            <p style={{ margin:'0 0 20px 0', fontSize:14, color:'#3B4FC4', fontWeight:600 }}>Constitution and Knowledge Base Disclosure — February 2026</p>
             <div style={{ display:'flex', gap:8, marginBottom:24 }}>
               {['articles','sources'].map(tab => (
                 <button key={tab} onClick={() => setConTab(tab)} style={{ flex:1, padding:'10px', fontSize:13, fontWeight:600, borderRadius:8, cursor:'pointer', border: conTab === tab ? 'none' : '1px solid #d1d5db', backgroundColor: conTab === tab ? '#3B4FC4' : 'white', color: conTab === tab ? 'white' : '#374151' }}>
-                  {tab === 'articles' ? 'Articles I\u2013VI' : 'Knowledge Base'}
+                  {tab === 'articles' ? 'Articles I–VI' : 'Knowledge Base'}
                 </button>
               ))}
             </div>
@@ -486,16 +486,16 @@ export default function Home() {
                     'This tool is not a political instrument and does not promote the personal policy positions of Council Member Ferguson. It is designed to make Fairfield\'s civic information more accessible and our civic conversation more informed.',
                   ]},
                   { title:'Article II: Two Functions', paras:[
-                    'Search Fairfield gives residents fast, sourced answers drawn from a continuously growing index of Fairfield-specific information \u2014 city ordinances, municipal codes, zoning regulations, planning documents, audit reports, and the public-facing websites of local organizations, businesses, and institutions. Rather than searching the open web, it searches a curated knowledge base built specifically for our community. When you ask about a code violation, a permit process, what\'s playing at the FACC, or what services the library offers, Search Fairfield finds the answer in the actual source documents.',
-                    'Civic Research is a space for deeper inquiry. It\'s designed for residents, advocates, and officials who want to think rigorously about local issues \u2014 stress-testing a proposal, exploring tradeoffs in a policy decision, or understanding how Fairfield\'s situation compares to best practices elsewhere. It draws on the same indexed knowledge base while bringing broader analytical context to bear.',
+                    'Search Fairfield gives residents fast, sourced answers drawn from a continuously growing index of Fairfield-specific information — city ordinances, municipal codes, zoning regulations, planning documents, audit reports, and the public-facing websites of local organizations, businesses, and institutions. Rather than searching the open web, it searches a curated knowledge base built specifically for our community. When you ask about a code violation, a permit process, what\'s playing at the FACC, or what services the library offers, Search Fairfield finds the answer in the actual source documents.',
+                    'Civic Research is a space for deeper inquiry. It\'s designed for residents, advocates, and officials who want to think rigorously about local issues — stress-testing a proposal, exploring tradeoffs in a policy decision, or understanding how Fairfield\'s situation compares to best practices elsewhere. It draws on the same indexed knowledge base while bringing broader analytical context to bear.',
                   ]},
                   { title:'Article III: Analytical Engine', paras:[
-                    'This tool is powered by Claude, an AI assistant developed by Anthropic \u2014 a public benefit corporation legally structured to prioritize the long-term benefit of humanity over commercial profit.',
+                    'This tool is powered by Claude, an AI assistant developed by Anthropic — a public benefit corporation legally structured to prioritize the long-term benefit of humanity over commercial profit.',
                     'Claude is designed to be free of political bias, does not favor any viewpoint or party, and does not reflect the personal views of Council Member Ferguson. On any civic question, Claude presents multiple perspectives including competing interests, stakeholder viewpoints, and relevant tradeoffs.',
                   ]},
                   { title:'Article IV: How the Knowledge Base Is Built', paras:[
-                    'The knowledge base is built from two types of sources. Official city and county documents \u2014 ordinances, codes, zoning regulations, planning studies, budget reports, and council minutes \u2014 form the foundation. These are supplemented by the publicly available websites of Fairfield\'s public and private sector organizations, including local nonprofits, educational institutions, cultural organizations, and civic groups.',
-                    'Rather than linking out to the open web, this tool indexes these sources locally, creating a granular, community-specific search and research engine. Sources are not simply retrieved and quoted \u2014 they inform Claude\'s synthesis, enabling responses that connect information across documents in ways no single source could provide.',
+                    'The knowledge base is built from two types of sources. Official city and county documents — ordinances, codes, zoning regulations, planning studies, budget reports, and council minutes — form the foundation. These are supplemented by the publicly available websites of Fairfield\'s public and private sector organizations, including local nonprofits, educational institutions, cultural organizations, and civic groups.',
+                    'Rather than linking out to the open web, this tool indexes these sources locally, creating a granular, community-specific search and research engine. Sources are not simply retrieved and quoted — they inform Claude\'s synthesis, enabling responses that connect information across documents in ways no single source could provide.',
                   ]},
                   { title:'Article V: Privacy', paras:[
                     'Your questions and analysis results are stored only on your device during your session. Council Member Bob Ferguson cannot see what you ask or what analysis you receive.',
@@ -539,23 +539,23 @@ export default function Home() {
             <span style={{ fontSize:24 }}>{isSearch ? '🔎' : '🧠'}</span>
             <div>
               <h1 style={{ fontSize:22, fontWeight:700, color:'#1a1a2e', margin:0 }}>{isSearch ? 'Search Fairfield' : 'Civic Research'}</h1>
-              <p style={{ margin:0, fontSize:12, color: accentColor }}>{isSearch ? 'Fast answers from local documents and sources' : 'Deep analysis \u00b7 multiple perspectives \u00b7 stress-test ideas'}</p>
+              <p style={{ margin:0, fontSize:12, color: accentColor }}>{isSearch ? 'Fast answers from local documents and sources' : 'Deep analysis · multiple perspectives · stress-test ideas'}</p>
             </div>
           </div>
-          <button onClick={resetMode} style={{ backgroundColor:'white', border:'1px solid #e2e8f0', borderRadius:8, padding:'8px 14px', fontSize:13, cursor:'pointer', color:'#555' }}>\u2190 Switch Mode</button>
+          <button onClick={resetMode} style={{ backgroundColor:'white', border:'1px solid #e2e8f0', borderRadius:8, padding:'8px 14px', fontSize:13, cursor:'pointer', color:'#555' }}>← Switch Mode</button>
         </div>
 
         {/* Research mode trust banner */}
         {!isSearch && (
           <div style={{ backgroundColor:'#eef4ff', border:'1px solid #c7d9fa', borderRadius:10, padding:'12px 16px', marginBottom:16 }}>
-            <p style={{ margin:0, fontSize:13, color:'#1e3a8a', lineHeight:1.6 }}>Powered by <strong>Claude</strong> (Anthropic) \u2014 designed to be <strong>free of political bias</strong>. Every issue gets <strong>multiple perspectives</strong> so you can form your own opinion. Does not reflect the personal views of Council Member Ferguson.</p>
+            <p style={{ margin:0, fontSize:13, color:'#1e3a8a', lineHeight:1.6 }}>Powered by <strong>Claude</strong> (Anthropic) — designed to be <strong>free of political bias</strong>. Every issue gets <strong>multiple perspectives</strong> so you can form your own opinion. Does not reflect the personal views of Council Member Ferguson.</p>
           </div>
         )}
 
         {/* Privacy note for research */}
         {!isSearch && (
           <div style={{ backgroundColor:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:10, padding:'10px 16px', marginBottom:20, display:'flex', gap:10, alignItems:'center' }}>
-            <span style={{ fontSize:16, flexShrink:0 }}>🛡\ufe0f</span>
+            <span style={{ fontSize:16, flexShrink:0 }}>🛡️</span>
             <p style={{ margin:0, fontSize:13, color:'#14532d' }}>Your questions are stored only on your device. Council Member Ferguson cannot see what you ask.</p>
           </div>
         )}
@@ -575,7 +575,7 @@ export default function Home() {
           {!isSearch && (
             <div style={{ marginBottom:10 }}>
               <button onClick={handleImprove} disabled={improving} style={{ backgroundColor:'#f8f9fa', color:'#374151', border:'1px solid #d1d5db', padding:'7px 14px', fontSize:12, borderRadius:8, cursor: improving ? 'not-allowed' : 'pointer', fontFamily:'inherit' }}>
-                {improving ? '\u2728 Improving...' : '\u2728 Sharpen My Question'}
+                {improving ? '✨ Improving...' : '✨ Sharpen My Question'}
               </button>
               <span style={{ fontSize:11, color:'#888', marginLeft:8 }}>Type first, then click to refine</span>
             </div>
@@ -661,9 +661,9 @@ export default function Home() {
       </div>
 
       <footer style={{ borderTop:'1px solid #e2e8f0', backgroundColor:'white', textAlign:'center', padding:'18px 24px' }}>
-        <p style={{ margin:'0 0 4px 0', fontSize:12, color:'#888' }}>Fairfield & Jefferson County Civic Intelligence Hub \u00b7 Powered by Claude AI</p>
+        <p style={{ margin:'0 0 4px 0', fontSize:12, color:'#888' }}>Fairfield & Jefferson County Civic Intelligence Hub · Powered by Claude AI</p>
         <p style={{ margin:'0 0 4px 0', fontSize:12, color:'#888' }}>For City Council At-Large Member Bob Ferguson</p>
-        <a href="https://www.fairfieldiowa.com" target="_blank" rel="noopener noreferrer" style={{ fontSize:12, color:'#3b4fc4', textDecoration:'none' }}>Visit Official Fairfield City Website \u2197</a>
+        <a href="https://www.fairfieldiowa.com" target="_blank" rel="noopener noreferrer" style={{ fontSize:12, color:'#3b4fc4', textDecoration:'none' }}>Visit Official Fairfield City Website ↗</a>
       </footer>
     </div>
   );
