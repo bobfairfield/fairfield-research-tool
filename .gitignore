@@ -6,3 +6,5 @@ node_modules/
 .next/
 .DS_Store
 scrape-manifest.json
+.env.local.save
+.env.localopen
