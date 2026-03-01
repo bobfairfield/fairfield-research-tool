@@ -290,10 +290,10 @@ export default function Home() {
     try { const data = await callAPI(question, 'improve'); if (data.analysis) setQuestion(data.analysis); } catch {}
     finally { setImproving(false); }
   };
-  const [emailing, setEmailing] = React.useState(false);
-  const [emailStatus, setEmailStatus] = React.useState('');
-  const [summarizing, setSummarizing] = React.useState(false);
-  const [councilSummary, setCouncilSummary] = React.useState('');
+  const [emailing, setEmailing] = useState(false);
+  const [emailStatus, setEmailStatus] = useState('');
+  const [summarizing, setSummarizing] = useState(false);
+  const [councilSummary, setCouncilSummary] = useState('');
 
   const handleEmailReport = async () => {
     if (!result || !result.analysis) return;
