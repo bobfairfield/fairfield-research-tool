@@ -290,6 +290,49 @@ export default function Home() {
     try { const data = await callAPI(question, 'improve'); if (data.analysis) setQuestion(data.analysis); } catch {}
     finally { setImproving(false); }
   };
+  const [emailing, setEmailing] = React.useState(false);
+  const [emailStatus, setEmailStatus] = React.useState('');
+  const [summarizing, setSummarizing] = React.useState(false);
+  const [councilSummary, setCouncilSummary] = React.useState('');
+
+  const handleEmailReport = async () => {
+    if (!result || !result.analysis) return;
+    setEmailing(true);
+    setEmailStatus('');
+    try {
+      const res = await fetch('/api/email-report', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode })
+      });
+      const data = await res.json();
+      setEmailStatus(data.success ? '✅ Sent!' : '❌ Failed');
+    } catch (e) {
+      setEmailStatus('❌ Error');
+    }
+    setEmailing(false);
+    setTimeout(() => setEmailStatus(''), 4000);
+  };
+
+  const handleSummarizeCouncil = async () => {
+    if (!result || !result.analysis) return;
+    setSummarizing(true);
+    setCouncilSummary('');
+    try {
+      const res = await fetch('/api/summarize-council', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, analysis: result.analysis })
+      });
+      const data = await res.json();
+      setCouncilSummary(data.summary || '');
+    } catch (e) {
+      setCouncilSummary('Error generating summary.');
+    }
+    setSummarizing(false);
+  };
+
+
 
   const handleExportWord = () => {
     if (!result || result.error) return;
@@ -620,9 +663,18 @@ export default function Home() {
                       {result.sources.map((s, i) => <p key={i} style={{ fontSize:12, color:'#555', margin:'2px 0' }}>📄 {s}</p>)}
                     </div>
                   )}
-                  <div style={{ marginTop:16 }}>
+                  <div style={{ marginTop:16, display:'flex', gap:8, flexWrap:'wrap', alignItems:'center' }}>
                     <button onClick={handleExportWord} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📄 Save as Word Doc</button>
+                    <button onClick={handleSummarizeCouncil} disabled={summarizing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: summarizing ? 'not-allowed' : 'pointer' }}>{summarizing ? '⏳ Summarizing...' : '🏛️ Summarize for Councilman Ferguson'}</button>
+                    <button onClick={handleEmailReport} disabled={emailing} style={{ backgroundColor:'white', color:'#0f766e', border:'1px solid #0f766e', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: emailing ? 'not-allowed' : 'pointer' }}>{emailing ? '⏳ Sending...' : '📧 Email Me This Report'}</button>
+                    {emailStatus && <span style={{ fontSize:12, color: emailStatus.startsWith('✅') ? '#0f766e' : '#dc2626' }}>{emailStatus}</span>}
                   </div>
+                  {councilSummary && (
+                    <div style={{ marginTop:16, backgroundColor:'#f0f4ff', border:'1px solid #c7d9fa', borderLeft:'4px solid #1a3a5c', borderRadius:8, padding:16 }}>
+                      <p style={{ margin:'0 0 8px 0', fontSize:12, fontWeight:600, color:'#1a3a5c', textTransform:'uppercase', letterSpacing:1 }}>🏛️ Briefing for Councilman Ferguson</p>
+                      <div style={{ fontSize:14, lineHeight:1.7, color:'#374151', whiteSpace:'pre-wrap' }}>{councilSummary}</div>
+                    </div>
+                  )}
                 </>
               )}
             </div>
