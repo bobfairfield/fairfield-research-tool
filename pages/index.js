@@ -292,6 +292,7 @@ export default function Home() {
   };
   const [emailing, setEmailing] = useState(false);
   const [emailStatus, setEmailStatus] = useState('');
+  const [constituentComment, setConstituentComment] = useState('');
   const [summarizing, setSummarizing] = useState(false);
   const [councilSummary, setCouncilSummary] = useState('');
 
@@ -300,10 +301,21 @@ export default function Home() {
     setEmailing(true);
     setEmailStatus('');
     try {
+      let summaryText = councilSummary;
+      if (!summaryText) {
+        const sr = await fetch('/api/summarize-council', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question, analysis: result.analysis })
+        });
+        const sd = await sr.json();
+        summaryText = sd.summary || '';
+        if (summaryText) setCouncilSummary(summaryText);
+      }
       const res = await fetch('/api/email-report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode })
+        body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode, comment: constituentComment, summary: summaryText })
       });
       const data = await res.json();
       setEmailStatus(data.success ? '✅ Sent!' : '❌ Failed');
@@ -664,7 +676,12 @@ export default function Home() {
                     </div>
                   )}
                   <div style={{ marginTop:16, display:'flex', gap:8, flexWrap:'wrap', alignItems:'center' }}>
-                    <button onClick={handleExportWord} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📄 Save as Word Doc</button>
+                    <textarea
+                      value={constituentComment}
+                      onChange={e => setConstituentComment(e.target.value)}
+                      placeholder="Add a note for Councilman Ferguson (optional) — describe your concern or idea..."
+                      style={{ width:'100%', padding:'10px 12px', fontSize:13, borderRadius:8, border:'1px solid #d1d5db', color:'#374151', resize:'vertical', minHeight:72, marginBottom:10, fontFamily:'Georgia,serif', boxSizing:'border-box' }}
+                    /><button onClick={handleExportWord} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📄 Save as Word Doc</button>
                     <button onClick={handleSummarizeCouncil} disabled={summarizing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: summarizing ? 'not-allowed' : 'pointer' }}>{summarizing ? '⏳ Summarizing...' : '🏛️ Summarize for Councilman Ferguson'}</button>
                     <button onClick={handleEmailReport} disabled={emailing} style={{ backgroundColor:'white', color:'#0f766e', border:'1px solid #0f766e', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: emailing ? 'not-allowed' : 'pointer' }}>{emailing ? '⏳ Sending...' : '📧 Email Me This Report'}</button>
                     {emailStatus && <span style={{ fontSize:12, color: emailStatus.startsWith('✅') ? '#0f766e' : '#dc2626' }}>{emailStatus}</span>}
