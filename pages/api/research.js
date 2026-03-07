@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') { return res.status(405).json({ error: 'Method not allowed' }); }
 
   try {
-    const { question, mode, history = [] } = req.body;
+    const { question, mode, history = [], files = [] } = req.body;
     if (!question) { return res.status(400).json({ error: 'Question is required' }); }
 
     const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
@@ -28,7 +28,7 @@ export default async function handler(req, res) {
       return res.status(200).json({ analysis: data.content[0].text, sources: [], documentCount: 0, mode: 'improve', hasRAGResults: false });
     }
 
-    // RAG retrieval (shared by both search and research modes)
+    // RAG retrieval
     let ragContext = '';
     let sources = [];
     let documentCount = 0;
@@ -94,7 +94,6 @@ export default async function handler(req, res) {
       } catch (ragError) { console.error('RAG error:', ragError); }
     }
 
-    // System prompts for each mode
     const SEARCH_SYSTEM = `You are a fast, precise local information assistant for Fairfield, Iowa and Jefferson County.
 
 Your job is to answer factual questions using the indexed documents and sources provided. Be direct and concise. Lead with the answer. Cite the source document. If multiple sources say the same thing, consolidate.
@@ -113,13 +112,16 @@ You are searching a curated knowledge base of Fairfield-specific documents inclu
 
 Your job is to help residents, advocates, and officials think carefully about civic questions — policy decisions, community tradeoffs, development proposals, budget priorities, and ideas for improving Fairfield. You draw on indexed local documents as primary context, combined with your broader knowledge of urban planning, municipal governance, Iowa law, and civic best practices.
 
+When the user has attached files (PDFs, images, spreadsheets, documents), treat them as primary evidence the user is submitting to support or illustrate their question. Analyze the content of those files directly and incorporate your findings into the research.
+
 Approach every question by:
 1. Framing what's actually at stake — the real question underneath the question
 2. Drawing on any relevant Fairfield-specific documents, plans, or precedents from the provided context
-3. Presenting multiple legitimate perspectives, including those the user may not have considered or may disagree with
-4. Identifying tradeoffs, not just pros and cons — what does each path give up?
-5. Referencing relevant frameworks, comparable cases from other Iowa cities, or best practices where useful
-6. Ending with what a thoughtful person would want to know before forming an opinion
+3. Analyzing any user-submitted files as supporting evidence or data
+4. Presenting multiple legitimate perspectives, including those the user may not have considered or may disagree with
+5. Identifying tradeoffs, not just pros and cons — what does each path give up?
+6. Referencing relevant frameworks, comparable cases from other Iowa cities, or best practices where useful
+7. Ending with what a thoughtful person would want to know before forming an opinion
 
 Do not flatten complexity. Do not tell people what to think. Help them think better. Challenge assumptions where warranted — including the assumption embedded in the question itself. Write in clear, substantive prose appropriate for an informed adult citizen.`;
 
@@ -129,12 +131,26 @@ Do not flatten complexity. Do not tell people what to think. Help them think bet
       ? `\n\nRELEVANT LOCAL DOCUMENTS (${documentCount} passages from Fairfield knowledge base):\n\n${ragContext}`
       : '\n\n[No matching documents found in local knowledge base — responding from general knowledge]';
 
-    const messages = [
-      ...history,
-      { role: 'user', content: question + contextBlock }
-    ];
+    // Build user message — array if files present, string if not
+    let userContent;
+    if (files && files.length > 0) {
+      userContent = [];
+      for (const file of files) {
+        if (file.fileType === 'pdf') {
+          userContent.push({ type: 'document', source: { type: 'base64', media_type: 'application/pdf', data: file.data } });
+        } else if (file.fileType === 'image') {
+          userContent.push({ type: 'image', source: { type: 'base64', media_type: file.mimeType || 'image/jpeg', data: file.data } });
+        } else {
+          userContent.push({ type: 'text', text: `[Attached file: ${file.name}]\n\n${file.data}` });
+        }
+      }
+      userContent.push({ type: 'text', text: question + contextBlock });
+    } else {
+      userContent = question + contextBlock;
+    }
 
-    const maxTokens = mode === 'search' ? 600 : 1200;
+    const messages = [...history, { role: 'user', content: userContent }];
+    const maxTokens = mode === 'search' ? 1000 : 4000;
 
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
