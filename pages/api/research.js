@@ -150,7 +150,7 @@ Do not flatten complexity. Do not tell people what to think. Help them think bet
     }
 
     const messages = [...history, { role: 'user', content: userContent }];
-    const maxTokens = mode === 'search' ? 1000 : 4000;
+    const maxTokens = mode === 'search' ? 1000 : 8000;
 
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
