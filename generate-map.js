@@ -190,6 +190,7 @@ const SOURCE_CATALOG = {
     color: '#5b3ea6',
     url: 'ffcolab.com',
   },
+  'freeformartgallery.com/product-category/jewelry': { group: 'arts', displayName: 'Freeform Art Gallery', emoji: '🖼️', color: '#7c3d6b', url: 'freeformartgallery.com' },
   'freeform-gallery': {
     group: 'arts',
     displayName: 'Freeform Art Gallery',
