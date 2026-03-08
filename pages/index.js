@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import * as XLSX from 'xlsx';
 
 const SEARCH_EXAMPLES = [
   'What are the rules for junked or inoperable vehicles on private property?',
@@ -39,7 +40,7 @@ const KB = [
       { text:'2022', url:'https://cityoffairfieldiowa.com/231/City-Council-Meeting-Agenda-PDF' },
       { text:'Full Archive', url:'https://cityoffairfieldiowa.com/ArchiveCenter/' },
     ]},
-    local:true, localNote:'Indexed in Pinecone (FULL text, every section): Code of Ordinances, Title 20 Zoning Ordinance, 2020 Comprehensive Plan, WhatsthePlan engagement site, city legal documents, audit reports, budget materials, brand guidelines, City of Fairfield website. Also indexed: Jefferson County Assessor, Treasurer, Auditor, and Recorder department PDFs. Note: City Council meeting minutes are NOT yet indexed — only limited council content from the Fairfield Media Center website is present.'
+    local:true, localNote:'Indexed in Pinecone (FULL text, every section): Code of Ordinances, Title 20 Zoning Ordinance, 2020 Comprehensive Plan, WhatsthePlan engagement site, city legal documents, audit reports, budget materials, brand guidelines, City of Fairfield website. Also indexed: Jefferson County Assessor, Treasurer, Auditor, and Recorder department PDFs.'
   },
   {
     id:'k02', num:'02', label:'Economic and Community Development',
@@ -63,7 +64,7 @@ const KB = [
         { text:'Fairfield Farmers Market', url:'https://fairfieldiowafarmersmarket.farm' },
       ]},
     ],
-    local:true, localNote:'Indexed in Pinecone: Grow Fairfield website (substantial — economic development pages); 2024 Downtown Assessment (FULL text); Fairfield Area Chamber of Commerce website (substantial — 116 pages, 325 chunks; news archive, Main Street materials, calendar, community content); Visit Fairfield Iowa CVB website (substantial — 62 pages, 97 chunks; dining, lodging, attractions, itineraries, blog posts); Greater Jefferson County Foundation (substantial — 25 pages, 40 chunks; grants, scholarships, history); ISU Extension Jefferson County (substantial — 54 pages, 87 chunks; 4-H, agriculture, community development programs); Jefferson County Fair (surface — 2 pages, 5 chunks; seasonal site with minimal static content).; Pathfinders RC&D (substantial — 79 pages, 105 chunks; community development, housing, water quality, soil health, Historic Hills Scenic Byway, small business loans, grant services); Pathfinders Community Resource Guide (substantial — 322 pages, 274 chunks; comprehensive directory of 138 Jefferson County human services, parks, housing, health, legal aid, and community organizations); Fairfield Farmers Market (surface — 9 pages, 16 chunks; about, market locations, merchant guidelines).'
+    local:true, localNote:'Indexed in Pinecone: Grow Fairfield website; 2024 Downtown Assessment (FULL text); Fairfield Area Chamber of Commerce website (116 pages, 325 chunks); Visit Fairfield Iowa CVB website (62 pages, 97 chunks); Greater Jefferson County Foundation (25 pages, 40 chunks); ISU Extension Jefferson County (54 pages, 87 chunks); Pathfinders RC&D (79 pages, 105 chunks); Pathfinders Community Resource Guide (322 pages, 274 chunks); Fairfield Farmers Market (9 pages, 16 chunks).'
   },
   {
     id:'k03', num:'03', label:'Education and Institutions',
@@ -77,7 +78,7 @@ const KB = [
         { text:'ISU Extension — Jefferson County', url:'https://www.extension.iastate.edu/jefferson' },
       ]},
     ],
-    local:true, localNote:'Indexed in Pinecone: Maharishi International University website (substantial — 74 pages, 518 chunks covering programs, academics, campus life, sustainability, admissions); Fairfield Community School District website (surface — 54 pages crawled but JS-rendered CMS yielded limited text, 6 chunks); Maharishi School website (surface — 3 pages, 7 chunks; most internal links returned errors); Fairfield Education Foundation (surface — 9 pages, 13 chunks; directors, awards, support); ISU Extension Jefferson County (substantial — 54 pages, 87 chunks; 4-H, agriculture, community development programs).'
+    local:true, localNote:'Indexed in Pinecone: Maharishi International University website (74 pages, 518 chunks); Fairfield Community School District website (surface — JS-rendered CMS, 6 chunks); Maharishi School website (3 pages, 7 chunks); Fairfield Education Foundation (9 pages, 13 chunks).'
   },
   {
     id:'k04', num:'04', label:'History, Arts and Culture',
@@ -100,11 +101,11 @@ const KB = [
         { text:'Kufner Art Gallery', url:'https://www.kufnerart.com' },
       ]},
     ],
-    local:true, localNote:'Indexed in Pinecone: Iowa Dance Collective (substantial — website, programs, bios, event materials; 14 PDFs + 6 text files, 126 chunks); Iowa Source newspaper (substantial — 76 pages, 217 chunks; article archive spanning 2012–2026, community news, arts, culture, food, environment); Fairfield Media Center website (surface — 14 pages, 30 chunks; static pages only, includes limited city council and county supervisors meeting content published by the Media Center — not a comprehensive meeting archive); Fairfield Arts & Convention Center website (surface — 6 pages, 7 chunks; JS-rendered site with limited extractable text); Fairfield Cultural Alliance website (substantial — 48 pages, 138 chunks; heritage site documentation, Blue Zone materials, gala coverage, community directory); Fairfield First Fridays Art Walk (surface — 12 pages, 10 chunks; Wix site, limited static content); Jefferson County Heritage Foundation (surface — 6 pages, 8 chunks; Carnegie Museum, Maasdam Barns, Bonnifield Cabin, McElhinney House).; ICON — Iowa Contemporary Art (substantial — 23 pages, 54 chunks; exhibition history, art radio archive, Hudson Collection, events, donors); Wege Center for the Arts (substantial — 30 pages, 34 chunks; current and past exhibitions, artist lecture series, MFA/BFA thesis shows, WHIRL program); Kufner Art Gallery (substantial — 22 pages, 24 chunks; artist bio, landscapes, figurative, devotional, abstract, and photography portfolios).'
+    local:true, localNote:'Indexed in Pinecone: Iowa Dance Collective (126 chunks); Iowa Source newspaper (76 pages, 217 chunks; 2012–2026); Fairfield Media Center website (14 pages, 30 chunks); Fairfield Cultural Alliance website (48 pages, 138 chunks); ICON — Iowa Contemporary Art (23 pages, 54 chunks); Wege Center for the Arts (30 pages, 34 chunks); Kufner Art Gallery (22 pages, 24 chunks).'
   },
   {
     id:'k05', num:'05', label:'Community Services and Environment',
-    rationale:"Organizations serving residents' daily needs — library, health, food security, youth sports, faith communities, and conservation of the natural environment.",
+    rationale:"Organizations serving residents' daily needs — library, health, food security, youth sports, faith communities, and conservation.",
     sections:[
       { title:'Library and Health', links:[
         { text:'Fairfield Public Library', url:'https://fairfieldpubliclibrary.org' },
@@ -131,7 +132,7 @@ const KB = [
         { text:'Iowa DNR', url:'https://www.iowadnr.gov' },
       ]},
     ],
-    local:true, localNote:'Indexed in Pinecone: Fairfield Public Library website (substantial — services, programs, events, resources); Jefferson County Health Center website (substantial — 58 pages, 97 chunks; full services directory, provider profiles, patient info, careers); Carry On Bags website (surface — 6 pages, 8 chunks); Fairfield National Little League (surface — 2 pages, 3 chunks), Fairfield Atlantic Little League (surface — 1 page, 1 chunk), Jefferson County Little League (surface — 2 pages, 3 chunks); First United Methodist Church (surface — 37 pages crawled but pages are brief, 26 chunks); Fairfield Friends Church (surface — 7 pages, 7 chunks); Jefferson County Conservation (substantial — 78 pages, 92 chunks; parks, trails, programs, land stewardship projects, events); Jefferson County Trails Council (substantial — 91 pages, 187 chunks; trail history, Matkin Bridge documentation, news archive 2009–2020).'
+    local:true, localNote:'Indexed in Pinecone: Fairfield Public Library website; Jefferson County Health Center (58 pages, 97 chunks); Carry On Bags (6 pages, 8 chunks); Little League orgs (surface); First United Methodist Church (37 pages, 26 chunks); Fairfield Friends Church (7 pages, 7 chunks); Jefferson County Conservation (78 pages, 92 chunks); Jefferson County Trails Council (91 pages, 187 chunks).'
   },
   {
     id:'k06', num:'06', label:'Housing, Planning and Research',
@@ -198,7 +199,6 @@ function KBTree() {
                   )}
                 </div>
               )}
-              {cat.placeholder && <div style={{ backgroundColor:'#fff7ed', border:'1px solid #fed7aa', borderRadius:6, padding:'8px 12px', marginTop:8, fontSize:13, color:'#c2410c' }}>🕐 {cat.placeholderNote}</div>}
             </div>
           )}
         </div>
@@ -231,8 +231,69 @@ function FollowUp({ onSubmit, appMode }) {
   );
 }
 
+// File helper functions
+function getFileIcon(fileType) {
+  if (fileType === 'pdf') return '📄';
+  if (fileType === 'image') return '🖼️';
+  if (fileType === 'spreadsheet') return '📊';
+  return '📝';
+}
+
+function getFileType(file) {
+  const name = file.name.toLowerCase();
+  if (name.endsWith('.pdf')) return 'pdf';
+  if (name.match(/\.(jpg|jpeg|png|gif|webp)$/)) return 'image';
+  if (name.match(/\.(xlsx|xls)$/)) return 'spreadsheet';
+  return 'text';
+}
+
+function getMimeType(file) {
+  const name = file.name.toLowerCase();
+  if (name.endsWith('.png')) return 'image/png';
+  if (name.match(/\.(jpg|jpeg)$/)) return 'image/jpeg';
+  if (name.endsWith('.gif')) return 'image/gif';
+  if (name.endsWith('.webp')) return 'image/webp';
+  return file.type || 'application/octet-stream';
+}
+
+function readFileAsBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result.split(',')[1]);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+function readFileAsText(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+    reader.readAsText(file);
+  });
+}
+
+async function readSpreadsheetAsText(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const wb = XLSX.read(e.target.result, { type: 'array' });
+        const sheets = wb.SheetNames.map(name => {
+          const csv = XLSX.utils.sheet_to_csv(wb.Sheets[name]);
+          return `Sheet: ${name}\n${csv}`;
+        });
+        resolve(sheets.join('\n\n'));
+      } catch (err) { reject(err); }
+    };
+    reader.onerror = reject;
+    reader.readAsArrayBuffer(file);
+  });
+}
+
 export default function Home() {
-  const [appMode, setAppMode] = useState(null); // null = landing, 'search', 'research'
+  const [appMode, setAppMode] = useState(null);
   const [question, setQuestion] = useState('');
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -243,6 +304,18 @@ export default function Home() {
   const [showConstitution, setShowConstitution] = useState(false);
   const [showKB, setShowKB] = useState(false);
   const [conTab, setConTab] = useState('articles');
+  const [emailing, setEmailing] = useState(false);
+  const [emailStatus, setEmailStatus] = useState('');
+  const [constituentComment, setConstituentComment] = useState('');
+  const [summarizing, setSummarizing] = useState(false);
+  const [councilSummary, setCouncilSummary] = useState('');
+  const [attachedFiles, setAttachedFiles] = useState([]);
+  const [fileError, setFileError] = useState('');
+  const [selfEmail, setSelfEmail] = useState('');
+  const [showSelfEmailForm, setShowSelfEmailForm] = useState(false);
+  const [selfEmailing, setSelfEmailing] = useState(false);
+  const [selfEmailStatus, setSelfEmailStatus] = useState('');
+  const fileInputRef = useRef(null);
 
   const isSearch = appMode === 'search';
   const accentColor = isSearch ? '#0f766e' : '#3b4fc4';
@@ -251,8 +324,43 @@ export default function Home() {
   const examples = isSearch ? SEARCH_EXAMPLES : RESEARCH_EXAMPLES;
   const apiMode = isSearch ? 'search' : 'research';
 
+  const handleFileSelect = async (e) => {
+    const files = Array.from(e.target.files);
+    setFileError('');
+    if (attachedFiles.length + files.length > 5) {
+      setFileError('Maximum 5 files allowed.');
+      return;
+    }
+    const tooBig = files.find(f => f.size > 10 * 1024 * 1024);
+    if (tooBig) {
+      setFileError(`${tooBig.name} exceeds the 10MB limit.`);
+      return;
+    }
+    const processed = await Promise.all(files.map(async (file) => {
+      const fileType = getFileType(file);
+      let data, mimeType;
+      if (fileType === 'pdf' || fileType === 'image') {
+        data = await readFileAsBase64(file);
+        mimeType = getMimeType(file);
+      } else if (fileType === 'spreadsheet') {
+        data = await readSpreadsheetAsText(file);
+        mimeType = null;
+      } else {
+        data = await readFileAsText(file);
+        mimeType = null;
+      }
+      return { name: file.name, fileType, data, mimeType };
+    }));
+    setAttachedFiles(prev => [...prev, ...processed]);
+    e.target.value = '';
+  };
+
+  const removeFile = (idx) => setAttachedFiles(prev => prev.filter((_, i) => i !== idx));
+
   const callAPI = async (q, mode) => {
-    const r = await fetch('/api/research', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify({ question:q, mode, history }) });
+    const body = { question: q, mode, history };
+    if (attachedFiles.length > 0 && mode === 'research') body.files = attachedFiles;
+    const r = await fetch('/api/research', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify(body) });
     return r.json();
   };
 
@@ -279,6 +387,7 @@ export default function Home() {
       if (!data.error) {
         setHistory(prev => [...prev, { role:'user', content:question }, { role:'assistant', content:data.analysis }]);
         setSessions(prev => [{ question, analysis:data.analysis, date: new Date().toLocaleString(), mode: appMode }, ...prev]);
+        setAttachedFiles([]);
       }
     } catch { setResult({ error:'Failed to get response. Please try again.' }); }
     finally { setLoading(false); }
@@ -290,65 +399,51 @@ export default function Home() {
     try { const data = await callAPI(question, 'improve'); if (data.analysis) setQuestion(data.analysis); } catch {}
     finally { setImproving(false); }
   };
-  const [emailing, setEmailing] = useState(false);
-  const [emailStatus, setEmailStatus] = useState('');
-  const [constituentComment, setConstituentComment] = useState('');
-  const [summarizing, setSummarizing] = useState(false);
-  const [councilSummary, setCouncilSummary] = useState('');
 
   const handleEmailReport = async () => {
     if (!result || !result.analysis) return;
-    setEmailing(true);
-    setEmailStatus('');
+    setEmailing(true); setEmailStatus('');
     try {
       let summaryText = councilSummary;
       if (!summaryText) {
-        const sr = await fetch('/api/summarize-council', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ question, analysis: result.analysis })
-        });
+        const sr = await fetch('/api/summarize-council', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify({ question, analysis: result.analysis }) });
         const sd = await sr.json();
         summaryText = sd.summary || '';
         if (summaryText) setCouncilSummary(summaryText);
       }
-      const res = await fetch('/api/email-report', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode, comment: constituentComment, summary: summaryText })
-      });
+      const res = await fetch('/api/email-report', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode, comment: constituentComment, summary: summaryText }) });
       const data = await res.json();
       setEmailStatus(data.success ? '✅ Sent!' : '❌ Failed');
-    } catch (e) {
-      setEmailStatus('❌ Error');
-    }
+    } catch { setEmailStatus('❌ Error'); }
     setEmailing(false);
     setTimeout(() => setEmailStatus(''), 4000);
   };
 
+  const handleSelfEmail = async () => {
+    setSelfEmailing(true); setSelfEmailStatus('');
+    try {
+      const res = await fetch('/api/email-report', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode, userEmail: selfEmail.trim() }) });
+      const data = await res.json();
+      setSelfEmailStatus(data.success ? '✅ Sent to ' + selfEmail : '❌ Failed');
+    } catch { setSelfEmailStatus('❌ Error'); }
+    setSelfEmailing(false);
+    setTimeout(() => { setSelfEmailStatus(''); setShowSelfEmailForm(false); }, 4000);
+  };
+
   const handleSummarizeCouncil = async () => {
     if (!result || !result.analysis) return;
-    setSummarizing(true);
-    setCouncilSummary('');
+    setSummarizing(true); setCouncilSummary('');
     try {
-      const res = await fetch('/api/summarize-council', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, analysis: result.analysis })
-      });
+      const res = await fetch('/api/summarize-council', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify({ question, analysis: result.analysis }) });
       const data = await res.json();
       setCouncilSummary(data.summary || '');
-    } catch (e) {
-      setCouncilSummary('Error generating summary.');
-    }
+    } catch { setCouncilSummary('Error generating summary.'); }
     setSummarizing(false);
   };
 
-
-
   const handleExportWord = () => {
     if (!result || result.error) return;
-    const bom = '\﻿';
+    const bom = '\uFEFF';
     const modeLabel = isSearch ? 'Search Result' : 'Civic Research Analysis';
     const html = '<html><head><meta charset="UTF-8"></head><body>'
       + '<h1 style="color:#1a1a2e;font-family:Arial,sans-serif;">Fairfield & Jefferson County Civic Intelligence Hub</h1>'
@@ -363,7 +458,7 @@ export default function Home() {
     URL.revokeObjectURL(url);
   };
 
-  const resetMode = () => { setAppMode(null); setQuestion(''); setResult(null); setHistory([]); };
+  const resetMode = () => { setAppMode(null); setQuestion(''); setResult(null); setHistory([]); setAttachedFiles([]); setFileError(''); setCouncilSummary(''); setConstituentComment(''); };
 
   const Modal = ({ onClose, children }) => (
     <div style={{ position:'fixed', top:0, left:0, right:0, bottom:0, backgroundColor:'rgba(0,0,0,0.5)', zIndex:1000, overflowY:'auto', padding:'40px 16px' }}>
@@ -375,7 +470,7 @@ export default function Home() {
     </div>
   );
 
-  // LANDING: mode selection
+  // LANDING
   if (!appMode) {
     return (
       <div style={{ backgroundColor:'#f8f9fa', minHeight:'100vh', fontFamily:'system-ui, -apple-system, sans-serif' }}>
@@ -499,58 +594,25 @@ export default function Home() {
                 </button>
               ))}
             </div>
-
-              {/* FCSD School Board Callout */}
-              <div
-                style={{
-                  background: 'linear-gradient(135deg, #e8f0ff 0%, #f0f4ff 100%)',
-                  border: '1px solid #c0d0f0',
-                  borderRadius: 8,
-                  padding: '14px 18px',
-                  marginBottom: 12,
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: 12,
-                  cursor: 'pointer',
-                }}
-              >
-                <span style={{ fontSize: 20 }}>🏫</span>
-                <div style={{ flex: 1 }}>
-                  <span style={{ fontWeight: 700, fontSize: 13, color: '#1a4fa0' }}>
-                    FCSD School Board Meetings
-                  </span>
-                  <span style={{ fontSize: 12, color: '#555', marginLeft: 8 }}>
-                    Agendas &amp; minutes via Diligent Community portal
-                  </span>
-                </div>
-                <a
-                  target="_blank"
-                  rel="noopener"
-                  onClick={e => e.stopPropagation()}
-                  style={{ fontSize: 12, color: '#1a4fa0', fontWeight: 600, textDecoration: 'none', whiteSpace: 'nowrap' }}
-                >
-                  Open →
-                </a>
-              </div>
             <hr style={{ border:'none', borderTop:'2px solid #3B4FC4', marginBottom:20 }} />
             {conTab === 'articles' && (
               <div>
                 {[
                   { title:'Article I: Purpose and Origin', paras:[
                     'The Fairfield & Jefferson County Civic Intelligence Hub is a public service created by City Council At-Large Member Bob Ferguson for the benefit of all Fairfield and Jefferson County residents. It is offered freely to any citizen who wishes to look up local information, explore civic questions, research local issues, or evaluate policies and ideas.',
-                    'This tool is not a political instrument and does not promote the personal policy positions of Council Member Ferguson. It is designed to make Fairfield\'s civic information more accessible and our civic conversation more informed.',
+                    "This tool is not a political instrument and does not promote the personal policy positions of Council Member Ferguson. It is designed to make Fairfield's civic information more accessible and our civic conversation more informed.",
                   ]},
                   { title:'Article II: Two Functions', paras:[
-                    'Search Fairfield gives residents fast, sourced answers drawn from a continuously growing index of Fairfield-specific information — city ordinances, municipal codes, zoning regulations, planning documents, audit reports, and the public-facing websites of local organizations, businesses, and institutions. Rather than searching the open web, it searches a curated knowledge base built specifically for our community. When you ask about a code violation, a permit process, what\'s playing at the FACC, or what services the library offers, Search Fairfield finds the answer in the actual source documents.',
-                    'Civic Research is a space for deeper inquiry. It\'s designed for residents, advocates, and officials who want to think rigorously about local issues — stress-testing a proposal, exploring tradeoffs in a policy decision, or understanding how Fairfield\'s situation compares to best practices elsewhere. It draws on the same indexed knowledge base while bringing broader analytical context to bear.',
+                    "Search Fairfield gives residents fast, sourced answers drawn from a continuously growing index of Fairfield-specific information — city ordinances, municipal codes, zoning regulations, planning documents, audit reports, and the public-facing websites of local organizations, businesses, and institutions.",
+                    "Civic Research is a space for deeper inquiry. It's designed for residents, advocates, and officials who want to think rigorously about local issues — stress-testing a proposal, exploring tradeoffs in a policy decision, or understanding how Fairfield's situation compares to best practices elsewhere.",
                   ]},
                   { title:'Article III: Analytical Engine', paras:[
                     'This tool is powered by Claude, an AI assistant developed by Anthropic — a public benefit corporation legally structured to prioritize the long-term benefit of humanity over commercial profit.',
                     'Claude is designed to be free of political bias, does not favor any viewpoint or party, and does not reflect the personal views of Council Member Ferguson. On any civic question, Claude presents multiple perspectives including competing interests, stakeholder viewpoints, and relevant tradeoffs.',
                   ]},
                   { title:'Article IV: How the Knowledge Base Is Built', paras:[
-                    'The knowledge base is built from two types of sources. Official city and county documents — ordinances, codes, zoning regulations, planning studies, budget reports, and council minutes — form the foundation. These are supplemented by the publicly available websites of Fairfield\'s public and private sector organizations, including local nonprofits, educational institutions, cultural organizations, and civic groups.',
-                    'Rather than linking out to the open web, this tool indexes these sources locally, creating a granular, community-specific search and research engine. Sources are not simply retrieved and quoted — they inform Claude\'s synthesis, enabling responses that connect information across documents in ways no single source could provide.',
+                    'The knowledge base is built from two types of sources. Official city and county documents — ordinances, codes, zoning regulations, planning studies, budget reports, and council minutes — form the foundation. These are supplemented by the publicly available websites of local organizations.',
+                    'Sources are not simply retrieved and quoted — they inform Claude\'s synthesis, enabling responses that connect information across documents in ways no single source could provide.',
                   ]},
                   { title:'Article V: Privacy', paras:[
                     'Your questions and analysis results are stored only on your device during your session. Council Member Bob Ferguson cannot see what you ask or what analysis you receive.',
@@ -583,12 +645,11 @@ export default function Home() {
     );
   }
 
-  // ACTIVE MODE: search or research
+  // ACTIVE MODE
   return (
     <div style={{ backgroundColor: isSearch ? '#f0fdfa' : '#f8f9fa', minHeight:'100vh', fontFamily:'system-ui, -apple-system, sans-serif' }}>
       <div style={{ maxWidth:680, margin:'0 auto', padding:'32px 24px 80px' }}>
 
-        {/* Mode header */}
         <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:20 }}>
           <div style={{ display:'flex', alignItems:'center', gap:10 }}>
             <span style={{ fontSize:24 }}>{isSearch ? '🔎' : '🧠'}</span>
@@ -600,14 +661,12 @@ export default function Home() {
           <button onClick={resetMode} style={{ backgroundColor:'white', border:'1px solid #e2e8f0', borderRadius:8, padding:'8px 14px', fontSize:13, cursor:'pointer', color:'#555' }}>← Switch Mode</button>
         </div>
 
-        {/* Research mode trust banner */}
         {!isSearch && (
           <div style={{ backgroundColor:'#eef4ff', border:'1px solid #c7d9fa', borderRadius:10, padding:'12px 16px', marginBottom:16 }}>
             <p style={{ margin:0, fontSize:13, color:'#1e3a8a', lineHeight:1.6 }}>Powered by <strong>Claude</strong> (Anthropic) — designed to be <strong>free of political bias</strong>. Every issue gets <strong>multiple perspectives</strong> so you can form your own opinion. Does not reflect the personal views of Council Member Ferguson.</p>
           </div>
         )}
 
-        {/* Privacy note for research */}
         {!isSearch && (
           <div style={{ backgroundColor:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:10, padding:'10px 16px', marginBottom:20, display:'flex', gap:10, alignItems:'center' }}>
             <span style={{ fontSize:16, flexShrink:0 }}>🛡️</span>
@@ -615,7 +674,6 @@ export default function Home() {
           </div>
         )}
 
-        {/* Examples */}
         <div style={{ marginBottom:20 }}>
           <p style={{ fontWeight:600, color:'#1a1a2e', fontSize:13, margin:'0 0 8px 0' }}>Example {isSearch ? 'searches' : 'questions'}:</p>
           <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
@@ -625,7 +683,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Input area */}
         <div style={{ backgroundColor:'white', border:'1px solid', borderColor: accentBorder, borderRadius:12, padding:'20px', marginBottom:20 }}>
           {!isSearch && (
             <div style={{ marginBottom:10 }}>
@@ -640,6 +697,37 @@ export default function Home() {
               placeholder={isSearch ? 'What do you want to look up? (ordinance, service, rule, contact...)' : 'What civic question or policy issue would you like to explore?'}
               rows={isSearch ? 3 : 5}
               style={{ width:'100%', padding:12, fontSize:14, border:'1px solid #d1d5db', borderRadius:8, resize:'vertical', minHeight: isSearch ? 80 : 120, boxSizing:'border-box', outline:'none', color:'#374151', fontFamily:'inherit', lineHeight:1.6 }} />
+
+            {/* File attachment — Civic Research only */}
+            {!isSearch && (
+              <div style={{ marginTop:10 }}>
+                <input
+                  type="file"
+                  ref={fileInputRef}
+                  onChange={handleFileSelect}
+                  multiple
+                  accept=".pdf,.png,.jpg,.jpeg,.gif,.webp,.txt,.csv,.xlsx,.xls"
+                  style={{ display:'none' }}
+                />
+                <button type="button" onClick={() => fileInputRef.current && fileInputRef.current.click()}
+                  style={{ backgroundColor:'#f8f9fa', color:'#374151', border:'1px solid #d1d5db', padding:'6px 12px', fontSize:12, borderRadius:8, cursor:'pointer', fontFamily:'inherit' }}>
+                  📎 Add Files
+                </button>
+                <span style={{ fontSize:11, color:'#888', marginLeft:8 }}>PDF, image, spreadsheet, or text (up to 5 files, 10MB each)</span>
+                {fileError && <p style={{ fontSize:12, color:'#dc2626', margin:'6px 0 0 0' }}>{fileError}</p>}
+                {attachedFiles.length > 0 && (
+                  <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginTop:8 }}>
+                    {attachedFiles.map((f, i) => (
+                      <span key={i} style={{ display:'inline-flex', alignItems:'center', gap:4, backgroundColor:'#eef4ff', border:'1px solid #c7d9fa', borderRadius:6, padding:'4px 8px', fontSize:12, color:'#1e3a8a' }}>
+                        {getFileIcon(f.fileType)} {f.name}
+                        <button type="button" onClick={() => removeFile(i)} style={{ background:'none', border:'none', cursor:'pointer', color:'#888', fontSize:14, lineHeight:1, padding:'0 0 0 2px' }}>×</button>
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
             <div style={{ display:'flex', gap:10, marginTop:12, flexWrap:'wrap' }}>
               <button type="submit" disabled={loading} style={{ flex:1, minWidth:180, backgroundColor: loading ? '#aaa' : accentColor, color:'white', border:'none', padding:'12px 20px', fontSize:14, fontWeight:600, borderRadius:8, cursor: loading ? 'not-allowed' : 'pointer', display:'flex', alignItems:'center', justifyContent:'center', gap:8 }}>
                 <span>{isSearch ? '🔎' : '🧠'}</span>
@@ -647,12 +735,9 @@ export default function Home() {
               </button>
               <button type="button" onClick={() => setShowHistory(v => !v)} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'12px 16px', fontSize:13, borderRadius:8, cursor:'pointer' }}>
                 History ({sessions.length})
-
-                    {/* END FCSD SCHOOL BOARD CALLOUT */}
-
               </button>
             </div>
-            {result && <button type="button" onClick={() => { setHistory([]); setQuestion(''); setResult(null); }} style={{ marginTop:8, backgroundColor:'white', color:'#888', border:'1px solid #e2e8f0', padding:'8px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>🔄 Clear</button>}
+            {result && <button type="button" onClick={() => { setHistory([]); setQuestion(''); setResult(null); setAttachedFiles([]); setFileError(''); setCouncilSummary(''); setConstituentComment(''); }} style={{ marginTop:8, backgroundColor:'white', color:'#888', border:'1px solid #e2e8f0', padding:'8px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>🔄 Clear</button>}
           </form>
         </div>
 
@@ -681,10 +766,23 @@ export default function Home() {
                       onChange={e => setConstituentComment(e.target.value)}
                       placeholder="Add a note for Councilman Ferguson (optional) — describe your concern or idea..."
                       style={{ width:'100%', padding:'10px 12px', fontSize:13, borderRadius:8, border:'1px solid #d1d5db', color:'#374151', resize:'vertical', minHeight:72, marginBottom:10, fontFamily:'Georgia,serif', boxSizing:'border-box' }}
-                    /><button onClick={handleExportWord} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📄 Save as Word Doc</button>
+                    />
+                    <button onClick={handleExportWord} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📄 Save as Word Doc</button>
                     <button onClick={handleSummarizeCouncil} disabled={summarizing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: summarizing ? 'not-allowed' : 'pointer' }}>{summarizing ? '⏳ Summarizing...' : '🏛️ Summarize for Councilman Ferguson'}</button>
-                    <button onClick={handleEmailReport} disabled={emailing} style={{ backgroundColor:'white', color:'#0f766e', border:'1px solid #0f766e', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: emailing ? 'not-allowed' : 'pointer' }}>{emailing ? '⏳ Sending...' : '📧 Email Me This Report'}</button>
+                    <button onClick={handleEmailReport} disabled={emailing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: emailing ? 'not-allowed' : 'pointer' }}>{emailing ? '⏳ Sending...' : '📧 Email Councilman Ferguson'}</button>
                     {emailStatus && <span style={{ fontSize:12, color: emailStatus.startsWith('✅') ? '#0f766e' : '#dc2626' }}>{emailStatus}</span>}
+                    {showSelfEmailForm && (
+                      <div style={{ width:'100%', backgroundColor:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:8, padding:'12px 14px', marginTop:4 }}>
+                        <p style={{ margin:'0 0 8px 0', fontSize:12, fontWeight:600, color:'#14532d' }}>Send a copy of this analysis to your email:</p>
+                        <div style={{ display:'flex', gap:8, flexWrap:'wrap' }}>
+                          <input type="email" value={selfEmail} onChange={e => setSelfEmail(e.target.value)} placeholder="your@email.com"
+                            style={{ flex:1, minWidth:180, padding:'8px 10px', fontSize:13, border:'1px solid #86efac', borderRadius:6, outline:'none', fontFamily:'inherit' }} />
+                            {selfEmailing ? '⏳ Sending...' : 'Send →'}
+                          </button>
+                        </div>
+                        {selfEmailStatus && <p style={{ margin:'6px 0 0 0', fontSize:12, color: selfEmailStatus.startsWith('✅') ? '#0f766e' : '#dc2626' }}>{selfEmailStatus}</p>}
+                      </div>
+                    )}
                   </div>
                   {councilSummary && (
                     <div style={{ marginTop:16, backgroundColor:'#f0f4ff', border:'1px solid #c7d9fa', borderLeft:'4px solid #1a3a5c', borderRadius:8, padding:16 }}>
@@ -705,7 +803,7 @@ export default function Home() {
               </div>
             )}
 
-            <button onClick={() => { setHistory([]); setQuestion(''); setResult(null); }} style={{ backgroundColor:'white', color:'#999', border:'1px solid #e2e8f0', padding:'7px 12px', fontSize:12, borderRadius:8, cursor:'pointer' }}>
+            <button onClick={() => { setHistory([]); setQuestion(''); setResult(null); setAttachedFiles([]); setFileError(''); setCouncilSummary(''); setConstituentComment(''); }} style={{ backgroundColor:'white', color:'#999', border:'1px solid #e2e8f0', padding:'7px 12px', fontSize:12, borderRadius:8, cursor:'pointer' }}>
               🔄 Start over
             </button>
           </div>

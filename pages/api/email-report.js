@@ -3,10 +3,10 @@ import { Resend } from 'resend';
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
   try {
-    const { question, analysis, mode, comment, summary } = req.body;
+    const { question, analysis, mode, comment, summary, userEmail } = req.body;
     if (!analysis) return res.status(400).json({ error: 'No analysis to send' });
     const resend = new Resend(process.env.RESEND_API_KEY);
-    const to = process.env.REPORT_EMAIL;
+    const to = userEmail || process.env.REPORT_EMAIL;
     const modeLabel = mode === 'search' ? 'Search Result' : 'Civic Research Analysis';
     const date = new Date().toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
 
