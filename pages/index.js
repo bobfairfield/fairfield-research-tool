@@ -778,6 +778,8 @@ export default function Home() {
                         <div style={{ display:'flex', gap:8, flexWrap:'wrap' }}>
                           <input type="email" value={selfEmail} onChange={e => setSelfEmail(e.target.value)} placeholder="your@email.com"
                             style={{ flex:1, minWidth:180, padding:'8px 10px', fontSize:13, border:'1px solid #86efac', borderRadius:6, outline:'none', fontFamily:'inherit' }} />
+                          <button onClick={handleSelfEmail} disabled={selfEmailing || selfEmail.trim() === ''}
+                            style={{ backgroundColor:'#0f766e', color:'white', border:'none', padding:'8px 14px', fontSize:12, fontWeight:600, borderRadius:6, cursor: selfEmailing || selfEmail.trim() === '' ? 'not-allowed' : 'pointer' }}>
                             {selfEmailing ? '⏳ Sending...' : 'Send →'}
                           </button>
                         </div>
