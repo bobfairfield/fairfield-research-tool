@@ -770,6 +770,7 @@ export default function Home() {
                     <button onClick={handleExportWord} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📄 Save as Word Doc</button>
                     <button onClick={handleSummarizeCouncil} disabled={summarizing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: summarizing ? 'not-allowed' : 'pointer' }}>{summarizing ? '⏳ Summarizing...' : '🏛️ Summarize for Councilman Ferguson'}</button>
                     <button onClick={handleEmailReport} disabled={emailing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: emailing ? 'not-allowed' : 'pointer' }}>{emailing ? '⏳ Sending...' : '📧 Email Councilman Ferguson'}</button>
+                    <button onClick={() => setShowSelfEmailForm(v => !v)} style={{ backgroundColor:'white', color:'#0f766e', border:'1px solid #0f766e', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📬 Email This to Myself</button>
                     {emailStatus && <span style={{ fontSize:12, color: emailStatus.startsWith('✅') ? '#0f766e' : '#dc2626' }}>{emailStatus}</span>}
                     {showSelfEmailForm && (
                       <div style={{ width:'100%', backgroundColor:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:8, padding:'12px 14px', marginTop:4 }}>
