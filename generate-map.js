@@ -25,6 +25,7 @@ const SOURCE_CATALOG = {
   'iowa-source': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Iowa Source', emoji: '📰', color: '#8b3a1e', url: 'iowasource.com' },
   'fairfield-cultural-alliance': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Fairfield Cultural Alliance', emoji: '🎨', color: '#5b3ea6', url: 'fairfieldculturaldistrict.org' },
   'jc-trails': { group: 'parks', coverage: 'SUBSTANTIAL', displayName: 'Jefferson County Trails Council', emoji: '🥾', color: '#2a6049', url: 'jeffersoncountytrails.org' },
+  'tm-southeast-iowa': { group: 'higher_ed', coverage: 'SUBSTANTIAL', displayName: 'TM Southeast Iowa Center', emoji: '🧘', color: '#4a7c6b', url: 'tm.org' },
   'miu': { group: 'higher_ed', coverage: 'SUBSTANTIAL', displayName: 'Maharishi International University', emoji: '🎓', color: '#2a6049', url: 'miu.edu' },
   'maharishi_school': { group: 'k12', coverage: 'SURFACE', displayName: 'Maharishi School', emoji: '🌿', color: '#2a6049', url: 'maharishischool.org', note: 'Most internal links returned errors; only homepage, admissions, and academic office captured.' },
   'isu-extension': { group: 'k12', coverage: 'SUBSTANTIAL', displayName: 'ISU Extension — Jefferson County', emoji: '🌾', color: '#2a6049', url: 'extension.iastate.edu/jefferson' },
@@ -192,6 +193,13 @@ const SOURCE_CATALOG = {
     url: 'ffcolab.com',
   },
   'freeformartgallery.com/product-category/jewelry': { group: 'arts', displayName: 'Freeform Art Gallery', emoji: '🖼️', color: '#7c3d6b', url: 'freeformartgallery.com' },
+  'tm-southeast-iowa': {
+    group: 'higher_ed',
+    displayName: 'TM Southeast Iowa Center',
+    emoji: '🧘',
+    color: '#4a7c6b',
+    url: 'tm.org',
+  },
   'freeform-gallery': {
     group: 'arts',
     displayName: 'Freeform Art Gallery',
