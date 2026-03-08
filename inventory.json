@@ -11,15 +11,15 @@
     "source": "cityoffairfieldiowa.com",
     "vectorCount": 1053,
     "categories": {
+      "(uncategorized)": [
+        "property_regulations"
+      ],
       "municipal_code": [
         "building_codes",
         "health_sanitation",
         "property_regulations",
         "public_peace",
         "zoning"
-      ],
-      "(uncategorized)": [
-        "property_regulations"
       ]
     },
     "titles": [
@@ -152,6 +152,14 @@
     "titles": []
   },
   {
+    "source": "https://jeffersoncounty.iowa.gov/code",
+    "vectorCount": 150,
+    "categories": {
+      "government": []
+    },
+    "titles": []
+  },
+  {
     "source": "City of Fairfield Website",
     "vectorCount": 146,
     "categories": {
@@ -170,6 +178,16 @@
     "categories": {
       "educational_institutions": [
         "maharishi_international_university"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "Iowa Dance Collective",
+    "vectorCount": 126,
+    "categories": {
+      "Arts Organizations & Education": [
+        "Dance School"
       ]
     },
     "titles": []
@@ -213,6 +231,14 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=HsOQIzMwF5c",
+    "vectorCount": 78,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "jefferson-county",
     "vectorCount": 75,
     "categories": {
@@ -227,6 +253,128 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=EZjCGlJ6kY8",
+    "vectorCount": 69,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=7OPfNhx4bOk",
+    "vectorCount": 67,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=5L3TBYbPunM",
+    "vectorCount": 60,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=f2l-WpTgHyE",
+    "vectorCount": 60,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=4ID7bF8f7xE",
+    "vectorCount": 59,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 11.24.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=lWW6pNBe1BY",
+    "vectorCount": 59,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=GVDXFre7hWU",
+    "vectorCount": 57,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldiowa.com/calendar",
+    "vectorCount": 56,
+    "categories": {
+      "business": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=W6fEWkbepqk",
+    "vectorCount": 55,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 2.9.26"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=kqXlg9YIuPI",
+    "vectorCount": 55,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 5.27.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=V8PWx4fz1a4",
+    "vectorCount": 55,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=zR9ME41lUKM",
+    "vectorCount": 54,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ZRc6jD147Kw",
+    "vectorCount": 53,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 5.12.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=nVnA6dt3lMI",
+    "vectorCount": 53,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 12.15.25"
+    ]
+  },
+  {
     "source": "singing_cedars_school",
     "vectorCount": 52,
     "categories": {
@@ -235,6 +383,64 @@
       ]
     },
     "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=HiVoasoFNoI",
+    "vectorCount": 52,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 1.12.26"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=IcVpObZ-Puw",
+    "vectorCount": 52,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 10.27.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=mDgaUVpvVqA",
+    "vectorCount": 52,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=nkAEUQOJ0KY",
+    "vectorCount": 44,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 4.28.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=wm-MVrXLrIo",
+    "vectorCount": 44,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 4-22-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=gZHFUb0P1VM",
+    "vectorCount": 43,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 8.11.25"
+    ]
   },
   {
     "source": "jefferson.iowaassessors.com",
@@ -247,6 +453,46 @@
       ]
     },
     "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Wh6b2jzugXk",
+    "vectorCount": 37,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Special City Council 3.31.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=d8NKTmdzk90",
+    "vectorCount": 35,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 7.28.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=EVvKRKPGB1k",
+    "vectorCount": 34,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 2.23.26"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=HStLlFza4eg",
+    "vectorCount": 31,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 5-13-13"
+    ]
   },
   {
     "source": "Fairfield Area Chamber of Commerce",
@@ -266,12 +512,268 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=nVq1kUsCapY",
+    "vectorCount": 30,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | City Council 1.26.26"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=AkMtgE7NWMk",
+    "vectorCount": 26,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-14-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=WDAAMy-JoF8",
+    "vectorCount": 24,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 11.10.25"
+    ]
+  },
+  {
+    "source": "http://www.fairfieldculturaldistrict.org/news.htm",
+    "vectorCount": 24,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=IfzBBMU4CU8",
+    "vectorCount": 23,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-12-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=z8e9z23fc00",
+    "vectorCount": 23,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-10-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Xveq_41Jpok",
+    "vectorCount": 22,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-12-22"
+    ]
+  },
+  {
     "source": "fairfield-acc",
     "vectorCount": 21,
     "categories": {
       "community-organizations": [
         "facc"
       ]
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=QTWrIG1bPDw",
+    "vectorCount": 21,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-24-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=soTkAyXOF1c",
+    "vectorCount": 21,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-15-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=HIu-D5Oj-O4",
+    "vectorCount": 20,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-12-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BoE0SmGWygU",
+    "vectorCount": 19,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-11-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=YPzM3Ywdgas",
+    "vectorCount": 19,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-28-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=b2WSVfQST0I",
+    "vectorCount": 19,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "CITY COUNCIL 1-24-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=qSQrjtU7wz4",
+    "vectorCount": 19,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 6-24-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=dsGg4DojXy4",
+    "vectorCount": 18,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Work Session 2-12-24"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=393",
+    "vectorCount": 18,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=1x3hKWWcXRw",
+    "vectorCount": 17,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-22-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=4nX9vGC1di8",
+    "vectorCount": 17,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-24-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=SjDqEeglQ-k",
+    "vectorCount": 17,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-10-23"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=466",
+    "vectorCount": 17,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=648",
+    "vectorCount": 17,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=752",
+    "vectorCount": 17,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=FjvRst7mcM4",
+    "vectorCount": 16,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-22-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Y2d2fz572K8",
+    "vectorCount": 16,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-11-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ZUU6JDNIc_E",
+    "vectorCount": 16,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-13-20"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=672",
+    "vectorCount": 16,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=754",
+    "vectorCount": 16,
+    "categories": {
+      "(uncategorized)": []
     },
     "titles": []
   },
@@ -288,10 +790,1088 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=5ORS5XkQqC4",
+    "vectorCount": 15,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-22-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Dx8IdNBVYGQ",
+    "vectorCount": 15,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-25-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=MIkIBnykGeI",
+    "vectorCount": 15,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-10-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=s0ls9Vj9wNU",
+    "vectorCount": 15,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-11-21"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=425",
+    "vectorCount": 15,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=676",
+    "vectorCount": 15,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "City Attorney",
     "vectorCount": 14,
     "categories": {
       "walton_lake": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=FSQvXjrWPPA",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-14-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=IMu6yzip8IA",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-27-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=PCaQslbqYg0",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-8-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Ts0QYH9ljbc",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-13-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=YTF6Y8_WhxQ",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-5-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=euJGLqMWUnM",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-28-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=haoQbcBCSok",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 8-26-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=vOFylHW6b2g",
+    "vectorCount": 14,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 8-12-13"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=467",
+    "vectorCount": 14,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=671",
+    "vectorCount": 14,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.miu.edu/online-bachelors-specialization-in-cinematic-arts-and-new-media",
+    "vectorCount": 14,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=H8ITA1QdVHI",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-11-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=LHEXdzFoZbY",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 6-10-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=O4fHw0IF6Fc",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-23-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=QFKKs5ICMe4",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 10-14-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=SoZX2HWCykE",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-13-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Y2OA0atX8sk",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-23-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=f8VJwOumtbc",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-27-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=jT_omqwqbhU",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 2.24.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=heip3ByMbJU",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-13-23"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=388",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=403",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=395",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=427",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=470",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=633",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=660",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=665",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=670",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=696",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=742",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=772",
+    "vectorCount": 13,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=749kqSt3bbA",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-27-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=7p78YMxf7Ss",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-10-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=AhsAoUKHwxk",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-14-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=PxZgShdjQvQ",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-8-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=SzSDkFqgUto",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-25-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=_BuSb50_X9Y",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-11-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=dUbFQDkV-m8",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council Meeting 1-12-15"
+    ]
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/tags/ic_indicators",
+    "vectorCount": 12,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=325",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=405",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=445",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=442",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=483",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=666",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=675",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=682",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=684",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=699",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=743",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=727",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=755",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=747",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=759",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=765",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9WnYZ6KF6yw",
+    "vectorCount": 11,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-8-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=A_3Qtd9qbmw",
+    "vectorCount": 11,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-22-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Z8OCQ8XWiVA",
+    "vectorCount": 11,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-27-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=hC8C2ZdeM1E",
+    "vectorCount": 11,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 5-27-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=tHmmmQuBEDQ",
+    "vectorCount": 11,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-8-24"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=145",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=238",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=302",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=401",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=397",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=398",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=422",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=409",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=443",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=444",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=494",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=634",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=649",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=652",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=659",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=677",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=674",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=690",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=691",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=71",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=746",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=758",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=770",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.miu.edu/bachelors-in-creative-writing",
+    "vectorCount": 11,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=2IThDUKDguE",
+    "vectorCount": 10,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-10-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=8Nkanlu9WZs",
+    "vectorCount": 10,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-10-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=CvlQGLrPtII",
+    "vectorCount": 10,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Special City Council Meeting 1-19-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=_PlWtxt9xnc",
+    "vectorCount": 10,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-23-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=he8YX9YX2iw",
+    "vectorCount": 10,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-28-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=uccUekMOrgM",
+    "vectorCount": 10,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 7-8-13"
+    ]
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=226",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=289",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=312",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=335",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=387",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=464",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=473",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=495",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=496",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=491",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=642",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=655",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=653",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=678",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=679",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=685",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=680",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=695",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=697",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=694",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=721",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=717",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=720",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=716",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=740",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=744",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=750",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=757",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
     },
     "titles": []
   },
@@ -306,8 +1886,2590 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=-Eo5Zt1Q_Lc",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-28-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=1VIPi-GfAFc",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-26-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=02oCsOj4j1M",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-13-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=4x8OeX8T1pk",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-28-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=5t9jbg0r9R0",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-22-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=63upiLpHZ2I",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-13-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=CFYSeExB4hE",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-13-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=JLxl1h9FvjY",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-26-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=L61dm-qtzjU",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-8-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=MlAl2gXU4hk",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-24-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=RgKi5nN45zo",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-9-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=hGWX395Znas",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-8-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=j3Ah7XB5Gk0",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-9-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=pyed3ibK4ow",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-24-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=pcz6ezbwQGQ",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-24-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=tQ3s_stdBO4",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 5-28-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=syST7SKvPzg",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-27-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=wObNYlDv6Zk",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-26-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=wP-S-nSmw64",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-14-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=zX0pidnODOU",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-26-24"
+    ]
+  },
+  {
+    "source": "https://www.greaterjeffersoncountyfoundation.org/scholarships",
+    "vectorCount": 9,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=122",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=192",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=252",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=237",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=305",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=303",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=318",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=331",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=341",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=342",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=347",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=357",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=386",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=399",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=402",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=404",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=423",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=406",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=426",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=428",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=429",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=434",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=436",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=446",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=449",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=474",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=484",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=475",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=477",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=48",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=482",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=497",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=490",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=498",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=645",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=640",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=654",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=657",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=651",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=664",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=661",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=686",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=689",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=683",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=687",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=688",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=692",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=722",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=719",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=726",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=741",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=751",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=749",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=756",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=763",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=766",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=768",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=773",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/what-we-do/community-development/communityresourceguide",
+    "vectorCount": 9,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.area15rpc.com/single-post/rpcnewsline-spring2025",
+    "vectorCount": 8,
+    "categories": {
+      "regional_planning": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=7ATYDSiJFN0",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 2-24-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=A379Kn1G1UE",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "COVID19 - City of Fairfield Information Update 4-2-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BvLcsmwBpNM",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-23-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=DhhyS-Qiwrw",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Water and Sewer | 9-26-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=FyDJRaTBlf4",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-9-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=H1o85LtFsWs",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 11-25-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=QwPf-owNIWM",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-9-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=QxtNuR4x9cM",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council/Farewell Ed Malloy 12-16-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=UaSigXWUrzs",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11.25.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=UHI8sH6eh0c",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-23-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=XI2vpNS6Flo",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-23-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=YP0h3Pjzamk",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-10-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cllecgu819A",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-13-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=dqS0amlURMc",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-11-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=kfPGCXxh_WU",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-8-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=iYL4zyAOL38",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-8-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=lX-anZZiAqY",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FFCC 3-26-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=n_DpK5UrL6I",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-23-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=qs6st9cAt1M",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council | 2025 Budget Public Presentation 3-26-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=t1ThvsffkgU",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-9-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=uIEoXyCFtzs",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-12-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=y9pVOIwpLPs",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-12-17"
+    ]
+  },
+  {
+    "source": "https://jeffersoncounty.iowa.gov/barns/news.htm",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncountyhealthcenter.org/patients/confidentiality",
+    "vectorCount": 8,
+    "categories": {
+      "health": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=146",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=138",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=161",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=221",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=292",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=280",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=273",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=314",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=323",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=359",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=355",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=360",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=346",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=371",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=365",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=396",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=408",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=437",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=440",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=468",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=492",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=493",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=635",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=54",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=57",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=639",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=656",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=663",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=668",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=667",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=693",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=724",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=715",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=748",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=762",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=760",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=767",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=769",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=99",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.miu.edu/phd-in-maharishi-vedic-science",
+    "vectorCount": 8,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.tm.org/en-us/centers/southeast-iowa",
+    "vectorCount": 8,
+    "categories": {
+      "Education and Institutions": [
+        "TM Southeast Iowa Center"
+      ]
+    },
+    "titles": []
+  },
+  {
     "source": "Fairfield Cares",
     "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=4qwrU5Zg_CI",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-29-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=AMjdSh8oLyM",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-22-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=GzJduwB8Vhw",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-13-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=HBwjUe0Y3pA",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-23-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=JMboHDbaX1E",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-22-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=MpAv7lNS2OM",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 3.10.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Oogz4Mjnplg",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-10-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=QCB29AVEOuI",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "4-27-15 City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Rr37NejSLwk",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-14-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=_94swjxHxQ4",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10.28.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=bg4KwH1EPJU",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-11-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=baNOQYMEh7s",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-24-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=g1aBEl872z0",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-17-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ytvURDl4X8k",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-12-21"
+    ]
+  },
+  {
+    "source": "https://www.icon-art.org/The%20Hudson%20Collection.htm",
+    "vectorCount": 7,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=110",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=113",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=166",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=191",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=163",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=219",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=229",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=232",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=220",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=243",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=276",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=283",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=338",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=354",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=356",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=400",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=424",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=407",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=439",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=462",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=472",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=471",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=485",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=479",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=487",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=478",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=488",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=489",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=636",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=499",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=50",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=646",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=638",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=637",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=641",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=669",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=698",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=714",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=72",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=745",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=761",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=88",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=94",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=037Oa0eTt7k",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-14-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=3ANjEoIdMJI",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-28-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=2Vh15JTv-7I",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-27-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=3qdmloS_1LM",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-12-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9Nqd7Dg9BWs",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-8-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Az8JxAJKx5Q",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 1.27.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9dm2ZsSJm5c",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-18-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=CkxMAcMgEuc",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Fairfield Police Dept. | 1-9-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=DaCHv5e1vXk",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-26-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=GJsaBMKbNbM",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "10-28-13 Fairfield City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=EcFSD_olYxo",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-12-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=P47kscrGTmE",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-14-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OLgSKUDV2Ic",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-13-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=RXKjTnYL1Yo",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-14-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Pd8Ev4iqtAY",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-12-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=VPGIb2KGwmM",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-28-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=WPKYvk7GGRA",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Special City Council Work Session 6-16-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Z4wwMy7UxQU",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 4-8-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ZtotQhZiLBg",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-8-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cKFXXV386m8",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-11-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=bSDEZ1Owcro",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-9-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=bmrRb_O34h8",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-27-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cBW-57hiEtI",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-24-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=diN0S83q2sk",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-14-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=dmXUwkb_N8E",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-13-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=eQJO7cCSQL0",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-13-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=heqpanrJNh4",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-27-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=j1s3tYNsxGE",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-27-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=pHarT2NpbvI",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-22-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=oO0X7yYPUJo",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-13-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=qTJKDq2rDhM",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10.14.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=wMpsZJ8gRRI",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-9-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=v-qgc-pxM60",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-26-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=z7ILbjTZ3Uo",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-18-17"
+    ]
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/thought_leaders",
+    "vectorCount": 6,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=112",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=108",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=114",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=123",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=121",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=144",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=135",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=162",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=153",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=194",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=154",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=164",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=197",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=227",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=231",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=196",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=246",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=267",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=245",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=266",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=270",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=249",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=290",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=301",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=300",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=279",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=282",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=274",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=310",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=311",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=313",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=333",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=358",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=343",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=345",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=361",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=370",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=364",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=431",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=435",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=430",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=441",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=447",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=486",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=476",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=49",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=500",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=56",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=55",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=643",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=650",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=658",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=681",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=723",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=725",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=87",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=82",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=89",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=92",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=91",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=90",
+    "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
     },
@@ -324,6 +4486,816 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=20HtEsUUVVk",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-13-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=7_nhS_M42M8",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-22-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BOPdwniwmN4",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12-15-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ELVg6M20tko",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-22-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=GVWAqZdX-es",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-26-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=I8HmMXXeaFg",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Assessor's Office | 12-6-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OKlGEzR-E1w",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 4-28-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=RwkmHw2SpTg",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 7-14-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=YxrFzpFWnRI",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-10-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=e-64p8PKtRE",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-8-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=gfxl9t1cn8c",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-23-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=gwlcWqtIDTg",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-26-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=hziN90N_mvM",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-27-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=iTqcOmrcFcg",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 12.16.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=kUA8_wD2AP0",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council meeting on 12-17-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=jVHsxLf6R1c",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-26-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=p8vpZl-YIew",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 9-23-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=sHzU1bQ41R4",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 8-24-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=sBp5dG-yLd8",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 1.13.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=w6NJktUjd70",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-8-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=wQ_0zcv-VuY",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 7-22-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ynZl30PFOmo",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-25-24"
+    ]
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/blog",
+    "vectorCount": 5,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/smart21",
+    "vectorCount": 5,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=100",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=128",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=139",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=150",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=147",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=189",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=190",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=224",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=230",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=228",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=236",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=250",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=241",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=291",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=315",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=308",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=307",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=309",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=316",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=326",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=324",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=363",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=344",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=383",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=366",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=433",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=463",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=469",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=47",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=662",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=75",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=79",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=5w85WvJRzuI",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 8-10-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Dnz7Wm5hqO4",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-10-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=GS2WcDpKlhw",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-22-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=I8DDy8thKwA",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-10-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=JQ1_VKGzEs0",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-27-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=LbpoQQ39a-E",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-23-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=NrNwZeUEWGM",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11.12.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=NOp2kjWrJnA",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council | Care Ambulance, LLC | 12-27-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=RYivRsbS73s",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-22-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=QYQLA90BRn0",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-14-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Seo1uXiCgtA",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Meeting 2-9-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=WCDCUudgktA",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-23-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=V081K7mBOb4",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 12-16-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=XdHUrZ70KNg",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Special City Council Meeting 1.2.26"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Xm9jGvs6-8s",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-27-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=aP9tzam-FPI",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-11-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=aOjwy72lP6E",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-22-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=bQwarKpdJK8",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council meeting on 1-29-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cX4NWiDKltI",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-25-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cCNfxzQ4nN8",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Meeting 1-26-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=eVWD5eY3Ai8",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 6-9-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=exIyNDdYFX8",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-10-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=lrao1KZZ_L8",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-8-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=maB8bIVAszk",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-22-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=rKGPqhpgE6E",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council Meeting 7-23-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=rDpna4rFS1s",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-24-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=v_41RoxLup0",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council Meeting 1-11-16"
+    ]
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/free_downloads",
+    "vectorCount": 4,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldmediacenter.com/copy-of-buddha-at-the-gas-pump",
+    "vectorCount": 4,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/press_releases",
+    "vectorCount": 4,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/fredericton_new_brunswick_canada_a_connected_capital_building_an_inclusive_intelligent_future",
+    "vectorCount": 4,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncofair.com/schedule",
+    "vectorCount": 4,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=106",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "opportunityiowa.gov",
     "vectorCount": 4,
     "categories": {
@@ -334,11 +5306,761 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=109",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=119",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=126",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=120",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=116",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=148",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=239",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=281",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=362",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=369",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=394",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=465",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=52",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=53",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=51",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=771",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.carryonbags.org/thank-you",
+    "vectorCount": 3,
+    "categories": {
+      "human-services": []
+    },
+    "titles": []
+  },
+  {
     "source": "sustainablelivingcoalition.org",
     "vectorCount": 3,
     "categories": {
       "community_organizations": [
         "food_security"
+      ]
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=-1Kg795WeLI",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Work Session 2-26-24"
+    ]
+  },
+  {
+    "source": "https://fairfieldiowafarmersmarket.farm/guidelines-rules-for-merchants",
+    "vectorCount": 3,
+    "categories": {
+      "community": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=4sXOdNccTaA",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-27-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=5msEmMYeEks",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-25-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=6BW0BgiYmuo",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 2-11-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=8eVSY9CsBZA",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 3-25-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=7ENcGqpvz8s",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Special Fairfield City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9Lh-7HnZABE",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Proposed Fire Station Forum 2-7-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BgKbiB7jRGo",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-11-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9yT6eBvgGrU",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-9-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=CWeY8f7gtHA",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-27-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=EDMZ863Vj9A",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Residential Landlord Meeting 1-30-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=EloJd71UJ_c",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-23-24 (AUDIO ONLY)"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=IF1Va40zgWM",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 10-22-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=IS9BMHPZtQE",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 1-13-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=KthDzThmUYY",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-10-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=M4TX6Fjn9GQ",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-28-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=On1_eonhDeA",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-14-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=U7dB1dj-jz0",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-24-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=YEa_0X248j8",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-27-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=_eg-ceWqT4Q",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-9-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=nBMzUBdFuzY",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-11-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=m2UdXrq8n90",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-23-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=nHznaeLNmms",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Capital Improvements Reserve Fund Levy 10-16-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=mDOIUA_dOyA",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FFCC 3-12-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=mVqwbluduI0",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 011419"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=qkGhlVsJwy4",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-25-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=qQPrs9e6zZ4",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-26-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=puBTo-i3lm8",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-25-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=tP0mvGmdJtQ",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-25-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=uBsaTARDaBU",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-9-23"
+    ]
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/privacy_policy",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/2025_intelligent_community_of_the_year",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/2026_smart21_and_smart_city_expo_in_curitiba_brazil",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.greaterjeffersoncountyfoundation.org/grants/annual-community-grant",
+    "vectorCount": 3,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_member_news",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_2026_top7_conference_announcement",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/strategic_advisors",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/looking_back_on_2025_and_forward_to_2026",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/news_coverage",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/advisory",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/our_team",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/intelligent_community_forum_and_exxas_announce_partnership_to_support_brazilian_communities",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/top7",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.iowasource.com/2018/01/05/events-calendar",
+    "vectorCount": 3,
+    "categories": {
+      "media": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.extension.iastate.edu/jefferson/newsetter/jefferson-county-extension-newsletter-0",
+    "vectorCount": 3,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.extension.iastate.edu/legal",
+    "vectorCount": 3,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.iowasource.com/2012/11/01/tv2012_11-1",
+    "vectorCount": 3,
+    "categories": {
+      "media": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.jeffersoncountytrails.org/b-bn/bnsf.htm",
+    "vectorCount": 3,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.jeffersoncountytrails.org/news2009.htm",
+    "vectorCount": 3,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=125",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=115",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=124",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=222",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=244",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=248",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=293",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=306",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=332",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=336",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=334",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=438",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=647",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=644",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=673",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=753",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=76",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=77",
+    "vectorCount": 3,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "growfairfield.com",
+    "vectorCount": 3,
+    "categories": {
+      "economic_development": [
+        "entrepreneurship"
       ]
     },
     "titles": []
@@ -354,12 +6076,26 @@
     "titles": []
   },
   {
-    "source": "growfairfield.com",
+    "source": "https://www.miu.edu/bachelors-in-ayurveda-wellness-and-integrative-health",
     "vectorCount": 3,
     "categories": {
-      "economic_development": [
-        "entrepreneurship"
-      ]
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.area15rpc.com/rhtf",
+    "vectorCount": 2,
+    "categories": {
+      "regional_planning": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldiowa.com/news/10_intentional_ways_to_get_a_jump_start_on_holiday_revenue",
+    "vectorCount": 2,
+    "categories": {
+      "business": []
     },
     "titles": []
   },
@@ -370,6 +6106,1906 @@
       "community_organizations": [
         "food_security"
       ]
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldiowa.com/news/2025_barnyard_bash_recap",
+    "vectorCount": 2,
+    "categories": {
+      "business": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=-ddNSZ88MAU",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FFCC 6-11-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=69GL23lpNew",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-8-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9JwzE0q6-qQ",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council - Special Meeting 4-12-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9PalXMP3PHA",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-12-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=7ReqsPFz_j4",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 1-27-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Enwg542Nt40",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-24-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=G-pysTaF1Ck",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-12-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=H0W6jfCbHHQ",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 2.10.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=KQ9CU7Haums",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 3-10-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=LZ-RiBV7hVY",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Work Session 11.12.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Kec-CbbG_Bg",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-11-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OoZ7WvjPPQ0",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FFCC 7-9-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OrCp21Eg0ZI",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 3-24-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OaEWVA3Va6A",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 8-13-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Q32QhJdpsKg",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-25-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=R0UCvZ4SMbU",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-24-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Tgk8rZsXcl8",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-14-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=VrmnaYOaVwY",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-28-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Vt_QLjY9qmI",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3 -26-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Xx2H8te6OuI",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "5-11-15 City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=WQKpxQ79_Jo",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-9-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=X_gtD8Iptus",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-13-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ZXIEBfiPZ-U",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-22-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=aE6SMfsMWNo",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 11-12-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=aWSBXkdR_eg",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FFCC 5-14-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=oznxOBaGOh0",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-25-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=sss-p-VN-o4",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Mans Best Friend | 4-25-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=uotEv7rUQAU",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Special City Council 1-2-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=xuSQm6D4u5A",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-28-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=x4YGj5uI5as",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "6-22-15 City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_global_summits",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldmediacenter.com/fairfieldcitycouncil",
+    "vectorCount": 2,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/learn",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_partner_events",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_podcast",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://fairfieldeducationfoundation.com/directors",
+    "vectorCount": 2,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/speakers",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/books",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/compete",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/solutions",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/advocacy",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/accelerator_training",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/innovation",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/your_intelligent_community_journey",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/what_is_an_intelligent_community",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_2026_vip_delegation_to_taiwan_smart_city_summit_expo",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.iowasource.com/2017/11/28/laura-ingalls-wilder",
+    "vectorCount": 2,
+    "categories": {
+      "media": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.iowasource.com/2012/12/05/fairfield2012_12_gisella",
+    "vectorCount": 2,
+    "categories": {
+      "media": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncounty.iowa.gov/treasurer",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://jeffersoncountyconservation.com",
+    "vectorCount": 2,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncountyhealthcenter.org/patients/insurance",
+    "vectorCount": 2,
+    "categories": {
+      "health": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.maharishischool.org",
+    "vectorCount": 2,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.jeffersoncountytrails.org/sep09/matkin-bridge.htm",
+    "vectorCount": 2,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncountylittleleague.com/registration",
+    "vectorCount": 2,
+    "categories": {
+      "youth-sports": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=111",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=193",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=149",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=165",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=234",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=225",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=195",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=240",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=251",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=247",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=242",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=271",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=294",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=317",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=304",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=330",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=320",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=367",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=368",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=385",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=384",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=718",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=764",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=80",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/producer-inventory-map",
+    "vectorCount": 2,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.visitfairfieldiowa.com/business/hudson-collection",
+    "vectorCount": 2,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.area15rpc.com/blog",
+    "vectorCount": 1,
+    "categories": {
+      "regional_planning": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.area15rpc.com/single-post/fall-2025-regional-planning-news-thriving-communities-and-local-development-initiatives",
+    "vectorCount": 1,
+    "categories": {
+      "regional_planning": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.carryonbags.org/sign-up-sheet",
+    "vectorCount": 1,
+    "categories": {
+      "human-services": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://fairfieldiowafarmersmarket.farm/contact",
+    "vectorCount": 1,
+    "categories": {
+      "community": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldacc.com/about",
+    "vectorCount": 1,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.fairfieldiowa.com/join",
+    "vectorCount": 1,
+    "categories": {
+      "business": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldacc.com/programs",
+    "vectorCount": 1,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldiowa.com/news/boutique_therapy",
+    "vectorCount": 1,
+    "categories": {
+      "business": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldatlanticlittleleague.org",
+    "vectorCount": 1,
+    "categories": {
+      "youth-sports": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=-mauGgrzWCY",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-8-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=-v9R9pl6Mbo",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 9-10-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=5NCxK-eaxqU",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-8-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=4P0PLmBLWT0",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-11-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=5yWjY_lHXmU",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 1-14-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=63DXQ6FMd94",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-13-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=6GILQZDdrSo",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-9-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=6JuNsrZ8Qug",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Building & Zoning Permits | 3-28-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BCEEocjXQkA",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-13-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BBFpEs_eCZw",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-26-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BTTOcJJz_dw",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-25-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=ATJD8rPxgG8",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-12-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BdZicyyIOiM",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-14-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=CYqkSLGf4zg",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "6-8-15 City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=EiwiJj2b0rI",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 9-25-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=GKkxUiqmr9U",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-13-15"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=LU_YR0bL-wc",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 5-12-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OyRBwpqV8rc",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "5-26-15 City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OYVj52O58Ls",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Special Council Meeting 2-10-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=NMNQbINXW-A",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Work Session 10-21-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=N48XR0ifuow",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-23-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=PcVTiAtSfn8",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 6-30-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=SumcTMqdngU",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Special City Council 6-29-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=X4tUJJkXBWI",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Board of Adjustments 3.17.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=_TiyW3ylQfE",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Pool Gym Project"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cI0D8khIR48",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FF City Council Meeting 4-23-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=eh8UDJBqnAA",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Study Session 12.16.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=evfonuhfXVQ",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-25-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=duYxwx0OVVI",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-11-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=dbsBlnH-qRU",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-26-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=g_GggZUEewg",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FFCC 4-9-12"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=kn1vBAnKNYE",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 012819"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=s5BR8vaoYbs",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 8-28-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=t_B-VJvY3mI",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-12-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=uy-M5iP2TOc",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Work Session 11.25.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=y987gAC7FSQ",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council | Special Meeting 3-25-24"
+    ]
+  },
+  {
+    "source": "http://www.fairfieldculturaldistrict.org/heritage/new-sweden.htm",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.fairfieldculturaldistrict.org/heritage/ps-elks.htm",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldmediacenter.com/copy-of-great-taste",
+    "vectorCount": 1,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/accelerator",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldfriendschurch.org/connect",
+    "vectorCount": 1,
+    "categories": {
+      "faith-community": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://fairfieldfirstfridays.org/blog/f.rss",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.fairfieldculturaldistrict.org/photos.htm",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/connect",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/contact_us",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/reports",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/events",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldmethodistchurch.org/events/sunday-worship/2026-03-08",
+    "vectorCount": 1,
+    "categories": {
+      "faith-community": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/webinar_events",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://fairfieldfirstfridays.org/about-us",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/tags/video",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldsfuture.org/page/elementary-parent-group",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fnll.org",
+    "vectorCount": 1,
+    "categories": {
+      "youth-sports": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.fairfieldculturaldistrict.org/heritage/sitelist.htm",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/certification",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldmediacenter.com/copy-of-carnegie-museum",
+    "vectorCount": 1,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_fredericton_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/use_cases",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_eindhoven_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_columbus_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/assess",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/the_network",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/connect_with_communities",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/content",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_chattanooga_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/sustainability",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/knowledge_workforce",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.greaterjeffersoncountyfoundation.org/what-we-do",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://fairfieldeducationfoundation.com/contact",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fnll.org/news",
+    "vectorCount": 1,
+    "categories": {
+      "youth-sports": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/start_nomination",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.fairfieldculturaldistrict.org/2017gala/2017gala.htm",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/participate",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/audio_and_video_content",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.icon-art.org/currentevents",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.icon-art.org/arc-specialevents",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/members",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/our_mission",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/news",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_nations",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/digital_equality",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/who_we_are",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/what_we_do",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/benefit_from_network",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/improve",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/smart21_announcements",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/broadband",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_stratford_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/top7_announcements",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_institutes",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_dundee_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_sunshine_coast_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/intelligent_community_network",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/delegations",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_taichung_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.extension.iastate.edu/jefferson/iowa-state-university-extension-and-outreach-host-2026-dairy-days-across-iowa",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.extension.iastate.edu/jefferson/powerful-tools-caregivers-series-begins-february-10",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncounty.iowa.gov/barns/findus.htm",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncounty.iowa.gov/2023-jefferson-county-sheriffs-office-end-of-year-report",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncounty.iowa.gov/road-equipment-operator",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncountyheritage.org/maasdam-barns",
+    "vectorCount": 1,
+    "categories": {
+      "heritage": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncountyconservation.com/round-prairie-park-change-of-use-proposal",
+    "vectorCount": 1,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncountyconservation.com/event/camouflage-camp",
+    "vectorCount": 1,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncountyheritage.org/events",
+    "vectorCount": 1,
+    "categories": {
+      "heritage": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncounty.iowa.gov/auditor/elections",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.maharishischool.org/academic-office",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.kufnerart.com/new-products",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.kufnerart.com/new-products",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.kufnerart.com/about",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.jeffersoncountytrails.org/news/bridge.htm",
+    "vectorCount": 1,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.kufnerart.com/about",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.jeffersoncountytrails.org/b-cvt/cvt-fall.htm",
+    "vectorCount": 1,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.maharishischool.org/admissions",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.jeffersoncountytrails.org/news/waltonbridge.htm",
+    "vectorCount": 1,
+    "categories": {
+      "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=151",
+    "vectorCount": 1,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=285",
+    "vectorCount": 1,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=410",
+    "vectorCount": 1,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/se-iowa-watershed-partnership-rcpp-2448",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/research-on-grassfed-beef",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/news-events",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.miu.edu/ma-in-consciousness-and-human-potential",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/community-guide/american-homefinding-association",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/what-we-do/mine-land-reclamation",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.wegecenter.org/legup",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.wegecenter.org/ferrigno/lombard",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.visitfairfieldiowa.com/art-adventures",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.wegecenter.org/past",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.visitfairfieldiowa.com",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.visitfairfieldiowa.com/blog",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.visitfairfieldiowa.com/blog-posts/the-best-day-trip-from-des-moines",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
     },
     "titles": []
   }
