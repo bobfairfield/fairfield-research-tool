@@ -20,6 +20,7 @@ const CONCURRENCY = 10;
 const SOURCE_CATALOG = {
   'Iowa Dance Collective': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Iowa Dance Collective', emoji: '💃', color: '#5b3ea6', url: 'iowadancecollective.org' },
   'visit-fairfield': { group: 'tourism', coverage: 'SUBSTANTIAL', displayName: 'Visit Fairfield Iowa (CVB)', emoji: '🗺️', color: '#b06a20', url: 'visitfairfieldiowa.com' },
+  'freeformartgallery.com/product-category/jewelry': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Freeform Art Gallery', emoji: '🖼️', color: '#7c3d6b', url: 'freeformartgallery.com' },
   'freeform-gallery': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Freeform Art Gallery', emoji: '🖼️', color: '#7c3d6b', url: 'freeformartgallery.com' },
   'iowa-source': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Iowa Source', emoji: '📰', color: '#8b3a1e', url: 'iowasource.com' },
   'fairfield-cultural-alliance': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Fairfield Cultural Alliance', emoji: '🎨', color: '#5b3ea6', url: 'fairfieldculturaldistrict.org' },
