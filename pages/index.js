@@ -315,6 +315,7 @@ export default function Home() {
   const [showSelfEmailForm, setShowSelfEmailForm] = useState(false);
   const [selfEmailing, setSelfEmailing] = useState(false);
   const [selfEmailStatus, setSelfEmailStatus] = useState('');
+  const [showReportModal, setShowReportModal] = useState(false);
   const fileInputRef = useRef(null);
 
   const isSearch = appMode === 'search';
@@ -456,6 +457,46 @@ export default function Home() {
     const a = document.createElement('a');
     a.href = url; a.download = 'Fairfield_Jefferson_Research.doc'; a.click();
     URL.revokeObjectURL(url);
+  };
+
+  const handleExportPPTX = async () => {
+    if (!result || result.error) return;
+    const PptxGenJS = (await import('pptxgenjs')).default;
+    const prs = new PptxGenJS();
+    const mc = isSearch ? '0f766e' : '3B4FC4';
+    const ml = isSearch ? 'Search Result' : 'Civic Research Analysis';
+    const s1 = prs.addSlide(); s1.background = { color: 'FFFFFF' };
+    s1.addText('Fairfield & Jefferson County', { x:0.5, y:1.2, w:9, fontSize:22, bold:true, color:'1a1a2e', align:'center' });
+    s1.addText('Civic Intelligence Hub', { x:0.5, y:1.9, w:9, fontSize:28, bold:true, color:mc, align:'center' });
+    s1.addText(ml, { x:0.5, y:2.8, w:9, fontSize:16, color:'555555', align:'center' });
+    s1.addText(new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'}), { x:0.5, y:3.3, w:9, fontSize:13, color:'555555', align:'center' });
+    s1.addShape(prs.ShapeType.line, { x:1.5, y:4.0, w:7, h:0, line:{color:mc,width:2} });
+    s1.addText('civicintelligencehub.com', { x:0.5, y:4.3, w:9, fontSize:12, color:'3B4FC4', align:'center' });
+    const s2 = prs.addSlide(); s2.background = { color: 'f8f9fa' };
+    s2.addText('Question', { x:0.5, y:0.4, w:9, fontSize:13, bold:true, color:mc });
+    s2.addShape(prs.ShapeType.line, { x:0.5, y:0.8, w:9, h:0, line:{color:mc,width:1.5} });
+    s2.addText(question, { x:0.5, y:1.0, w:9, h:4.2, fontSize:18, color:'1a1a2e', bold:true, valign:'middle', wrap:true });
+    const words = result.analysis.split(' ');
+    let chunk = ''; let sNum = 1;
+    const addSlide = (txt, n) => {
+      const s = prs.addSlide(); s.background = { color: 'FFFFFF' };
+      s.addText('Analysis ' + n, { x:0.5, y:0.3, w:9, fontSize:11, color:'555555', bold:true });
+      s.addShape(prs.ShapeType.line, { x:0.5, y:0.65, w:9, h:0, line:{color:'e2e8f0',width:1} });
+      s.addText(txt.trim(), { x:0.5, y:0.8, w:9, h:4.5, fontSize:14, color:'374151', valign:'top', wrap:true, lineSpacingMultiple:1.4 });
+      s.addText('civicintelligencehub.com', { x:0.5, y:5.5, w:9, fontSize:9, color:'aaaaaa', align:'center' });
+    };
+    for (const w of words) {
+      if ((chunk + ' ' + w).length > 500 && chunk) { addSlide(chunk, sNum++); chunk = w; }
+      else { chunk = chunk ? chunk + ' ' + w : w; }
+    }
+    if (chunk) addSlide(chunk, sNum);
+    if (result.sources && result.sources.length > 0) {
+      const ss = prs.addSlide(); ss.background = { color: 'f8f9fa' };
+      ss.addText('Sources', { x:0.5, y:0.4, w:9, fontSize:13, bold:true, color:mc });
+      ss.addShape(prs.ShapeType.line, { x:0.5, y:0.8, w:9, h:0, line:{color:mc,width:1.5} });
+      ss.addText(result.sources.map(src => '- ' + src).join('\n'), { x:0.5, y:1.0, w:9, h:4.5, fontSize:12, color:'555555', valign:'top', wrap:true, lineSpacingMultiple:1.6 });
+    }
+    prs.writeFile({ fileName: 'Fairfield_Civic_Analysis.pptx' });
   };
 
   const resetMode = () => { setAppMode(null); setQuestion(''); setResult(null); setHistory([]); setAttachedFiles([]); setFileError(''); setCouncilSummary(''); setConstituentComment(''); };
@@ -768,6 +809,8 @@ export default function Home() {
                       style={{ width:'100%', padding:'10px 12px', fontSize:13, borderRadius:8, border:'1px solid #d1d5db', color:'#374151', resize:'vertical', minHeight:72, marginBottom:10, fontFamily:'Georgia,serif', boxSizing:'border-box' }}
                     />
                     <button onClick={handleExportWord} style={{ backgroundColor:'white', color:'#374151', border:'1px solid #d1d5db', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📄 Save as Word Doc</button>
+                    <button onClick={() => setShowReportModal(true)} style={{ backgroundColor:'#7c3aed', color:'white', border:'none', padding:'9px 14px', fontSize:12, fontWeight:600, borderRadius:8, cursor:'pointer' }}>📊 View as Report</button>
+                    <button onClick={handleExportPPTX} style={{ backgroundColor:'white', color:'#7c3aed', border:'1px solid #c4b5fd', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📑 Download Slides</button>
                     <button onClick={handleSummarizeCouncil} disabled={summarizing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: summarizing ? 'not-allowed' : 'pointer' }}>{summarizing ? '⏳ Summarizing...' : '🏛️ Summarize for Councilman Ferguson'}</button>
                     <button onClick={handleEmailReport} disabled={emailing} style={{ backgroundColor:'white', color:'#1a3a5c', border:'1px solid #1a3a5c', padding:'9px 14px', fontSize:12, borderRadius:8, cursor: emailing ? 'not-allowed' : 'pointer' }}>{emailing ? '⏳ Sending...' : '📧 Email Councilman Ferguson'}</button>
                     <button onClick={() => setShowSelfEmailForm(v => !v)} style={{ backgroundColor:'white', color:'#0f766e', border:'1px solid #0f766e', padding:'9px 14px', fontSize:12, borderRadius:8, cursor:'pointer' }}>📬 Email This to Myself</button>
@@ -830,7 +873,41 @@ export default function Home() {
         )}
       </div>
 
-      <footer style={{ borderTop:'1px solid #e2e8f0', backgroundColor:'white', textAlign:'center', padding:'18px 24px' }}>
+      {showReportModal && (
+        <div style={{ position:'fixed', top:0, left:0, right:0, bottom:0, backgroundColor:'rgba(0,0,0,0.65)', zIndex:2000, overflowY:'auto', padding:'40px 16px' }}>
+          <div style={{ backgroundColor:'white', borderRadius:12, maxWidth:720, margin:'0 auto', padding:'40px 48px', position:'relative' }}>
+            <button onClick={() => setShowReportModal(false)} style={{ position:'absolute', top:16, right:16, backgroundColor:'#f1f5f9', border:'none', borderRadius:'50%', width:32, height:32, fontSize:16, cursor:'pointer', color:'#555' }}>x</button>
+            <div style={{ textAlign:'center', marginBottom:28, borderBottom:'2px solid ' + accentColor, paddingBottom:20 }}>
+              <p style={{ margin:'0 0 2px 0', fontSize:11, fontWeight:700, letterSpacing:2, textTransform:'uppercase', color:accentColor }}>Fairfield & Jefferson County</p>
+              <h1 style={{ margin:'0 0 4px 0', fontSize:24, fontWeight:800, color:'#1a1a2e' }}>Civic Intelligence Hub</h1>
+              <p style={{ margin:0, fontSize:13, color:'#888' }}>{isSearch ? 'Search Result' : 'Civic Research Analysis'} &middot; {new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}</p>
+            </div>
+            <div style={{ marginBottom:20 }}>
+              <p style={{ margin:'0 0 6px 0', fontSize:11, fontWeight:700, textTransform:'uppercase', letterSpacing:1, color:accentColor }}>Question</p>
+              <p style={{ margin:0, fontSize:16, fontWeight:600, color:'#1a1a2e', lineHeight:1.5 }}>{question}</p>
+            </div>
+            <div style={{ marginBottom:24 }}>
+              <p style={{ margin:'0 0 10px 0', fontSize:11, fontWeight:700, textTransform:'uppercase', letterSpacing:1, color:accentColor }}>{isSearch ? 'Result' : 'Analysis'}</p>
+              <div style={{ fontSize:14, lineHeight:1.9, color:'#374151', whiteSpace:'pre-wrap' }}>{result && result.analysis}</div>
+            </div>
+            {result && result.sources && result.sources.length > 0 && (
+              <div style={{ marginBottom:20, paddingTop:14, borderTop:'1px solid #e2e8f0' }}>
+                <p style={{ margin:'0 0 8px 0', fontSize:11, fontWeight:700, textTransform:'uppercase', letterSpacing:1, color:'#888' }}>Sources</p>
+                {result.sources.map((s, i) => <p key={i} style={{ fontSize:13, color:'#555', margin:'3px 0' }}>📄 {s}</p>)}
+              </div>
+            )}
+            <div style={{ borderTop:'1px solid #e2e8f0', paddingTop:16, display:'flex', gap:8, flexWrap:'wrap', justifyContent:'center' }}>
+              <button onClick={() => window.print()} style={{ backgroundColor:accentColor, color:'white', border:'none', padding:'10px 18px', fontSize:13, fontWeight:600, borderRadius:8, cursor:'pointer' }}>🖨️ Print / Save as PDF</button>
+              <button onClick={handleExportPPTX} style={{ backgroundColor:'white', color:'#7c3aed', border:'1px solid #7c3aed', padding:'10px 18px', fontSize:13, fontWeight:600, borderRadius:8, cursor:'pointer' }}>📑 Download Slides</button>
+              <button onClick={() => { setShowReportModal(false); setShowSelfEmailForm(true); }} style={{ backgroundColor:'white', color:'#0f766e', border:'1px solid #0f766e', padding:'10px 18px', fontSize:13, fontWeight:600, borderRadius:8, cursor:'pointer' }}>📬 Email to Myself</button>
+              <button onClick={() => setShowReportModal(false)} style={{ backgroundColor:'#f1f5f9', color:'#555', border:'none', padding:'10px 18px', fontSize:13, borderRadius:8, cursor:'pointer' }}>Close</button>
+            </div>
+            <p style={{ textAlign:'center', fontSize:11, color:'#bbb', marginTop:20, marginBottom:0 }}>civicintelligencehub.com &middot; City Council At-Large Member Bob Ferguson</p>
+          </div>
+        </div>
+      )}
+
+            <footer style={{ borderTop:'1px solid #e2e8f0', backgroundColor:'white', textAlign:'center', padding:'18px 24px' }}>
         <p style={{ margin:'0 0 4px 0', fontSize:12, color:'#888' }}>Fairfield & Jefferson County Civic Intelligence Hub · Powered by Claude AI</p>
         <p style={{ margin:'0 0 4px 0', fontSize:12, color:'#888' }}>For City Council At-Large Member Bob Ferguson</p>
         <a href="https://www.fairfieldiowa.com" target="_blank" rel="noopener noreferrer" style={{ fontSize:12, color:'#3b4fc4', textDecoration:'none' }}>Visit Official Fairfield City Website ↗</a>
