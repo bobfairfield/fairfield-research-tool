@@ -114,3 +114,8 @@ main().catch(err => {
   console.error('Fatal:', err);
   process.exit(1);
 });
+
+// ── Auto-deploy to Vercel ──────────────────────────────────────────────────
+const { deploy } = require('./deploy');
+deploy('Update knowledge base — scraper run');
+

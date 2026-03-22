@@ -77,3 +77,8 @@ main().catch(err => {
   console.error('Error:', err.message);
   process.exit(1);
 });
+
+// ── Auto-deploy to Vercel ──────────────────────────────────────────────────
+const { deploy } = require('./deploy');
+deploy('Update knowledge base — text upload');
+

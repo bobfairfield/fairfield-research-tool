@@ -47,3 +47,8 @@ const filePath = process.argv[2];
 const metadata = JSON.parse(process.argv[3] || "{}");
 if (!filePath) { console.log("Usage: node document-processor.js <filepath> ..."); process.exit(1); }
 processFile(filePath, metadata).catch(console.error);
+
+// ── Auto-deploy to Vercel ──────────────────────────────────────────────────
+const { deploy } = require('./deploy');
+deploy('Update knowledge base — PDF upload');
+
