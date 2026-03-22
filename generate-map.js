@@ -255,6 +255,30 @@ const SOURCE_CATALOG = {
     displayName: 'Fairfield Garden Initiative & Community Garden',
     mergeInto: 'garden-main',
   },
+  'fcsd-board-minutes': {
+    displayName: 'Fairfield Community School District — Board Minutes',
+    emoji: '🏫',
+    color: '#1a4a8a',
+    url: 'fairfield.k12.ia.us',
+    description: 'FCSD Board of Education meeting minutes, work sessions, and special meetings (2019-2024)',
+    group: 'government',
+  },
+  'Fairfield Beautification Commission Weed Team': {
+    displayName: 'Fairfield Beautification Commission - Weed Team',
+    emoji: '🌿',
+    color: '#4a7c3f',
+    url: 'southeastiowaunion.com',
+    description: 'Downtown weed-free initiative, nine-block coverage area, non-toxic treatment',
+    group: 'community_orgs',
+  },
+  'Fairfield Beautification Commission 2025 Volunteers': {
+    displayName: 'Fairfield Beautification Commission - 2025 Volunteers',
+    emoji: '🌸',
+    color: '#4a7c3f',
+    url: 'southeastiowaunion.com',
+    description: 'Second Annual Volunteer Appreciation Dinner 2025',
+    group: 'community_orgs',
+  },
 };
 
 // Merged group display config (for sources with mergeInto)
@@ -399,6 +423,7 @@ const URL_DOMAIN_MAP = [
   ['maharishischool.org','maharishi_school'],
   ['jeffersoncountylittleleague.com','jcll'],
   ['fairfieldiowa.com','fairfieldiowa.com'],
+  ['fairfield.k12.ia.us','fcsd-board-minutes'],
 ];
 function resolveCatalogKey(source) {
   if (!source) return null;
