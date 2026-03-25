@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react';
 import * as XLSX from 'xlsx';
-import { downloadAsDocx } from '../lib/generateDocx';
 
 const SEARCH_EXAMPLES = [
   'What are the rules for junked or inoperable vehicles on private property?',
@@ -465,6 +464,7 @@ export default function Home() {
 
   const handleExportWord = async () => {
     if (!result || result.error) return;
+    const { downloadAsDocx } = await import('../lib/generateDocx');
     await downloadAsDocx(question, isSearch, result.analysis);
   };
 
