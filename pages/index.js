@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import * as XLSX from 'xlsx';
+import { downloadAsDocx } from '../lib/generateDocx';
 
 const SEARCH_EXAMPLES = [
   'What are the rules for junked or inoperable vehicles on private property?',
@@ -292,6 +293,26 @@ async function readSpreadsheetAsText(file) {
   });
 }
 
+
+
+
+
+
+function renderMarkdown(t) {
+  if (!t) return '';
+  var h = t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  h = h.replace(/^### (.+)$/gm,'<h3 style="font-size:15px;font-weight:700;margin:18px 0 6px;color:#1a1a2e">$1</h3>');
+  h = h.replace(/^## (.+)$/gm,'<h2 style="font-size:17px;font-weight:700;margin:22px 0 8px;color:#1a1a2e;border-bottom:1px solid #e5e7eb;padding-bottom:4px">$1</h2>');
+  h = h.replace(/^# (.+)$/gm,'<h1 style="font-size:20px;font-weight:700;margin:24px 0 10px;color:#1a1a2e">$1</h1>');
+  h = h.replace(/^---+$/gm,'<hr style="border:none;border-top:1px solid #e5e7eb;margin:16px 0"/>');
+  h = h.replace(/[*][*](.+?)[*][*]/g,'<strong>$1</strong>');
+  h = h.replace(/[*](.+?)[*]/g,'<em>$1</em>');
+  h = h.replace(/^&gt; (.+)$/gm,'<blockquote style="border-left:3px solid #9ca3af;margin:8px 0;padding:4px 12px;color:#4b5563">$1</blockquote>');
+  h = h.replace(/^- (.+)$/gm,'<li style="margin:3px 0 3px 20px;list-style:disc">$1</li>');
+  h = h.replace(/^\d+[.] (.+)$/gm,'<li style="margin:3px 0 3px 20px;list-style:decimal">$1</li>');
+  h = h.split('\n\n').join('</p><p style="margin:8px 0">');
+  return h.trim();
+}
 export default function Home() {
   const [appMode, setAppMode] = useState(null);
   const [question, setQuestion] = useState('');
@@ -442,21 +463,9 @@ export default function Home() {
     setSummarizing(false);
   };
 
-  const handleExportWord = () => {
+  const handleExportWord = async () => {
     if (!result || result.error) return;
-    const bom = '\uFEFF';
-    const modeLabel = isSearch ? 'Search Result' : 'Civic Research Analysis';
-    const html = '<html><head><meta charset="UTF-8"></head><body>'
-      + '<h1 style="color:#1a1a2e;font-family:Arial,sans-serif;">Fairfield & Jefferson County Civic Intelligence Hub</h1>'
-      + '<p style="color:#888;font-size:12px;">Generated: ' + new Date().toLocaleString() + ' | Mode: ' + modeLabel + '</p>'
-      + '<h2 style="font-family:Arial,sans-serif;">Question</h2><p>' + question + '</p>'
-      + '<h2 style="font-family:Arial,sans-serif;">' + modeLabel + '</h2><p style="line-height:1.7;">' + result.analysis.replace(/\n/g,'<br>') + '</p>'
-      + '<hr><p style="color:#888;font-size:11px;">Fairfield & Jefferson County Civic Intelligence Hub — City Council Member Bob Ferguson</p></body></html>';
-    const blob = new Blob([bom + html], { type:'application/msword' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = 'Fairfield_Jefferson_Research.doc'; a.click();
-    URL.revokeObjectURL(url);
+    await downloadAsDocx(question, isSearch, result.analysis);
   };
 
   const handleExportPPTX = async () => {
@@ -794,7 +803,7 @@ export default function Home() {
               <p style={{ fontWeight:600, color:'#1a1a2e', fontSize:12, textTransform:'uppercase', letterSpacing:1, margin:'0 0 12px 0' }}>{isSearch ? 'Search Result' : 'Analysis'}</p>
               {result.error ? <p style={{ color:'#dc2626', fontSize:15 }}>{result.error}</p> : (
                 <>
-                  <div style={{ color:'#374151', lineHeight:1.8, fontSize:15, whiteSpace:'pre-wrap' }}>{result.analysis}</div>
+                  <div style={{ color:'#374151', lineHeight:1.8, fontSize:15 }} dangerouslySetInnerHTML={{ __html: renderMarkdown(result.analysis) }}></div>
                   {isSearch && result.sources && result.sources.length > 0 && (
                     <div style={{ marginTop:16, paddingTop:12, borderTop:'1px solid #f0f0f0' }}>
                       <p style={{ fontSize:12, color:'#888', margin:'0 0 6px 0', fontWeight:600 }}>SOURCES</p>
@@ -888,7 +897,7 @@ export default function Home() {
             </div>
             <div style={{ marginBottom:24 }}>
               <p style={{ margin:'0 0 10px 0', fontSize:11, fontWeight:700, textTransform:'uppercase', letterSpacing:1, color:accentColor }}>{isSearch ? 'Result' : 'Analysis'}</p>
-              <div style={{ fontSize:14, lineHeight:1.9, color:'#374151', whiteSpace:'pre-wrap' }}>{result && result.analysis}</div>
+              <div style={{ fontSize:14, lineHeight:1.9, color:'#374151' }} dangerouslySetInnerHTML={{ __html: renderMarkdown(result && result.analysis) }}></div>
             </div>
             {result && result.sources && result.sources.length > 0 && (
               <div style={{ marginBottom:20, paddingTop:14, borderTop:'1px solid #e2e8f0' }}>
