@@ -263,6 +263,14 @@ const SOURCE_CATALOG = {
     description: 'FCSD Board of Education meeting minutes, work sessions, and special meetings (2019-2024)',
     group: 'government',
   },
+  'walton-lake-bridge': {
+    displayName: 'Walton Lake Golf Cart Bridge',
+    emoji: '🌉',
+    color: '#1a5c3a',
+    url: 'www.fairfield.ia.us/walton-lake-bridge',
+    description: 'Documents related to the Walton Lake golf cart bridge construction, controversy, and associated litigation',
+    group: 'government',
+  },
   'Fairfield Beautification Commission Weed Team': {
     displayName: 'Fairfield Beautification Commission - Weed Team',
     emoji: '🌿',
@@ -425,6 +433,7 @@ const URL_DOMAIN_MAP = [
   ['fairfieldiowa.com','fairfieldiowa.com'],
   ['fairfield.k12.ia.us','fcsd-board-minutes'],
   ['fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
+  ['www.fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
 ];
 function resolveCatalogKey(source) {
   if (!source) return null;
