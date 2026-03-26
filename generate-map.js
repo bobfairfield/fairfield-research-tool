@@ -424,6 +424,7 @@ const URL_DOMAIN_MAP = [
   ['jeffersoncountylittleleague.com','jcll'],
   ['fairfieldiowa.com','fairfieldiowa.com'],
   ['fairfield.k12.ia.us','fcsd-board-minutes'],
+  ['fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
 ];
 function resolveCatalogKey(source) {
   if (!source) return null;
