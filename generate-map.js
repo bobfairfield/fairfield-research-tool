@@ -263,6 +263,14 @@ const SOURCE_CATALOG = {
     description: 'FCSD Board of Education meeting minutes, work sessions, and special meetings (2019-2024)',
     group: 'government',
   },
+  'fairfield-history-series': {
+    displayName: 'Fairfield History Series — Documentary Transcripts',
+    emoji: '🎬',
+    color: '#7c3aed',
+    url: 'www.youtube.com/@fair_field_productions',
+    description: 'Transcripts of Fairfield History Series documentary films by Fairfield Productions',
+    group: 'government',
+  },
   'walton-lake-bridge': {
     displayName: 'Walton Lake Golf Cart Bridge',
     emoji: '🌉',
@@ -434,6 +442,7 @@ const URL_DOMAIN_MAP = [
   ['fairfield.k12.ia.us','fcsd-board-minutes'],
   ['fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
   ['www.fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
+  ['www.youtube.com/@fair_field_productions','fairfield-history-series'],
 ];
 function resolveCatalogKey(source) {
   if (!source) return null;
