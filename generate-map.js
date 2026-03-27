@@ -263,6 +263,14 @@ const SOURCE_CATALOG = {
     description: 'FCSD Board of Education meeting minutes, work sessions, and special meetings (2019-2024)',
     group: 'government',
   },
+  'jefferson-county-history': {
+    displayName: 'History of Jefferson County, Iowa (1914)',
+    emoji: '📖',
+    color: '#8b3a1e',
+    url: 'archive.org/details/historyofjeffers01fult',
+    description: 'History of Jefferson County, Iowa — A Record of Settlement, Organization, Progress and Achievement by Charles J. Fulton (1914)',
+    group: 'government',
+  },
   'fairfield-history-series': {
     displayName: 'Fairfield History Series — Documentary Transcripts',
     emoji: '🎬',
@@ -442,6 +450,7 @@ const URL_DOMAIN_MAP = [
   ['fairfield.k12.ia.us','fcsd-board-minutes'],
   ['fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
   ['www.fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
+  ['archive.org','jefferson-county-history'],
   ['www.youtube.com/@fair_field_productions','fairfield-history-series'],
 ];
 function resolveCatalogKey(source) {
