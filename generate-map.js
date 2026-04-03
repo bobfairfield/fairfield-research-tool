@@ -271,6 +271,14 @@ const SOURCE_CATALOG = {
     description: 'History of Jefferson County, Iowa — A Record of Settlement, Organization, Progress and Achievement by Charles J. Fulton (1914)',
     group: 'government',
   },
+  'traction-thursdays': {
+    displayName: 'Traction Thursdays — Fairfield CoLab',
+    emoji: '🚀',
+    color: '#b06a20',
+    url: 'www.fairfieldmediacenter.com/copy-of-carnegie-museum-1',
+    description: 'Weekly entrepreneur presentations at the Fairfield CoLab — peer support, business ideas, and local economic development',
+    group: 'economic',
+  },
   'fairfield-history-series': {
     displayName: 'Fairfield History Series — Documentary Transcripts',
     emoji: '🎬',
@@ -451,6 +459,7 @@ const URL_DOMAIN_MAP = [
   ['fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
   ['www.fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
   ['archive.org','jefferson-county-history'],
+  ['www.fairfieldmediacenter.com/copy-of-carnegie-museum-1','traction-thursdays'],
   ['www.youtube.com/@fair_field_productions','fairfield-history-series'],
 ];
 function resolveCatalogKey(source) {
