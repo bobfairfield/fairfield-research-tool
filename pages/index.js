@@ -25,6 +25,7 @@ const KB = [
         { text:'City Council', url:'https://cityoffairfieldiowa.com/114/City-Council' },
         { text:'City Departments', url:'https://cityoffairfieldiowa.com/8/Departments' },
         { text:'Planning & Zoning', url:'https://cityoffairfieldiowa.com/88/Planning-Zoning' },
+        { text:'Walton Lake Golf Cart Bridge Documents', url:'https://www.fairfield.ia.us/walton-lake-bridge' },
       ]},
       { title:'Jefferson County', links:[
         { text:'Jefferson County Government', url:'https://jeffersoncounty.iowa.gov' },
@@ -48,6 +49,7 @@ const KB = [
     sections:[
       { title:'Development Organizations', links:[
         { text:'Grow Fairfield', url:'https://growfairfield.com' },
+        { text:'Traction Thursdays — Fairfield CoLab', url:'https://www.youtube.com/playlist?list=PLTractionThursdays' },
         { text:'Fairfield Area Chamber of Commerce', url:'https://www.fairfieldiowa.com' },
         { text:'Mainstreet Fairfield', url:'https://www.fairfieldiowa.com/page/Main-Street/' },
         { text:'Greater Jefferson County Foundation', url:'https://www.greaterjeffersoncountyfoundation.org' },
@@ -75,6 +77,7 @@ const KB = [
         { text:'Maharishi International University', url:'https://www.miu.edu' },
         { text:'Maharishi School', url:'https://www.maharishischool.org' },
         { text:'Fairfield Education Foundation', url:'https://fairfieldeducationfoundation.com' },
+        { text:'FCSD Board of Education Minutes', url:'https://www.fairfield.k12.ia.us/board-of-education/board-meeting-minutes' },
         { text:'ISU Extension — Jefferson County', url:'https://www.extension.iastate.edu/jefferson' },
       ]},
     ],
@@ -86,6 +89,8 @@ const KB = [
     sections:[
       { title:'History', links:[
         { text:'Jefferson County Heritage Foundation', url:'https://jeffersoncountyheritage.org' },
+        { text:'History of Jefferson County, Iowa (1914)', url:'https://archive.org/details/historyofjeffers01fult' },
+        { text:'Fairfield History Series — Documentary Films', url:'https://www.youtube.com/@fair_field_productions' },
         { text:'Carnegie Museum', url:'https://cityoffairfieldiowa.com/101/Carnegie-Museum' },
         { text:'Maasdam Barns', url:'https://jeffersoncounty.iowa.gov/barns/' },
       ]},
@@ -335,6 +340,9 @@ export default function Home() {
   const [showSelfEmailForm, setShowSelfEmailForm] = useState(false);
   const [selfEmailing, setSelfEmailing] = useState(false);
   const [selfEmailStatus, setSelfEmailStatus] = useState('');
+  const [constituentName, setConstituentName] = useState('');
+  const [constituentEmail, setConstituentEmail] = useState('');
+  const [constituentPhone, setConstituentPhone] = useState('');
   const [showReportModal, setShowReportModal] = useState(false);
   const fileInputRef = useRef(null);
 
@@ -392,7 +400,7 @@ export default function Home() {
       setResult(data);
       if (!data.error) {
         setHistory(prev => [...prev, { role:'user', content:q }, { role:'assistant', content:data.analysis }]);
-        setSessions(prev => [{ question:q, analysis:data.analysis, date: new Date().toLocaleString(), mode: appMode }, ...prev]);
+        setSessions(prev => [{ question:q, analysis:data.analysis, sources: data.sources || [], date: new Date().toLocaleString(), mode: appMode }, ...prev]);
       }
     } catch { setResult({ error:'Failed to get response. Please try again.' }); }
     finally { setLoading(false); }
@@ -407,7 +415,7 @@ export default function Home() {
       setResult(data);
       if (!data.error) {
         setHistory(prev => [...prev, { role:'user', content:question }, { role:'assistant', content:data.analysis }]);
-        setSessions(prev => [{ question, analysis:data.analysis, date: new Date().toLocaleString(), mode: appMode }, ...prev]);
+        setSessions(prev => [{ question, analysis:data.analysis, sources: data.sources || [], date: new Date().toLocaleString(), mode: appMode }, ...prev]);
         setAttachedFiles([]);
       }
     } catch { setResult({ error:'Failed to get response. Please try again.' }); }
@@ -432,7 +440,7 @@ export default function Home() {
         summaryText = sd.summary || '';
         if (summaryText) setCouncilSummary(summaryText);
       }
-      const res = await fetch('/api/email-report', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode, comment: constituentComment, summary: summaryText }) });
+      const res = await fetch('/api/email-report', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify({ question, analysis: result.analysis, mode: result.mode, comment: constituentComment, summary: summaryText, constituentName: constituentName.trim(), constituentEmail: constituentEmail.trim(), constituentPhone: constituentPhone.trim() }) });
       const data = await res.json();
       setEmailStatus(data.success ? '✅ Sent!' : '❌ Failed');
     } catch { setEmailStatus('❌ Error'); }
@@ -460,6 +468,14 @@ export default function Home() {
       setCouncilSummary(data.summary || '');
     } catch { setCouncilSummary('Error generating summary.'); }
     setSummarizing(false);
+  };
+
+  const restoreSession = (s) => {
+    setAppMode(s.mode);
+    setQuestion(s.question);
+    setResult({ analysis: s.analysis, sources: s.sources || [], error: null });
+    setShowHistory(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleExportWord = async () => {
@@ -508,7 +524,7 @@ export default function Home() {
     prs.writeFile({ fileName: 'Fairfield_Civic_Analysis.pptx' });
   };
 
-  const resetMode = () => { setAppMode(null); setQuestion(''); setResult(null); setHistory([]); setAttachedFiles([]); setFileError(''); setCouncilSummary(''); setConstituentComment(''); };
+  const resetMode = () => { setAppMode(null); setQuestion(''); setResult(null); setHistory([]); setAttachedFiles([]); setFileError(''); setCouncilSummary(''); setConstituentComment(''); setConstituentName(''); setConstituentEmail(''); setConstituentPhone(''); };
 
   const Modal = ({ onClose, children }) => (
     <div style={{ position:'fixed', top:0, left:0, right:0, bottom:0, backgroundColor:'rgba(0,0,0,0.5)', zIndex:1000, overflowY:'auto', padding:'40px 16px' }}>
@@ -605,10 +621,13 @@ export default function Home() {
           {showHistory && sessions.length > 0 && (
             <div style={{ backgroundColor:'white', border:'1px solid #e2e8f0', borderRadius:12, padding:20, marginTop:10 }}>
               {sessions.map((s, i) => (
-                <div key={i} style={{ borderBottom: i < sessions.length-1 ? '1px solid #f0f0f0' : 'none', paddingBottom:12, marginBottom:12 }}>
+                <div key={i} onClick={() => restoreSession(s)} style={{ borderBottom: i < sessions.length-1 ? '1px solid #f0f0f0' : 'none', paddingBottom:12, marginBottom:12, cursor:'pointer', borderRadius:6, padding:'8px', margin:'-4px', transition:'background 0.15s' }}
+                  onMouseEnter={e => e.currentTarget.style.backgroundColor='#f8faff'}
+                  onMouseLeave={e => e.currentTarget.style.backgroundColor='transparent'}>
                   <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:4 }}>
                     <span style={{ fontSize:11, backgroundColor: s.mode === 'search' ? '#f0fdfa' : '#eef4ff', color: s.mode === 'search' ? '#0f766e' : '#3b4fc4', border:'1px solid', borderColor: s.mode === 'search' ? '#99f6e4' : '#c7d9fa', borderRadius:4, padding:'1px 6px' }}>{s.mode === 'search' ? '🔎 Search' : '🧠 Research'}</span>
                     <span style={{ fontSize:11, color:'#888' }}>{s.date}</span>
+                    <span style={{ fontSize:10, color:'#aaa', marginLeft:'auto' }}>click to restore →</span>
                   </div>
                   <p style={{ fontWeight:600, color:'#1a1a2e', fontSize:13, margin:'0 0 4px 0' }}>{s.question}</p>
                   <p style={{ fontSize:12, color:'#555', lineHeight:1.5, margin:0 }}>{s.analysis.slice(0,150)}{s.analysis.length > 150 ? '...' : ''}</p>
@@ -869,10 +888,13 @@ export default function Home() {
             <p style={{ fontWeight:600, color:'#1a1a2e', fontSize:12, textTransform:'uppercase', letterSpacing:1, margin:'0 0 12px 0' }}>Session History</p>
             {sessions.length === 0 && <p style={{ color:'#888', fontSize:13, textAlign:'center' }}>No history yet.</p>}
             {sessions.map((s, i) => (
-              <div key={i} style={{ borderBottom: i < sessions.length-1 ? '1px solid #f0f0f0' : 'none', paddingBottom:12, marginBottom:12 }}>
-                <div style={{ display:'flex', gap:8, marginBottom:4 }}>
+              <div key={i} onClick={() => restoreSession(s)} style={{ borderBottom: i < sessions.length-1 ? '1px solid #f0f0f0' : 'none', paddingBottom:12, marginBottom:12, cursor:'pointer', borderRadius:6, padding:'8px', margin:'-4px', transition:'background 0.15s' }}
+                onMouseEnter={e => e.currentTarget.style.backgroundColor='#f8faff'}
+                onMouseLeave={e => e.currentTarget.style.backgroundColor='transparent'}>
+                <div style={{ display:'flex', gap:8, marginBottom:4, alignItems:'center' }}>
                   <span style={{ fontSize:11, backgroundColor: s.mode === 'search' ? '#f0fdfa' : '#eef4ff', color: s.mode === 'search' ? '#0f766e' : '#3b4fc4', borderRadius:4, padding:'1px 6px', border:'1px solid', borderColor: s.mode === 'search' ? '#99f6e4' : '#c7d9fa' }}>{s.mode === 'search' ? '🔎' : '🧠'}</span>
                   <span style={{ fontSize:11, color:'#888' }}>{s.date}</span>
+                  <span style={{ fontSize:10, color:'#aaa', marginLeft:'auto' }}>click to restore →</span>
                 </div>
                 <p style={{ fontWeight:600, color:'#1a1a2e', fontSize:13, margin:'0 0 4px 0' }}>{s.question}</p>
                 <p style={{ fontSize:12, color:'#555', lineHeight:1.5, margin:0 }}>{s.analysis.slice(0,180)}{s.analysis.length > 180 ? '...' : ''}</p>
