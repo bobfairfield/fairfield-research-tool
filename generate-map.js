@@ -368,6 +368,7 @@ const GROUP_LABELS = {
   economic:  'Economic Development & Business',
   parks:     'Parks, Trails & Conservation',
   community: 'Community Organizations',
+  government: 'History, Documents & Special Projects',
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -427,7 +428,17 @@ const URL_DOMAIN_MAP = [
   ['jeffersoncountytrails.org','jc-trails'],
   ['extension.iastate.edu','isu-extension'],
   ['www.tm.org','tm-southeast-iowa'],
-  ['www.youtube.com','city-council-videos'],
+  ['youtube.com/@fair_field_productions','fairfield-history-series'],
+  ['watch?v=HsOQIzMwF5c','fairfield-history-series'],
+  ['watch?v=EZjCGlJ6kY8','fairfield-history-series'],
+  ['watch?v=7OPfNhx4bOk','fairfield-history-series'],
+  ['watch?v=5L3TBYbPunM','fairfield-history-series'],
+  ['watch?v=f2l-WpTgHyE','fairfield-history-series'],
+  ['watch?v=lWW6pNBe1BY','fairfield-history-series'],
+  ['watch?v=GVDXFre7hWU','fairfield-history-series'],
+  ['watch?v=V8PWx4fz1a4','fairfield-history-series'],
+  ['watch?v=zR9ME41lUKM','fairfield-history-series'],
+  ['watch?v=mDgaUVpvVqA','fairfield-history-series'],['www.youtube.com','city-council-videos'],
   ['youtube.com','city-council-videos'],
   ['www.area15rpc.com','area15rpc'],
   ['area15rpc.com','area15rpc'],
@@ -460,7 +471,6 @@ const URL_DOMAIN_MAP = [
   ['www.fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
   ['archive.org','jefferson-county-history'],
   ['www.fairfieldmediacenter.com/copy-of-carnegie-museum-1','traction-thursdays'],
-  ['www.youtube.com/@fair_field_productions','fairfield-history-series'],
 ];
 function resolveCatalogKey(source) {
   if (!source) return null;
@@ -585,7 +595,7 @@ function renderUnmapped(unmapped) {
 function buildHTML(totalVectors, rawCounts, generatedAt) {
   const { groups, unmapped } = buildDisplayData(rawCounts);
   const sourceCount = Object.keys(rawCounts).length;
-  const groupOrder = ['city', 'county', 'k12', 'higher_ed', 'health', 'economic', 'parks', 'community'];
+  const groupOrder = ['city', 'county', 'government', 'k12', 'higher_ed', 'health', 'economic', 'parks', 'community'];
 
   const sectionsHtml = groupOrder
     .filter(g => groups[g] && groups[g].length > 0)
