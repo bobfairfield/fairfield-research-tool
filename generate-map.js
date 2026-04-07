@@ -315,6 +315,14 @@ const SOURCE_CATALOG = {
 
 // Merged group display config (for sources with mergeInto)
 const MERGED_CONFIG = {
+  'fairfield-permits': {
+    displayName: 'Fairfield Building Permits & Zoning',
+    emoji: '🏗️',
+    color: '#1a4fa0',
+    url: 'cityoffairfieldiowa.com/75/Building-Zoning',
+    description: 'How to apply for building, zoning, and demolition permits in Fairfield',
+    group: 'government',
+  },
   'city-fairfield-main': {
     displayName: 'City of Fairfield — Full Document Collection',
     emoji: '🏛️',
@@ -416,6 +424,7 @@ async function fetchInventory() {
 // ─────────────────────────────────────────────────────────────────────────────
 
 const URL_DOMAIN_MAP = [
+  ['cityoffairfieldiowa.com/75/Building-Zoning','fairfield-permits'],
   ['visitfairfieldiowa.com','visit-fairfield'],
   ['fairfieldculturaldistrict.org','fairfield-cultural-alliance'],
   ['iowasource.com','iowa-source'],
