@@ -1,0 +1,78 @@
+name: Weekly Knowledge Base Update
+
+on:
+  # Runs every Sunday at 6:00 AM UTC (1:00 AM Central)
+  schedule:
+    - cron: '0 6 * * 0'
+  # Also allows manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      # ── 1. Check out the repo ────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Set up Node.js ────────────────────────────────────────────────────
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # ── 3. Install dependencies ──────────────────────────────────────────────
+      - name: Install dependencies
+        run: npm ci
+
+      # ── 4. Write .env.local from GitHub Secrets ──────────────────────────────
+      #    These secrets must be added at:
+      #    GitHub repo → Settings → Secrets and variables → Actions → New secret
+      - name: Create .env.local
+        run: |
+          cat > .env.local << 'EOF'
+          OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+          PINECONE_API_KEY=${{ secrets.PINECONE_API_KEY }}
+          ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}
+          REPORT_EMAIL=${{ secrets.REPORT_EMAIL }}
+          EOF
+
+      # ── 5. Restore scrape manifest cache ────────────────────────────────────
+      #    The manifest tracks which pages have changed since the last scrape.
+      #    Caching it between runs means unchanged pages are skipped quickly,
+      #    saving time and API calls.
+      - name: Restore scrape manifest cache
+        uses: actions/cache@v4
+        with:
+          path: scrape-manifest.json
+          key: scrape-manifest-${{ github.run_id }}
+          restore-keys: |
+            scrape-manifest-
+
+      # ── 6. Run all org scrapers ──────────────────────────────────────────────
+      - name: Run all org scrapers
+        run: node scrapers/run-all-orgs.js
+        env:
+          NODE_ENV: production
+
+      # ── 7. Regenerate knowledge base map ────────────────────────────────────
+      - name: Regenerate knowledge base map
+        run: node generate-map.js
+
+      # ── 8. Commit and push updated map to GitHub → triggers Vercel deploy ───
+      - name: Configure git
+        run: |
+          git config user.name "Civic Hub Bot"
+          git config user.email "actions@github.com"
+
+      - name: Commit and push map update
+        run: |
+          git add fairfield_knowledge_base.html inventory.json || true
+          git diff --staged --quiet || git commit -m "Weekly automated scrape — $(date -u '+%Y-%m-%d')"
+          git push
