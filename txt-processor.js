@@ -70,8 +70,17 @@ async function main() {
     await index.upsert(vectors.slice(i, i + 100));
   }
 
-  console.log(`  ✓ Uploaded ${vectors.length} vectors`);
+ console.log(`  ✓ Uploaded ${vectors.length} vectors`);
   const { execSync } = require('child_process');
+
+  // Stage the source file so deploy.js picks it up in its commit step
+  try {
+    execSync(`git add ${JSON.stringify(filePath)}`, { cwd: __dirname });
+    console.log(`  ✓ Staged ${filePath} for commit`);
+  } catch (e) {
+    console.warn(`  ⚠ Could not git-add ${filePath}: ${e.message}`);
+  }
+
   execSync('node deploy.js "Update knowledge base — text upload"', { stdio: 'inherit', cwd: require('path').join(__dirname) });
 }
 
