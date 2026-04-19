@@ -46,9 +46,21 @@ async function processFile(filePath, metadata = {}) {
 const filePath = process.argv[2];
 const metadata = JSON.parse(process.argv[3] || "{}");
 if (!filePath) { console.log("Usage: node document-processor.js <filepath> ..."); process.exit(1); }
-processFile(filePath, metadata).catch(console.error);
 
-// ── Auto-deploy to Vercel ──────────────────────────────────────────────────
-const { deploy } = require('./deploy');
-deploy('Update knowledge base — PDF upload');
+(async () => {
+  await processFile(filePath, metadata);
 
+  // Stage the source file so deploy.js picks it up in its commit step
+  const { execSync } = require('child_process');
+  try {
+    execSync(`git add ${JSON.stringify(filePath)}`, { cwd: __dirname });
+    console.log(`  ✓ Staged ${filePath} for commit`);
+  } catch (e) {
+    console.warn(`  ⚠ Could not git-add ${filePath}: ${e.message}`);
+  }
+
+  execSync('node deploy.js "Update knowledge base — PDF upload"', { stdio: 'inherit', cwd: __dirname });
+})().catch(err => {
+  console.error('Error:', err.message);
+  process.exit(1);
+});
