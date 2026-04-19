@@ -77,20 +77,14 @@ function collectPDFs(rootDir) {
     process.exit(1);
   }
 
-  const topLevel = fs.readdirSync(rootDir, { withFileTypes: true });
-
-  for (const entry of topLevel) {
-    if (!entry.isDirectory()) continue;
-
-    const folderName = entry.name;
-
+  // Collect year folders from a given parent directory
+  function scanYearFolder(folderName, folderPath) {
     if (shouldSkipYearFolder(folderName)) {
       console.log(`  [SKIP year] ${folderName}`);
-      continue;
+      return;
     }
 
-    const folderPath = path.join(rootDir, folderName);
-    const files      = fs.readdirSync(folderPath);
+    const files = fs.readdirSync(folderPath);
 
     for (const file of files) {
       if (!isMinutesPDF(file)) {
@@ -101,10 +95,32 @@ function collectPDFs(rootDir) {
       }
 
       results.push({
-        filePath : path.join(folderPath, file),
+        filePath  : path.join(folderPath, file),
         yearFolder: folderName,
         filename  : file,
       });
+    }
+  }
+
+  const topLevel = fs.readdirSync(rootDir, { withFileTypes: true });
+
+  for (const entry of topLevel) {
+    if (!entry.isDirectory()) continue;
+
+    const folderName = entry.name;
+    const folderPath = path.join(rootDir, folderName);
+
+    // Check if this looks like a year folder (contains a 4-digit year)
+    if (/d{4}/.test(folderName)) {
+      scanYearFolder(folderName, folderPath);
+    } else {
+      // It's a subdirectory (e.g. "Archived Board Meeting Minutes") — recurse one level
+      console.log(`  [Scanning subdir] ${folderName}`);
+      const subEntries = fs.readdirSync(folderPath, { withFileTypes: true });
+      for (const sub of subEntries) {
+        if (!sub.isDirectory()) continue;
+        scanYearFolder(sub.name, path.join(folderPath, sub.name));
+      }
     }
   }
 
@@ -237,12 +253,17 @@ async function main() {
   }
 }
 
-main().catch(err => {
-  console.error('Fatal error:', err);
-  process.exit(1);
-});
-
-// ── Auto-deploy to Vercel ──────────────────────────────────────────────────
-const { deploy } = require('./deploy');
-deploy('Update knowledge base — FCSD board minutes upload');
+main()
+  .then(() => {
+    const { execSync } = require('child_process');
+    console.log('\nRunning deploy...');
+    execSync('node deploy.js "Update knowledge base — FCSD board minutes upload"', {
+      stdio: 'inherit',
+      cwd: path.join(process.env.HOME, 'fairfield-research-tool'),
+    });
+  })
+  .catch(err => {
+    console.error('Fatal error:', err);
+    process.exit(1);
+  });
 

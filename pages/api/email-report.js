@@ -3,7 +3,7 @@ import { Resend } from 'resend';
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
   try {
-    const { question, analysis, mode, comment, summary, userEmail } = req.body;
+    const { question, analysis, mode, comment, summary, userEmail, constituentName, constituentEmail, constituentPhone } = req.body;
     if (!analysis) return res.status(400).json({ error: 'No analysis to send' });
     const resend = new Resend(process.env.RESEND_API_KEY);
     const to = userEmail || process.env.REPORT_EMAIL;
@@ -36,6 +36,7 @@ export default async function handler(req, res) {
           <p style="margin:8px 0 0 0;font-size:16px;color:#1a1a2e;font-weight:600">${question}</p>
         </div>
         ${commentSection}
+        ${contactSection}
         ${summarySection}
         <div style="background:white;padding:28px 32px;border:1px solid #e2e8f0;border-top:none;border-radius:0 0 8px 8px">
           <p style="margin:0 0 16px 0;font-size:13px;color:#666;font-weight:600;text-transform:uppercase;letter-spacing:1px">Full Analysis</p>

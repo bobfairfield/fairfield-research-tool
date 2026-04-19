@@ -8,3 +8,20 @@ node_modules/
 scrape-manifest.json
 .env.local.save
 .env.localopen
+
+# --- Cleanup additions (Apr 18 2026) ---
+# Vercel local artifacts
+.vercel/
+
+# Runtime logs and progress state
+upload-log.txt
+upload-progress.json
+
+# Backup files
+*.backup-*
+
+# RAG source data directories (raw PDFs/transcripts, not code)
+history-transcripts/
+jefferson-county-history/
+school-board-docs/
+walton-lake-docs/
