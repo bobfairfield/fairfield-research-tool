@@ -43,12 +43,5 @@ async function processFile(filePath, metadata = {}) {
   console.log(`\n  Done: ${fileName}`);
 }
 
-const filePath = process.argv[2];
-const metadata = JSON.parse(process.argv[3] || "{}");
-if (!filePath) { console.log("Usage: node document-processor.js <filepath> ..."); process.exit(1); }
-processFile(filePath, metadata).catch(console.error);
-
-// ── Auto-deploy to Vercel ──────────────────────────────────────────────────
-const { deploy } = require('./deploy');
-deploy('Update knowledge base — PDF upload');
+open -a TextEdit ~/fairfield-research-tool/document-processor.js
 
