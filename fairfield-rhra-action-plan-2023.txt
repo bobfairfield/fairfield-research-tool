@@ -1,0 +1,562 @@
+FAIRFIELD RURAL HOUSING READINESS ACTION PLAN — 2023
+
+Prepared by: Iowa State University Extension and Outreach, Community and Economic Development (CED)
+In partnership with: City of Fairfield; Iowa Economic Development Authority (IEDA); Grow Fairfield Economic Development Association (FEDA)
+Document date: May 30, 2023 (per PDF metadata)
+Prepared through: Empower Rural Iowa matching grant to participate in the Rural Housing Readiness Assessment (RHRA) program
+
+Contact for ISU Extension and Outreach CED:
+  2321 North Loop Drive, Suite 121
+  Ames, IA 50010-8298
+  Phone: 515-294-8397
+  Web: www.extension.iastate.edu/communities
+
+[MAP OMITTED on cover: Iowa state map showing all 99 counties outlined in red, with Jefferson County (location of Fairfield) highlighted by a red square and white star in southeastern Iowa.]
+
+---
+
+ABOUT THE RURAL HOUSING READINESS ASSESSMENT (RHRA)
+
+The Rural Housing Readiness Assessment (RHRA) is a tool that helps communities self-assess their housing needs and guides them in the decision-making process when addressing those needs. It guides communities in considering options that ensure existing and potential residents are able to find safe, secure, and quality housing that meets their needs and fits within their budgets. The RHRA helps communities know what kinds of housing-related information they should gather and review to make informed decisions. The assessment checklists aid in the creation of local housing policy that is appropriate for the needs and desires of a community.
+
+ISU Extension and Outreach CED maintains a series of RHRA fact sheets available for download from the RHRA webpage (https://www.extension.iastate.edu/communities/rural-housing-readiness-assessment), including:
+- Rural Housing Readiness Assessment Process
+- RHRA: Assembling a Housing Steering Committee
+- RHRA: Open Meetings and Open Records Laws
+- RHRA: Updating City Ordinances
+- RHRA: Previous Housing Recommendations Worksheet
+- RHRA: Low-Income Housing Tax Credits
+- RHRA: Manufactured, Modular, and Mobile Homes
+- RHRA: Rental Housing Inspection Programs
+- RHRA: Restricted-Residence Districts
+- RHRA: Allowing Flexibility in Dimensional Requirements
+- RHRA: Tax Increment Financing
+- RHRA: Property Acquisition through Tax Sales
+- RHRA: Iowa Case Studies in Rural Housing Readiness — Infill Housing Development
+
+---
+
+TABLE OF CONTENTS (of the full original document)
+
+Introduction (p. 2)
+Steering Committee (p. 2)
+RHRA Workbook Self-Assessment (p. 2)
+Workshop 1: Community Context, Housing Data, and Policy Decision Points (p. 3)
+Workshop 2: A Vision for the Future of Housing in Fairfield (p. 3)
+  - Community Survey (p. 3)
+  - Victory Circle (p. 5)
+  - SWOD Analysis (p. 6)
+  - Key Actions through Brainstorming (p. 7)
+Working Groups (p. 8)
+  - Working Group 1: Education of the Public (p. 9)
+  - Working Group 2: Financing (p. 10)
+  - Working Group 3: Quality (p. 15)
+  - Working Group 4: Recruiting Developers/New Housing (p. 16)
+Final Comments (p. 17)
+Appendix A: RHRA Workbook Results (p. 18) [NOT INCLUDED IN THIS PDF UPLOAD]
+Appendix B: Educational Workshops 1 and 2 Slides (p. 34) [NOT INCLUDED IN THIS PDF UPLOAD]
+Appendix C: Community Survey Results (p. 58) [NOT INCLUDED IN THIS PDF UPLOAD]
+Appendix D: Work Group Planning Model (p. 157) [NOT INCLUDED IN THIS PDF UPLOAD]
+Appendix E: RHRA Fact Sheets (p. 158) [NOT INCLUDED IN THIS PDF UPLOAD]
+
+---
+
+INTRODUCTION
+
+Grow Fairfield Economic Development Association requested assistance with visioning and action planning around issues of improving housing access, affordability, and quality in Fairfield. Through a partnership with the Iowa Economic Development Authority (IEDA), Fairfield received a matching grant from Empower Rural Iowa to participate in the Rural Housing Readiness Assessment program provided by Iowa State University Extension and Outreach Community and Economic Development (CED). ISU Extension and Outreach CED agreed to organize and facilitate a process that involved the following steps:
+
+1. Conduct an educational workshop with members of the housing steering committee
+2. Conduct a visioning session
+3. Conduct an action planning session
+4. Prepare a final report
+
+---
+
+STEERING COMMITTEE
+
+Fairfield formed a housing steering committee that included city staff, elected officials, business and industry leaders, and staff from regional planning and economic development organizations. Committee members:
+
+- Paul Gandy — City Council, Chair of Housing Task Force
+- Josh Laraby — Grow Fairfield Economic Development Association, Vice Chair of Housing Task Force
+- Connie Boyer — Mayor
+- Aaron Kooiker — City Manager
+- Aaron Kness — Iowa State Bank
+- Bryan Hunger — Jefferson County Health Center
+- Chad Christensen — Agri Industrial Plastics, Fairfield Manufacturing Association
+- Don Hoelting — Developer, Landlord
+- Karl Metcalf — Iowa State Bank
+- Kristin Miller — Real Estate Broker, Realtor
+- Nick Graham — Cambridge Investment Research, Inc.
+- Tim Bower — School Board Member
+
+CED staff were grateful to get input from people "on the ground" in the community and integrated feedback from the first workshop into the subsequent workshop, the survey, and this report.
+
+---
+
+RHRA WORKBOOK SELF-ASSESSMENT
+
+The first step in the Rural Housing Readiness Assessment (RHRA) process is completing the RHRA workbook. The Fairfield housing committee members conducted the self-assessment, which involved gathering planning documents directly and indirectly related to housing, identifying relevant sections of city code, and compiling an inventory of existing housing programs in Fairfield (Appendix A). While reviewing the completed RHRA self-assessment workbook in advance of the first workshop, several items stood out to the CED team:
+
+- Fairfield has a comprehensive plan, dated November 2020 and completed by the consulting firm Confluence. The plan, in part, outlines why the provision of adequate and attainable housing is a vital foundation for supporting sustainable community and economic development. Housing-related goals in this comprehensive plan include:
+  - Preserve existing older, single-family homes in low-density residential neighborhoods
+  - Protect the rights of renters and landlords in Fairfield
+  - Increase and support housing development
+
+- The city's code of ordinances around zoning, nuisances, and rental inspections, and the application and degree to which city officials are following those ordinances to the letter of the law is not clear; there is a concerted effort with hiring an enforcement officer to oversee and implement rental inspections according to code requirements.
+
+- Vacant lots and buildings in Fairfield are an opportunity for growth and an obligation on the part of the city government to manage and maintain them until they are occupied again. Incentivizing their re-use, adaptation, and/or demolition could prove to be a catalytic investment in the community if done with the comprehensive plan in mind.
+
+---
+
+WORKSHOP 1: COMMUNITY CONTEXT, HOUSING DATA, AND POLICY DECISION POINTS
+
+Steering committee members participated in an educational workshop that focused on demographic, economic, and housing data for Fairfield and the underlying decision points that often make up local policy for improving access, affordability, and quality of housing in a community (Appendix B). The workshop provided a space for the steering committee to reflect on meaningful housing data and explore how the current state of housing in Fairfield has been shaped by action and inaction at the local level, as well as broader regional and national trends. This workshop also served as an introduction for CED specialists to some of the less obvious strengths and challenges of Fairfield's housing sector because there is only so much that publicly available data can reveal about a community.
+
+---
+
+WORKSHOP 2: A VISION FOR THE FUTURE OF HOUSING IN FAIRFIELD
+
+COMMUNITY SURVEY
+
+CED specialists designed a community survey to capture public input on housing in Fairfield, as well as the demographic profile of survey respondents. The survey became available for distribution following the conclusion of the first workshop. Steering committee members oversaw making the survey available to community members, focusing on distribution through email lists and various media outlets. A total of 1,205 individual responses were collected, with 1,041 respondents self-identifying as Fairfield residents, which corresponds to approximately 12.5% of the city's population. In addition to collecting demographic and economic information, the survey asked respondents what they saw holding Fairfield back from making progress on improving housing and what possible improvements might look like. An unprecedented number of comments from survey respondents indicates that people are heavily engaged and invested in their community. These responses were discussed and summarized by the CED team and incorporated into the visioning and action planning workshops alongside input from the steering committee. The complete results of the survey can be found in Appendix C.
+
+Key findings from the survey results (numbered summary):
+
+1. The large number of responses shows that the community is engaged, at least in terms of housing issues.
+2. A large percentage of responses were from individuals with limited income and many questions were focused on affordability, including quality, quantity, and accessibility of housing in Fairfield.
+3. A large percentage of the respondents to the survey were female without children in the household.
+4. There is interest in homeowner and landlord codes.
+5. There are concerns about senior housing in the future.
+6. New construction of homes and the price and affordability of those homes are issues.
+7. Pets are roadblocks to finding rental housing in Fairfield.
+8. The deterioration of the housing stock in Fairfield across the board from rental to owner occupied.
+9. There are concerns with landlord and property management companies related to rental inspections and standards.
+10. Property taxes are too high.
+11. There is interest in tiny homes.
+12. Accessory dwelling units (ADUs) and efficiency apartments are needed.
+13. Opinions on mobile home parks are mixed.
+14. New subdivisions are needed in the community.
+15. There are not enough high paying jobs in the community.
+16. The city should renovate empty buildings for low-income individuals.
+17. Senior Vista Housing is desired.
+18. Respondents praised duplexes/triplexes/townhome styles offered in North Campus Village.
+19. Many references were made to crimes and the schools.
+20. Four hundred respondents indicated interest in buying a new single-family home and 360 were interested in buying an existing single-family home.
+21. Respondents were equally divided as to whether there should be more or less innovative government involvement in building and financing new homes.
+22. There is concern about the condition of vacant homes.
+23. Home improvement programs equals more $ investment.
+24. Education programs on what assistance is available for improving homes is needed.
+25. Homelessness is an issue.
+26. Public/private partnerships are needed to address housing needs.
+27. Nuisance ordinances need to be stricter, without loopholes.
+28. What does affordable housing look like? $100,000 to $170,000?
+29. There is a misconception that fixing up a home results in higher taxes, and people need to be educated about what the reality is.
+30. Majority of respondents are paying $900–$1,200 a month for housing.
+31. Majority of respondents self-reported as having good to excellent housing in Fairfield.
+32. Incentives and tax abatements for housing are needed.
+33. Eighty percent of respondents have lived in Fairfield at least 6 years, and 69% have lived there at least 10 years.
+34. It is difficult to find a home or rental property; some people want to live in the country; property taxes are too high; some respondents want to live in a different school district.
+
+---
+
+VICTORY CIRCLE
+
+To begin to identify a vision for the future of housing in Fairfield, CED specialists posed this question to the housing steering committee: "In three to five years, when we have achieved the goals we set out in this plan, what will housing be like in our community?"
+
+The group used a Victory Circle exercise to envision success. Group members began with a group brainstorming session to generate ideas and answers to this question, which included the following:
+
+- The city of Fairfield looks better.
+- There is pride in the community.
+- New construction of all types of housing is happening.
+- Dilapidated homes in Fairfield are being razed.
+- New workers are building homes.
+- The City of Fairfield is utilizing state programs for rural housing and public/private programming for home construction.
+- Businesses are growing and expanding within the community.
+- The community is experiencing population growth for critical mass.
+- High efficiency-energy construction of all buildings in Fairfield.
+- The workforce population is growing.
+- Student enrollment is up in Fairfield school district.
+- Fairfield is a destination of choice.
+- Fairfield as a destination to visit (synergistic, confluence).
+- There is measurable growth in quality rentals.
+- The community is attracting new businesses.
+- The city is adopting codes for smaller homes.
+
+[PHOTO OMITTED: hand-drawn circular "Victory Circle" brainstorm poster with "VICTORY" written at center, surrounded by handwritten ideas matching the bullet list above.]
+
+---
+
+SWOD ANALYSIS
+
+Participants in the session also considered the potential outcomes of success. The benefits of success reflect some of the positive outcomes that will result if the vision becomes reality. The dangers of success are focused on potential negative outcomes that may happen if Fairfield is able to bring this vision to reality without considering some of the second-order effects of the group's decisions.
+
+STRENGTHS:
+- Community engagement/task force
+- Caring community
+- Diversity
+- Amenities
+- Good people working in schools
+- Strong capital
+- Strong manufacturing sector
+- White collar through blue collar — diverse employment
+- Strong philanthropic community
+- Strong infrastructure (waste water)
+
+WEAKNESSES:
+- Old building infrastructure is bad
+- Issues and concerns related to schools
+- Deterioration of mobile home park(s)
+- Individualism
+- Downtown buildings need upgrading
+- Attracting/retaining young families
+- Community in maintenance mode, not pushing the envelope
+
+OUTCOMES OF SUCCESS:
+- Education on housing and community development
+- City to have revolving loan funds for housing improvements and dilapidated housing
+- Strengthen codes/enforcement
+- Attract talent/young families
+- Infill lots utilized
+- Senior housing development
+- Senior co-housing
+- Affordable housing meeting local needs
+- New workforce housing subdivision
+- Public/private opportunities for housing solutions
+
+DANGERS OF SUCCESS:
+- Increased infrastructure costs
+- Strains on existing services
+- Housing construction (home builders) capacity
+- Maintaining tradespeople
+
+---
+
+KEY ACTIONS THROUGH BRAINSTORMING
+
+Finally, the committee identified specific actions that must be taken to bring the above vision to reality. First, they identified actions in small groups. Then the committee categorized actions based on which should be overseen by the same people due to subject matter expertise of committee members and common themes among the action items. Four working groups were formed: Education of the Public; Financing; Quality; and Recruiting Developers/New Housing.
+
+The working-group members self-identified as responsible for ensuring that the successes listed for their respective groups are accomplished. These successes will serve as a starting point, but team members may add or modify action steps as they make progress and encounter new information. The committee agreed to presenting this plan to city council for consideration at the next council meeting following the receipt of this report. The members of each work group committed to meeting by email or in person monthly to discuss progress and coordinate action items. The coordinator is responsible for organizing these meetings with the members of each team. The full housing committee will meet monthly. At each meeting, there will be an update from the groups on the progress that has been made. As of the publication of this report, the next meeting has not yet been scheduled. Josh Laraby has committed to being the overall coordinator of this effort, communicating with the committee members, and scheduling full group meetings. This plan will be promoted via social media and many other means including through the City of Fairfield.
+
+[PHOTO OMITTED: wall-mounted brainstorming session on purple fabric showing sticky-note action items grouped under five category headers. Content of the sticky notes transcribed below by category:]
+
+QUALITY (sticky notes):
+- Clean up program
+- Wastewater code for all
+- Further educate & gain experience for code compliance officer
+- Upgrade & update city rental code
+- Update & upgrade city property maintenance code
+
+EDUCATION OF PUBLIC (sticky notes):
+- Citywide marketing campaign
+- Continuing public education on economic development
+- Evaluate/compare city taxes
+- Direct engagement with landlords
+- Education program loan/grant home improvement program
+- Promote successes in local education & local law enforcement
+
+FINANCING (sticky notes):
+- Enhanced loan/grant home improvement program
+- City incentives for new home construction
+- City Demo Revolving Fund
+- Create Attractive Home Ownership Financing Program
+- "New to FF Buyers" program
+- FF Revolving/Loan Fund
+- Create a revolving fund for home energy improvements
+- City incentives for rehabilitating current homes
+
+RECRUITING DEVELOPERS (sticky notes):
+- Attract developers
+- Developer [recruitment]
+- City facilitate conference of current & potential residential developers
+
+NEW HOUSING (sticky notes):
+- Identify locations for new development
+- Create specific plan for new subdivision
+- Assess ADU + small home demand
+- City investigate "ADUs" & small home sizes
+- Senior housing
+
+---
+
+WORKING GROUPS — OVERVIEW
+
+Working groups' action items will take numerous steps and research to complete. The starting points for each goal are provided in this report in the form of program descriptions, educational and informational resources, and, in some instances, the identification of example communities in Iowa that have implemented similar goals. It is hoped that each work group will use the work-group planning model (Appendix D) every quarter to further sequence the work that needs to be done.
+
+Table 1. Working group plans — consolidated summary:
+
+WORKING GROUP: EDUCATION OF THE PUBLIC
+  Success Year One: Deliver internal and external education about housing topics in Fairfield.
+  Partners: City of Fairfield; Local Realtors; FEDA/Grow Fairfield; ISU Extension and Outreach.
+  Launch Event: Hold meeting with relevant partners and conduct a GAP analysis of existing media.
+  Resources: Identify available data; Who are the gatekeepers and content developers?; Whose authority do we need to conduct data gathering?
+
+WORKING GROUP: FINANCING
+  Success Year One: Create plan including incentives for rehabilitation, new construction, and home-buyers' program.
+  Partners: FEDA/Grow Fairfield; City of Fairfield; Financial institutions; Corporations; Major employers; Contractors/developers.
+  Launch Event: Conduct a meeting of the minds with partners in a work session.
+  Resources: Decision makers; Administrators and plans; Capital — public and private.
+
+WORKING GROUP: QUALITY
+  Success Year One: Update rental, and property and maintenance code; Develop written education plan for Code Compliance Quality (CCQ).
+  Partners: City street department; Waste management; Connelly, Inc.; City Planning & Zoning Department; CCQ Officer; Sustainability coordinator.
+  Launch Event: Conduct property committee meeting.
+  Resources: Trucks; City engineer and City attorney (for codes); CCQ Officer; Budget funds.
+
+WORKING GROUP: RECRUITING DEVELOPERS/NEW HOUSING
+  Success Year One: Identify multiple sites and preferred developers to construct needed housing.
+  Partners: FEDA/Grow Fairfield; Utility partners; City of Fairfield.
+  Launch Event: Meet with partners, landowners, builders, and developers to prioritize housing needs.
+  Resources: Regional/state contacts; Location and agenda needed.
+
+Table 2. Working group time lines (consolidated):
+
+EDUCATION OF THE PUBLIC
+  May–July 2023: Meet with content developers and partners.
+  Aug–Oct 2023: Conduct GAP analysis on materials and media; Collect data.
+  Nov 2023–Jan 2024: Assess content development.
+  Feb–April 2024: Build support with IEDA, local agencies, and finance groups.
+  Longer term: Deliver plan.
+
+FINANCING
+  May–July 2023: Identify key decision makers; Call kickoff meeting to organize and communicate objective.
+  Aug–Oct 2023: Meet to outline plans to achieve three incentive goals and identify administrators and plans.
+  Nov 2023–Jan 2024: Secure commitment from capital partners.
+  Feb–April 2024: Administrators roll out plan to public and begin execution.
+  Longer term: Execute plan.
+
+QUALITY
+  May–July 2023: Hold property code meeting.
+  Aug–Oct 2023: Meet with partners.
+  Nov 2023–Jan 2024: Finalize CCQ education plan.
+  Feb–April 2024: Conduct actual cleanup.
+  Longer term: Repeat.
+
+RECRUITING DEVELOPERS/NEW HOUSING
+  May–July 2023: Plan event.
+  Aug–Oct 2023: Host event.
+  Nov 2023–Jan 2024: Match sites with builders and developers.
+  Feb–April 2024: Secure development agreement.
+  Longer term: Continue addressing housing and developers' needs.
+
+---
+
+WORKING GROUP 1: EDUCATION OF THE PUBLIC
+
+Coordinator: Chad Christensen
+Team Members: Connie Boyer, Nick Graham, Josh Laraby
+
+Success Year One: Deliver internal and external education about housing topics in Fairfield.
+Partners: City of Fairfield; Local Realtors; FEDA/Grow Fairfield; ISU Extension and Outreach.
+Launch Event: Hold meeting with relevant partners and conduct a GAP analysis of existing media.
+Resources: Identify available data; Who are the gatekeepers and content developers?; Whose authority do we need to conduct data gathering?
+
+Time line:
+  May–July 2023: Meet with content developers and partners.
+  Aug–Oct 2023: Conduct GAP analysis on materials and media; Collect data.
+  Nov 2023–Jan 2024: Assess content development.
+  Feb–April 2024: Build support with IEDA, local agencies, and finance groups.
+  Longer term: Deliver plan.
+
+HOME BUYER EDUCATION PROGRAM
+
+A home-buyer education program comes before the purchase of a home and focuses more on the financial sustainability of the purchase and its impact on the family budget. This type of program helps potential home buyers clean up any credit issues that may impact the quality of the loan for which they may qualify in the marketplace. ISU Extension and Outreach offers an online home-buyer education course called "A Place of Your Own" (https://www.extension.iastate.edu/humansciences/homebuyer). People can enroll in this six-session Moodle course at any time for $45. Those who complete the course receive a certificate that they can share with their mortgage lender or realtor.
+
+Home, Inc. offers a similar home-buyer education program that includes elements of homeownership finance, purchasing a home, and maintaining a home. The course costs $100 and is available online (https://www.ehomeamerica.org/homeincdsm).
+
+Some nonprofits — such as community action agencies, councils of government, or Habitat for Humanity organizations — may have their own internal home-buyer education courses required to receive assistance, or rules of the programs they are managing on behalf of the state or federal government, but these are generally NOT available to the public.
+
+PUBLIC ENGAGEMENT
+
+Local Housing Solutions, a one-stop housing policy platform to help cities develop, implement, and monitor local housing strategies, published an article titled "Engaging the local community in the development of a local housing strategy" that details several strategies communities can use to involve a wide cross-section of the population in addressing housing issues (https://localhousingsolutions.org/plan/engaging-the-community-in-the-development-of-a-local-housing-strategy/).
+
+---
+
+WORKING GROUP 2: FINANCING
+
+Coordinators: City Manager, Economic Development Director
+Team Members: Karl Metcalf
+
+Success Year One: Create plan including incentives for rehabilitation, new construction, and home-buyers' program.
+Partners: FEDA/Grow Fairfield; City of Fairfield; Financial institutions; Corporations; Major employers; Contractors/developers.
+Launch Event: Conduct a meeting of the minds with partners in a work session.
+Resources: Decision makers; Administrators and plans; Capital — public and private.
+
+Time line:
+  May–July 2023: Identify key decision makers; Call kickoff meeting to organize and communicate objective.
+  Aug–Oct 2023: Meet to outline plans to achieve three incentive goals and identify administrators and plans.
+  Nov 2023–Jan 2024: Secure commitment from capital partners.
+  Feb–April 2024: Administrators roll out plan to public and begin execution.
+  Longer term: Execute plan.
+
+BUILD NEW HOUSING
+
+When researching and compiling housing grants and resources for the community, it is important to become familiar with the financial resource programs available in the area, taking the time to visit the website links and read about the programs. Answers to the following questions will provide a thorough understanding of a program:
+
+1. Who is eligible to receive the funding? Is it for homeowners or developers?
+2. Who is eligible to apply for the funding? Is it an individual developer or the city on behalf of the community?
+3. What are the assistance amounts? How much does the organization typically fund for a project and what percentage of a project's costs might come from this program or resource?
+4. What is the process for applying for this resource? Is there an annual grant round or is funding available at any time you have a project ready to go?
+5. Who is the main contact person at this organization who could answer more questions? Personal contacts with a grant officer are one of the best time investments one can make. Even if a project isn't a direct match for the program the grant officer administers, they are often able to point you in the right direction. Additionally, if your project does meet their funding criteria, they may also point you to additional funding sources that others have used to bring more money into the project.
+6. What are the matching fund requirements?
+7. What other projects have been funded recently and can you get a copy of their application?
+
+STATE HOUSING TRUST FUND GRANT PROGRAM
+
+The Iowa Finance Authority's State Housing Trust Fund Project-Based Housing Program provides assistance for housing projects that are not eligible to receive funding under a local housing trust fund's housing assistance plan (https://www.iowafinance.com/state-housing-trust-fund/project-based-housing-program/). Applications are accepted starting July 1 of the current fiscal year and are accepted until available funds are exhausted.
+
+AHEAD REGIONAL HOUSING TRUST FUND
+
+The Area 15 Regional Planning Commission offers a regional housing trust fund (RHTF) that supports affordable housing for low-to-moderate income households in Davis, Jefferson, Keokuk, Mahaska, Van Buren, and Wapello Counties. The Affordable Housing Enterprises and Development (AHEAD) Regional Housing Trust Fund assists individuals, community organizations, nonprofit and for-profit developers in rehabilitation, repair, and new construction projects that serve households with incomes at or below 80% of the HUD median family income guideline, with at least 30% of project dollars used to benefit extremely low-income households (less than 30% median income). Projects that address repair and rehabilitation of the region's aging housing stock are given priority (https://www.area15rpc.com/rhtf).
+
+LOCALLY-CONSTITUTED INVESTOR GROUP / HOUSING COALITION
+
+A locally constituted housing development investor group can crowdsource capital and reinvest it into constructing housing and land redevelopment. Local investors create community buy-in, demonstrating pride and opportunity. They can also help circulate housing development dollars to stay local, benefiting the local economy. Sioux Center is a community in northwest Iowa that has successfully developed new housing with a similar public-private partnership. Sioux Center Land Development worked with the City of Sioux Center to develop 75 new-construction housing units. In 2012, the project earned an award for innovation from the Iowa Finance Authority. A description of the project, including house plans and pricing for the types of housing they could construct, is located on the HousingIowa Conference website (https://www.housingiowaconference.com/media/cms/2012_Sioux_Center_Land_Development_2169A76A1F69E.pdf).
+
+URBAN RENEWAL AREAS AND TAX INCREMENT FINANCING (TIF)
+
+Tax Increment Financing (TIF) is a tool that encourages housing development. TIF permits municipalities to issue bonds or borrow money to pay for infrastructure improvements in urban renewal areas using future tax revenues that result from the improvements. Among other items, TIF funds can be used for public improvements and the repair or rehabilitation, demolition, or removal of buildings. TIF funds can even be used to relocate displaced households due to urban renewal projects, including paying moving expenses and paying rent for displaced persons for up to five years. The RHRA fact sheet on tax increment financing provides more information (Appendix E, pp. 181–182). Chapter 404 of the Iowa Code defines the rules for establishing urban revitalization tax exemptions (https://www.legis.iowa.gov/docs/ico/chapter/404.pdf). Urban renewal areas and TIF are complex areas of law that carry severe consequences if misused or poorly managed. It is highly recommended that an attorney specializing in these laws be consulted.
+
+Urban renewal areas have an associated urban renewal plan that the local planning commission must approve. Among other requirements, the plan identifies how TIF funds will be spent; funds cannot be spent on items not specified in the plan. As the city evaluates its current urban renewal area, it should keep in mind the existing plan, consider the process for making amendments or changes to that plan, and the likelihood of support or opposition to those changes from the other entities that rely on its property tax revenues. Creating and utilizing an urban renewal area is complex. It is recommended that the group seek further training and the advice of the city attorney to determine whether this option fits the city's redevelopment goals.
+
+TAX ABATEMENT
+
+New housing construction can also be spurred by tax abatements. Tax abatement should never be used in a TIF district because the taxes generated on the value added by new development through TIF are used to pay down the general obligation bonds or debt incurred to incentivize the development. It is recommended that the group reach out to a land-use expert through the Area 15 Regional Planning Commission or the resources from the Iowa League of Cities when creating a tax abatement program. The Iowa League of Cities provides more information on its website (https://iowaleague.org/resource/property-tax-abatements-and-exemptions/).
+
+INCENTIVES FOR DEVELOPER, BUILDER, AND BUYER
+
+The creation and implementation of home building, buying assistance, and rehab incentive programs should be done in conjunction with support from the City of Fairfield and in concordance with existing plans. A community can incentivize new housing construction by targeting the developer/builder and the home buyer. When encouraging building on existing infill lots, a common incentive that can help bridge the value gap between the cost to build and the purchase price is for a city or partnering nonprofit development group to purchase the lots from private holders and resell or donate the lot for construction. Selling the lot at a loss can help overcome the value gap and benefit both the developer/builder and the home buyer, and is a process called "land banking." The Center for Community Progress provides a good primer on this process (https://communityprogress.org/resources/land-banks/). Be wary, however, that the Iowa State Code may not permit all practices promoted by national organizations such as the Center for Community Progress.
+
+Utility incentives can be accomplished by waiving the connection fee for newly constructed homes either on the front end with the builder or on the back end with the buyer. These types of incentives can also be coupled with incentives from the natural gas utility provider, Black Hills Energy, which has rebate programs available for certain energy efficiency improvements (https://www.blackhillsenergy.com/efficiency-and-savings/residential-rebates/iowa-residential-rebates).
+
+Building and connection fees can increase the cost of new development and deter new construction in a community. The short-term financial gain of permit surcharges is offset by the long-term property-tax benefit to the community. Newton, Iowa, has an aggressive single-family home construction assistance program. Adopted in 2014, the program waives building permit fees and covers the utility and interest costs of improvements for up to 12 months or when the property is sold, whichever occurs first (https://newtongov.org/806/Housing-Initiative). This program, along with a home buyer cash incentive, replaced Newton's tax abatement program. The project development work group should reach out to Newton as a first step in researching non-tax incentives.
+
+Down-payment assistance programs typically target first-time home buyers or income-qualified households to cover part or all of the down payment. These programs can significantly lower the monthly mortgage payment, especially if it includes private mortgage insurance (PMI) for buyers unable to cover a 20-percent down payment of the total cost of the property.
+
+Lenders can suggest federal and state down-payment assistance programs to home buyers. Likewise, a buyer can combine a locally created down-payment assistance program with state and federal funds. However, not every lender is versed in the range of programs available. Communities should work with lenders to market these programs to potential home buyers.
+
+- Federal Down Payment Assistance Programs: https://www.rd.usda.gov/programs-services/single-family-housing-direct-home-loans/ia
+- State Down Payment Assistance Programs: https://www.iowafinance.com/homeownership/down-payment-programs/
+
+Wright County created its own down-payment assistance home-buyer incentive program through Wright County Economic Development. The program does not require income qualification, takes the form of a loan, and requires a dollar-for-dollar match by the homebuyer (https://www.wrightcounty.iowa.gov/departments/economic_development/housing.php).
+
+Newton, Iowa, offers an incentive package for which home buyers of a newly constructed home within a designated tax abatement district can qualify (https://newtongov.org/806/Housing-Initiative). This program is an example of how local communities can create more targeted guidelines to incentivize particular kinds of single-family dwellings. However, the more targeted a program, the fewer individuals will likely qualify or apply. Communities must consider a careful balance of income levels, new construction versus older homes, and geographic specificity.
+
+Finally, there are local, state, and federal grants and loan opportunities available from government and non-government sources. Working with a local housing development corporation or the Area 15 Regional Planning Commission can increase municipal capacity to secure funding opportunities. The national nonprofit Housing Assistance Council is another resource for rural housing loans and technical assistance (https://ruralhome.org/).
+
+RENTAL (LOW-INCOME) HOUSING
+
+The Iowa Finance Authority provides information about funding sources that are directed toward developers of rental housing for individuals and families with low income, such as the federal Low-Income Housing Tax Credit (LIHTC) program (https://www.iowafinance.com/programs-for-property-developers/housing-tax-credit-program/). The RHRA fact sheet on low-income housing tax credits provides entry-level background information on these processes (Appendix E, pp. 171–172).
+
+MARKETING PLANS
+
+Prior to rolling out grant and incentive programs, a marketing plan should be in place. Planning marketing strategies should begin when there is debate on what incentives and grants to create, continue through their creation, and be an integral part of their ongoing promotion. City staff can draw on local businesses and manufacturers to help craft the message and develop a communication plan. For instance, in Perry, the Dallas County Hospital plays an integral role in helping organizations develop promotional materials, while the Chamber of Commerce is crucial in promoting programs to businesses, the workforce, and community members. In addition, area newspapers and local radio stations still reach a large audience.
+
+One of the best strategies to encourage housing development is to make entry into your community as simple as possible for potential developers. Creating a development packet to distribute to potential home builders that includes information about tax abatement and any applications or forms that need to be submitted for local incentives is a good idea. The resources or incentives highlighted in the packet should be dictated by the type of housing the city aims to attract.
+
+Different developers focus on different types of housing. Some developers only construct senior housing; some may only do affordable housing projects using the Low-Income Housing Tax Credit (LIHTC) program. Other developers only build market-rate, multi-family housing. Some developers will only do new construction, while others are willing to consider adaptive reuse of larger, unused buildings such as old schools or warehouses. To target your promotional efforts, utilize the State of Iowa's database of registered contractors and developers to identify builders in your area (https://contractor.iowa.gov/IowaIWD/CREG/publicSearch/publicSearch.jsp).
+
+An excellent place to connect with developers in Iowa is at the annual HousingIowa Conference sponsored by the Iowa Finance Authority (https://www.iowafinance.com/housingiowa-conference/). Developers with experience in tax-credit financing, Community Development Block Grant (CDBG) fund administration and distribution, and other types of funding often attend this conference because the Iowa Finance Authority provides a workshop on upcoming grants for developers. Community leaders can network with developers and learn from other communities working on similar projects across the state.
+
+As a community, recruiting a developer also means identifying a location for new housing, working with the developer to acquire the property, working with the developer on site preparations such as utility extensions, assisting with applications and loan documents, and helping fill financial gaps.
+
+RELEVANT TECHNICAL ASSISTANCE OPPORTUNITIES
+
+The Community Visioning Program is an effort between Iowa State University, Trees Forever, and a private-sector landscape architect that integrates landscape planning and design with sustainable community action to assist cities in making meaningful decisions about the local landscape (http://www.communityvisioning.org). Sponsored by the Iowa Department of Transportation, the program empowers local leaders through a planning process that results in a transportation enhancement plan reflecting the values and identity of the community. Evaluation research has shown that 98% of participating communities complete at least one project and nearly 50 percent complete four or more projects. Types of projects developed through Community Visioning include streetscape improvements, community branding and signage, park improvements along major roadways, and trail development and enhancement. Communities selected for the program must commit $2,000 toward project implementation. Applications are due in September. Funding resources for implementing these types of projects can be found in Trees Forever's online Community Project Funding Guide (https://treesforever.org/Community-Project-Funding-Guide/). Fairfield has already benefited by participating in Community Visioning in 2003 and again in 2015, but remains eligible to apply again.
+
+---
+
+WORKING GROUP 3: QUALITY
+
+Coordinator: City Administrator, Property Committee
+Team Members: Connie Boyer, Paul Gandy
+
+Success Year One: Update rental, and property and maintenance code; Develop written education plan for CCQ (Code Compliance Quality); Revisit Spring Cleanup Program.
+Partners: City street department; Waste management; Connelly, Inc.; City Planning & Zoning Department; CCQ Officer; Sustainability coordinator.
+Launch Event: Conduct property committee meeting.
+Resources: Trucks; City engineer and City attorney (for codes); CCQ Officer; Budget funds.
+
+Time line:
+  May–July 2023: Hold property code meeting.
+  Aug–Oct 2023: Meet with partners.
+  Nov 2023–Jan 2024: Finalize CCQ education plan.
+  Feb–April 2024: Conduct actual cleanup.
+  Longer term: Repeat.
+
+CLEANUP EVENTS
+
+Community cleanup days are popular ways to entice households to get rid of difficult items to dispose of because of size, bulk, or toxic material. Cities can facilitate this process by collecting appliances, tires, mattresses, paints and chemicals, and brush and/or construction materials once a year, hauling it to the landfill, and paying the tipping fee. Most cities "staff" the cleanups to make sure that only appropriate items are being collected and only households are being served. Some cities work with volunteer groups to help senior citizens and disabled individuals get some of these larger items off their properties or out of their basements.
+
+BUILDING CODE ENFORCEMENT
+
+One issue that surfaced during the RHRA workbook exercise is that the city's staff has had inconsistent access to professional development opportunities for code enforcement and building inspection. As part of the evaluation of staff capacity, the city will need to decide how to divide the different duties of code enforcement and nuisance abatement. Many communities in Iowa do not have a designated employee whose sole job is to do this task; however, given that code enforcement has arisen as an area of chronic concern, the city should consider hiring a full-time code enforcement clerk.
+
+Here are some things to consider should the city desire to hire a code enforcement clerk/inspector/officer:
+
+1. Consider what skills or certifications the code enforcement clerk/inspector/officer will need to guarantee that they have adequate knowledge to accomplish tasks related to existing housing, remodels, inspection of new construction, nuisance abatement, and commercial structures.
+2. Consider how the code enforcement clerk/inspector/officer will interact with zoning officials, the city council, and the police department to ensure compliance with property owners.
+3. Consider long-term financing for this position by "loaning" the clerk/inspector/officer to neighboring communities for a set fee to offset some costs.
+4. Build in time for professional development to assure that the code enforcement clerk/inspector/officer has a supportive network throughout the state and stays current on all Iowa building codes and laws.
+
+Community code enforcement involves individual residents and community or neighborhood organizations in the identification of nuisance properties and other housing problems. The Center for Community Progress provides three case studies of community code enforcement in larger metro areas (https://www.communityprogress.net/tool-3--community-code-enforcement-partnerships-pages-269.php).
+
+The law firm of Jones & Mayer describes the impetus and mechanisms for proactive, community member-driven code enforcement. These approaches could be tailored for your community needs (https://www.jones-mayer.com/news/2020/11/10/reactive-v-proactive-code-enforcement/).
+
+State code regulating nuisance abatement can be found in Iowa Code Chapter 657 (https://www.legis.iowa.gov/docs/code/657.pdf).
+
+Finally, crowdsourcing information and community involvement in reporting code violations or hazardous areas is an excellent way to engage with residents in improving their neighborhoods.
+
+---
+
+WORKING GROUP 4: RECRUITING DEVELOPERS / NEW HOUSING
+
+Coordinator: Josh Laraby, FEDA/Grow Fairfield
+Team Members: City Administrator, Bryan Hunger, Kristin Miller
+
+Success Year One: Identify multiple sites and preferred developers to construct needed housing.
+Partners: FEDA/Grow Fairfield; Utility partners; City of Fairfield.
+Launch Event: Meet with partners, landowners, builders, and developers to prioritize housing needs.
+Resources: Regional/state contacts; Location and agenda needed.
+
+Time line:
+  May–July 2023: Plan event.
+  Aug–Oct 2023: Host event.
+  Nov 2023–Jan 2024: Match sites with builders and developers.
+  Feb–April 2024: Secure development agreement.
+  Longer term: Continue addressing housing and developers' needs.
+
+POCKET NEIGHBORHOOD
+
+Creating a pocket neighborhood can appear to be an ambitious project; however, the main steps fall into the broad categories of identifying locations, including lots and owners; acquiring the lots; assembling the sites, including demolishing existing structures; acquiring funding and/or investors; and opening a call for developers/builders, including determining if additional incentives are needed to attract builders. This is a complex activity in and of itself and will likely require bringing on additional partners such as the council of governments for assistance with grant applications, or potentially private construction or planning services.
+
+This working group would benefit from talking through the process with others in Iowa who have accomplished creating new housing. One example is Maquoketa, which was mentioned during the RHRA educational workshop (Appendix B, pp. 49–50). Maquoketa Bear River Cottages is a small pocket neighborhood developed in partnership with East Central Development Corporation (ECDC) and the East Central Intergovernmental Association (ECIA). More information is available on ECIA's website (https://ecia.org/pocketneighborhood/).
+
+Another project that may prove instructive is the Birdland Area, a flood reclamation and recovery project that partnered with Habitat for Humanity of Greater Des Moines to build affordable, owner-occupied homes. This kind of partnership could be a model, whether it be a local chapter of Habitat for Humanity, partnering with a community college or high school building-trades program (possibly linked with the carpentry program at Iowa Central Community College in Fort Dodge), working with an organization such as Homes for Iowa, or a combination of affordable building options. Combining the new construction with a home buyer's assistance program such as the USDA 502 program could significantly lower the cost of entry for home buyers. Information about the Birdland Area Redevelopment Plan is available online (https://www.msa-ps.com/our-experience/birdland-area-redevelopment-plan-des-moines-iowa/).
+
+A second project in Des Moines that could be instructive is Washington Court in the Riverbend neighborhood, which details the complexity of accumulating small lots from multiple owners in a low-resource neighborhood (https://www.housingiowaconference.com/media/cms/Washington_Court_Development__Web_FE112AB15B261.pdf).
+
+Finally, the Grinnell Garden Cottages neighborhood in Grinnell demonstrates that new construction priced in the mid-range can be affordable for middle-income qualified households (starting at approximately $50,000 yearly household income) with the right incentive structure. Grinnell Garden Cottages is also an excellent example of the range of partners required to make the development happen (https://grinnellgardencottages.com/).
+
+INFILL DEVELOPMENT
+
+The blog post "Infill Development Supports Community Connectivity" on the American Planning Association website presents the many ways utilizing infill developments can benefit a community, and lists steps and strategies for this type of development (https://www.planning.org/blog/9227414/infill-development-supports-community-connectivity/). Although many of the examples used are in larger metropolitan areas, the concepts are applicable to smaller communities.
+
+---
+
+FINAL COMMENTS
+
+It was a pleasure to assist Fairfield with this goal setting process. It is important to note that this plan, including the projects and the time line that you created, is not "set in stone." It can and should be modified as circumstances change, new challenges arise, and new opportunities present themselves.
+
+This document is not intended to sit on the shelf. It lays out a realistic plan for you to make meaningful progress towards your vision of improving housing in Fairfield within the next three to five years. We are looking forward to following your progress, and we will remain a resource for you as you move forward. We are happy to share best practices and provide support. We can also make ourselves available to meet with work groups as they break down the actions into quarterly deadlines and goals.
+
+---
+
+APPENDICES (NOT INCLUDED IN THIS UPLOADED PDF)
+
+The original RHRA Action Plan document includes five appendices that are NOT contained in the PDF uploaded for indexing:
+- Appendix A: RHRA Workbook Results (begins at p. 18 of the original document)
+- Appendix B: Educational Workshops 1 and 2 Slides (p. 34)
+- Appendix C: Community Survey Results — full results from 1,205 respondents (p. 58)
+- Appendix D: Work Group Planning Model (p. 157)
+- Appendix E: RHRA Fact Sheets (p. 158)
+
+Only the main report body (pp. 1–17) is represented in this text file. If the appendices are needed for RAG retrieval, they would need to be located and uploaded separately.
