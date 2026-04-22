@@ -116,6 +116,16 @@ main().catch(err => {
 });
 
 // ── Auto-deploy to Vercel ──────────────────────────────────────────────────
-const { deploy } = require('./deploy');
-deploy('Update knowledge base — scraper run');
+{
+  const { execSync } = require('child_process');
+  try {
+    execSync('node deploy.js "Update knowledge base — scraper run"', {
+      stdio: 'inherit',
+      cwd: __dirname + '/..'
+    });
+  } catch (err) {
+    console.error('Deploy failed:', err.message);
+    process.exit(1);
+  }
+}
 

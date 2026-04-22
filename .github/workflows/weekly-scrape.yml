@@ -56,6 +56,11 @@ jobs:
             scrape-manifest-
 
       # ── 6. Run all org scrapers ──────────────────────────────────────────────
+      - name: Configure git (pre-scrape)
+        run: |
+          git config user.name "Civic Hub Bot"
+          git config user.email "actions@github.com"
+
       - name: Run all org scrapers
         run: node scrapers/run-all-orgs.js
         env:
