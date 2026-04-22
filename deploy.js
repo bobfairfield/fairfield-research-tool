@@ -36,7 +36,7 @@ console.log('✅ No unmapped sources. Proceeding to deploy.\n');
 // ── Step 3: Commit and push ───────────────────────────────────────────────────
 console.log('Step 2: Committing and pushing to GitHub → Vercel...');
 try {
-  run('git add generate-map.js');
+  run('git add -A');
   run(`git commit -m "${commitMsg}" || true`);
   run('git push');
   console.log('\n✅ Deployed. Vercel will update civicintelligencehub.com within ~60 seconds.\n');
