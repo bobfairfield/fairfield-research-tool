@@ -1,32 +1,9 @@
 [
   {
-    "source": "City of Fairfield",
-    "vectorCount": 2299,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://archive.org/details/historyofjeffers01fult",
-    "vectorCount": 1672,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.fairfield.ia.us/walton-lake-bridge",
-    "vectorCount": 1506,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "cityoffairfieldiowa.com",
-    "vectorCount": 1053,
+    "vectorCount": 3373,
     "categories": {
+      "government": [],
       "(uncategorized)": [
         "property_regulations"
       ],
@@ -54,6 +31,30 @@
       "Title 9 Ch 9.76 - Vegetation Regulations",
       "Title 9 Ch 9.88-9.96 - Penalties and Housing Discrimination"
     ]
+  },
+  {
+    "source": "City of Fairfield",
+    "vectorCount": 2299,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://archive.org/details/historyofjeffers01fult",
+    "vectorCount": 1672,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfield.ia.us/walton-lake-bridge",
+    "vectorCount": 1506,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
   },
   {
     "source": "https://www.fairfield.k12.ia.us/board-of-education/board-meeting-minutes",
@@ -118,6 +119,20 @@
     },
     "titles": [
       "Jefferson County Community Resource Directory 2024"
+    ]
+  },
+  {
+    "source": "fairfield-history-series",
+    "vectorCount": 300,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": [
+      "A Place to Grow transcript no time",
+      "Ahead of Their Time no time (1)",
+      "Heroes of Fairfield transcript no time",
+      "Life Before Fairfield Transcript ",
+      "Parsons transcript no time"
     ]
   },
   {
@@ -417,16 +432,6 @@
     "titles": []
   },
   {
-    "source": "https://www.youtube.com/watch?v=HiVoasoFNoI",
-    "vectorCount": 52,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City of Fairfield | Study Session & City Council 1.12.26"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=IcVpObZ-Puw",
     "vectorCount": 52,
     "categories": {
@@ -434,6 +439,16 @@
     },
     "titles": [
       "City of Fairfield | Study Session & City Council 10.27.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=HiVoasoFNoI",
+    "vectorCount": 52,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 1.12.26"
     ]
   },
   {
@@ -812,16 +827,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=1_LplE2bPz8",
-    "vectorCount": 22,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Joe Sanchis"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=4w7eVWCic7o",
     "vectorCount": 22,
     "categories": {
@@ -829,6 +834,16 @@
     },
     "titles": [
       "Traction Thursday | Cynthia Yockey \"Marketing\""
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=1_LplE2bPz8",
+    "vectorCount": 22,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Joe Sanchis"
     ]
   },
   {
@@ -1410,16 +1425,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=LHEXdzFoZbY",
-    "vectorCount": 13,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "Fairfield City Council 6-10-13"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=O4fHw0IF6Fc",
     "vectorCount": 13,
     "categories": {
@@ -1427,6 +1432,16 @@
     },
     "titles": [
       "City Council 8-23-21"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=LHEXdzFoZbY",
+    "vectorCount": 13,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 6-10-13"
     ]
   },
   {
@@ -1498,7 +1513,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=395",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=403",
     "vectorCount": 13,
     "categories": {
       "(uncategorized)": []
@@ -1506,7 +1521,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=403",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=395",
     "vectorCount": 13,
     "categories": {
       "(uncategorized)": []
@@ -1616,16 +1631,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=749kqSt3bbA",
-    "vectorCount": 12,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 9-27-21"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=7p78YMxf7Ss",
     "vectorCount": 12,
     "categories": {
@@ -1633,6 +1638,16 @@
     },
     "titles": [
       "City Council 1-10-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=749kqSt3bbA",
+    "vectorCount": 12,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-27-21"
     ]
   },
   {
@@ -1742,14 +1757,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=682",
-    "vectorCount": 12,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=675",
     "vectorCount": 12,
     "categories": {
@@ -1766,7 +1773,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=699",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=682",
     "vectorCount": 12,
     "categories": {
       "(uncategorized)": []
@@ -1774,7 +1781,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=747",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=699",
     "vectorCount": 12,
     "categories": {
       "(uncategorized)": []
@@ -1806,7 +1813,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=759",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=747",
     "vectorCount": 12,
     "categories": {
       "(uncategorized)": []
@@ -1815,6 +1822,14 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=765",
+    "vectorCount": 12,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=759",
     "vectorCount": 12,
     "categories": {
       "(uncategorized)": []
@@ -1906,6 +1921,14 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=401",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=398",
     "vectorCount": 11,
     "categories": {
@@ -1922,7 +1945,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=401",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=409",
     "vectorCount": 11,
     "categories": {
       "(uncategorized)": []
@@ -1938,7 +1961,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=409",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=444",
     "vectorCount": 11,
     "categories": {
       "(uncategorized)": []
@@ -1947,14 +1970,6 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=443",
-    "vectorCount": 11,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=444",
     "vectorCount": 11,
     "categories": {
       "(uncategorized)": []
@@ -1986,14 +2001,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=652",
-    "vectorCount": 11,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=659",
     "vectorCount": 11,
     "categories": {
@@ -2002,7 +2009,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=674",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=652",
     "vectorCount": 11,
     "categories": {
       "(uncategorized)": []
@@ -2018,7 +2025,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=691",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=674",
     "vectorCount": 11,
     "categories": {
       "(uncategorized)": []
@@ -2027,6 +2034,14 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=690",
+    "vectorCount": 11,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=691",
     "vectorCount": 11,
     "categories": {
       "(uncategorized)": []
@@ -2198,14 +2213,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=496",
-    "vectorCount": 10,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=491",
     "vectorCount": 10,
     "categories": {
@@ -2222,6 +2229,14 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=496",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=642",
     "vectorCount": 10,
     "categories": {
@@ -2230,7 +2245,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=655",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=653",
     "vectorCount": 10,
     "categories": {
       "(uncategorized)": []
@@ -2238,7 +2253,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=653",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=655",
     "vectorCount": 10,
     "categories": {
       "(uncategorized)": []
@@ -2262,14 +2277,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=680",
-    "vectorCount": 10,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=685",
     "vectorCount": 10,
     "categories": {
@@ -2278,7 +2285,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=694",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=680",
     "vectorCount": 10,
     "categories": {
       "(uncategorized)": []
@@ -2294,23 +2301,15 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=694",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=695",
-    "vectorCount": 10,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=721",
-    "vectorCount": 10,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=717",
     "vectorCount": 10,
     "categories": {
       "(uncategorized)": []
@@ -2327,6 +2326,22 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=720",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=721",
+    "vectorCount": 10,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=717",
     "vectorCount": 10,
     "categories": {
       "(uncategorized)": []
@@ -2376,6 +2391,16 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=1VIPi-GfAFc",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-26-20"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=-Eo5Zt1Q_Lc",
     "vectorCount": 9,
     "categories": {
@@ -2396,13 +2421,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=1VIPi-GfAFc",
+    "source": "https://www.youtube.com/watch?v=4x8OeX8T1pk",
     "vectorCount": 9,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 10-26-20"
+      "City Council 8-28-23"
     ]
   },
   {
@@ -2426,16 +2451,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=4x8OeX8T1pk",
-    "vectorCount": 9,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 8-28-23"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=CFYSeExB4hE",
     "vectorCount": 9,
     "categories": {
@@ -2446,16 +2461,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=L61dm-qtzjU",
-    "vectorCount": 9,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 7-8-24"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=JLxl1h9FvjY",
     "vectorCount": 9,
     "categories": {
@@ -2463,6 +2468,16 @@
     },
     "titles": [
       "City Council 9-26-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=L61dm-qtzjU",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-8-24"
     ]
   },
   {
@@ -2506,16 +2521,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=pyed3ibK4ow",
-    "vectorCount": 9,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 7-24-17"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=pcz6ezbwQGQ",
     "vectorCount": 9,
     "categories": {
@@ -2526,13 +2531,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=tQ3s_stdBO4",
+    "source": "https://www.youtube.com/watch?v=pyed3ibK4ow",
     "vectorCount": 9,
     "categories": {
       "government": []
     },
     "titles": [
-      "Fairfield City Council 5-28-13"
+      "City Council 7-24-17"
     ]
   },
   {
@@ -2546,13 +2551,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=wObNYlDv6Zk",
+    "source": "https://www.youtube.com/watch?v=tQ3s_stdBO4",
     "vectorCount": 9,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 6-26-23"
+      "Fairfield City Council 5-28-13"
     ]
   },
   {
@@ -2563,6 +2568,16 @@
     },
     "titles": [
       "City Council 3-14-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=wObNYlDv6Zk",
+    "vectorCount": 9,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-26-23"
     ]
   },
   {
@@ -2600,6 +2615,14 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=252",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=237",
     "vectorCount": 9,
     "categories": {
@@ -2608,7 +2631,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=252",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=305",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2624,7 +2647,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=305",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=341",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2641,14 +2664,6 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=331",
-    "vectorCount": 9,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=341",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2704,6 +2719,22 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=423",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=426",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=404",
     "vectorCount": 9,
     "categories": {
@@ -2720,23 +2751,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=426",
-    "vectorCount": 9,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=423",
-    "vectorCount": 9,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=434",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=429",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2752,7 +2767,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=428",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=434",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2760,7 +2775,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=429",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=428",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2792,7 +2807,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=477",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=48",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2808,7 +2823,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=484",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=477",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2824,7 +2839,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=48",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=484",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=490",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2848,14 +2871,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=490",
-    "vectorCount": 9,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=640",
     "vectorCount": 9,
     "categories": {
@@ -2872,7 +2887,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=651",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=657",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2880,7 +2895,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=661",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=651",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2896,14 +2911,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=657",
-    "vectorCount": 9,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=664",
     "vectorCount": 9,
     "categories": {
@@ -2912,7 +2919,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=688",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=661",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2921,6 +2928,14 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=683",
+    "vectorCount": 9,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=689",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2944,7 +2959,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=689",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=688",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -2992,7 +3007,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=756",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=751",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -3008,7 +3023,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=751",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=756",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -3024,7 +3039,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=768",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=766",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -3032,7 +3047,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=766",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=768",
     "vectorCount": 9,
     "categories": {
       "(uncategorized)": []
@@ -3124,16 +3139,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=QwPf-owNIWM",
-    "vectorCount": 8,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 3-9-15"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=QxtNuR4x9cM",
     "vectorCount": 8,
     "categories": {
@@ -3144,13 +3149,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=UHI8sH6eh0c",
+    "source": "https://www.youtube.com/watch?v=QwPf-owNIWM",
     "vectorCount": 8,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 3-23-15"
+      "City Council 3-9-15"
     ]
   },
   {
@@ -3164,13 +3169,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=XI2vpNS6Flo",
+    "source": "https://www.youtube.com/watch?v=UHI8sH6eh0c",
     "vectorCount": 8,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 11-23-15"
+      "City Council 3-23-15"
     ]
   },
   {
@@ -3181,6 +3186,16 @@
     },
     "titles": [
       "City Council 7-10-23"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=XI2vpNS6Flo",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-23-15"
     ]
   },
   {
@@ -3204,16 +3219,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=iYL4zyAOL38",
-    "vectorCount": 8,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 9-8-14"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=kfPGCXxh_WU",
     "vectorCount": 8,
     "categories": {
@@ -3221,6 +3226,16 @@
     },
     "titles": [
       "City Council 5-8-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=iYL4zyAOL38",
+    "vectorCount": 8,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 9-8-14"
     ]
   },
   {
@@ -3332,7 +3347,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=273",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=292",
     "vectorCount": 8,
     "categories": {
       "(uncategorized)": []
@@ -3348,7 +3363,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=292",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=273",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=314",
     "vectorCount": 8,
     "categories": {
       "(uncategorized)": []
@@ -3364,7 +3387,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=314",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=355",
     "vectorCount": 8,
     "categories": {
       "(uncategorized)": []
@@ -3388,14 +3411,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=365",
-    "vectorCount": 8,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=360",
     "vectorCount": 8,
     "categories": {
@@ -3404,7 +3419,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=355",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=365",
     "vectorCount": 8,
     "categories": {
       "(uncategorized)": []
@@ -3524,7 +3539,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=668",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=667",
     "vectorCount": 8,
     "categories": {
       "(uncategorized)": []
@@ -3532,7 +3547,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=667",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=668",
     "vectorCount": 8,
     "categories": {
       "(uncategorized)": []
@@ -3588,6 +3603,14 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=769",
+    "vectorCount": 8,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=767",
     "vectorCount": 8,
     "categories": {
@@ -3596,7 +3619,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=769",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=99",
     "vectorCount": 8,
     "categories": {
       "(uncategorized)": []
@@ -3608,14 +3631,6 @@
     "vectorCount": 8,
     "categories": {
       "education": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=99",
-    "vectorCount": 8,
-    "categories": {
-      "(uncategorized)": []
     },
     "titles": []
   },
@@ -3688,16 +3703,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=QCB29AVEOuI",
-    "vectorCount": 7,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "4-27-15 City Council Meeting"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=Oogz4Mjnplg",
     "vectorCount": 7,
     "categories": {
@@ -3705,6 +3710,16 @@
     },
     "titles": [
       "City Council 7-10-17"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=QCB29AVEOuI",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "4-27-15 City Council Meeting"
     ]
   },
   {
@@ -3718,16 +3733,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=_94swjxHxQ4",
-    "vectorCount": 7,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 10.28.24"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=baNOQYMEh7s",
     "vectorCount": 7,
     "categories": {
@@ -3735,6 +3740,16 @@
     },
     "titles": [
       "City Council 2-24-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=_94swjxHxQ4",
+    "vectorCount": 7,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10.28.24"
     ]
   },
   {
@@ -3792,7 +3807,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=163",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=191",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3808,15 +3823,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=191",
-    "vectorCount": 7,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=219",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=163",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3840,7 +3847,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=220",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=219",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3848,7 +3855,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=276",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=220",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3865,6 +3872,14 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=283",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=276",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3904,7 +3919,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=424",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=407",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3912,7 +3927,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=407",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=424",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3936,14 +3951,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=472",
-    "vectorCount": 7,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=471",
     "vectorCount": 7,
     "categories": {
@@ -3952,7 +3959,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=488",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=472",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -3961,14 +3968,6 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=478",
-    "vectorCount": 7,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=489",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -4000,7 +3999,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=499",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=488",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -4008,15 +4007,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=50",
-    "vectorCount": 7,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=638",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=489",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -4032,7 +4023,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=637",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=50",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=499",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -4049,6 +4048,22 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=641",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=638",
+    "vectorCount": 7,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=637",
     "vectorCount": 7,
     "categories": {
       "(uncategorized)": []
@@ -4130,16 +4145,6 @@
     "titles": []
   },
   {
-    "source": "https://www.youtube.com/watch?v=2Vh15JTv-7I",
-    "vectorCount": 6,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 8-27-18"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=037Oa0eTt7k",
     "vectorCount": 6,
     "categories": {
@@ -4147,16 +4152,6 @@
     },
     "titles": [
       "City Council 11-14-22"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=3qdmloS_1LM",
-    "vectorCount": 6,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 3-12-18"
     ]
   },
   {
@@ -4170,13 +4165,23 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=9dm2ZsSJm5c",
+    "source": "https://www.youtube.com/watch?v=2Vh15JTv-7I",
     "vectorCount": 6,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 12-18-23"
+      "City Council 8-27-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=3qdmloS_1LM",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 3-12-18"
     ]
   },
   {
@@ -4190,13 +4195,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=CkxMAcMgEuc",
+    "source": "https://www.youtube.com/watch?v=9dm2ZsSJm5c",
     "vectorCount": 6,
     "categories": {
       "government": []
     },
     "titles": [
-      "Fairfield Town Hall | Fairfield Police Dept. | 1-9-21"
+      "City Council 12-18-23"
     ]
   },
   {
@@ -4207,6 +4212,16 @@
     },
     "titles": [
       "City of Fairfield | Study Session & City Council 1.27.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=CkxMAcMgEuc",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Fairfield Police Dept. | 1-9-21"
     ]
   },
   {
@@ -4300,16 +4315,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=ZtotQhZiLBg",
-    "vectorCount": 6,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 4-8-19"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=Z4wwMy7UxQU",
     "vectorCount": 6,
     "categories": {
@@ -4317,26 +4322,6 @@
     },
     "titles": [
       "Fairfield City Council 4-8-13"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=bmrRb_O34h8",
-    "vectorCount": 6,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 1-27-21"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=cBW-57hiEtI",
-    "vectorCount": 6,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 4-24-23"
     ]
   },
   {
@@ -4350,13 +4335,23 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=cKFXXV386m8",
+    "source": "https://www.youtube.com/watch?v=ZtotQhZiLBg",
     "vectorCount": 6,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 7-11-16"
+      "City Council 4-8-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=bmrRb_O34h8",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 1-27-21"
     ]
   },
   {
@@ -4380,6 +4375,26 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=cKFXXV386m8",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-11-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cBW-57hiEtI",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-24-23"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=eQJO7cCSQL0",
     "vectorCount": 6,
     "categories": {
@@ -4387,16 +4402,6 @@
     },
     "titles": [
       "City Council 11-13-17"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=j1s3tYNsxGE",
-    "vectorCount": 6,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 6-27-22"
     ]
   },
   {
@@ -4410,13 +4415,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=oO0X7yYPUJo",
+    "source": "https://www.youtube.com/watch?v=j1s3tYNsxGE",
     "vectorCount": 6,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 6-13-16"
+      "City Council 6-27-22"
     ]
   },
   {
@@ -4427,6 +4432,16 @@
     },
     "titles": [
       "City Council 4-22-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=oO0X7yYPUJo",
+    "vectorCount": 6,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-13-16"
     ]
   },
   {
@@ -4478,7 +4493,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=114",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=108",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4494,7 +4509,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=108",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=121",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4502,7 +4517,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=144",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=114",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4526,55 +4541,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=121",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=197",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=153",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=194",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=164",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=196",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=154",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=144",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4590,6 +4557,38 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=154",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=153",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=164",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=194",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=231",
     "vectorCount": 6,
     "categories": {
@@ -4598,7 +4597,55 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=197",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=227",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=196",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=267",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=266",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=245",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=249",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4622,47 +4669,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=274",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=267",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=245",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=266",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=249",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=282",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=279",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4694,7 +4709,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=279",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=274",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4726,6 +4741,14 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=333",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=345",
     "vectorCount": 6,
     "categories": {
@@ -4742,23 +4765,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=333",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=361",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=364",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4782,6 +4789,22 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=364",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=431",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=430",
     "vectorCount": 6,
     "categories": {
@@ -4798,23 +4821,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=441",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=431",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=447",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=441",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4846,14 +4861,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=500",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=56",
     "vectorCount": 6,
     "categories": {
@@ -4870,7 +4877,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=650",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=500",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4879,6 +4886,14 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=643",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=650",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4918,15 +4933,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=90",
-    "vectorCount": 6,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=91",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=82",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4942,7 +4949,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=82",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=89",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4958,7 +4965,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=89",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=91",
+    "vectorCount": 6,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=90",
     "vectorCount": 6,
     "categories": {
       "(uncategorized)": []
@@ -4986,16 +5001,6 @@
     "titles": []
   },
   {
-    "source": "https://www.youtube.com/watch?v=20HtEsUUVVk",
-    "vectorCount": 5,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 5-13-24"
-    ]
-  },
-  {
     "source": "ffcolab.com",
     "vectorCount": 5,
     "categories": {
@@ -5004,6 +5009,16 @@
       ]
     },
     "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=20HtEsUUVVk",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-13-24"
+    ]
   },
   {
     "source": "https://www.youtube.com/watch?v=7_nhS_M42M8",
@@ -5116,13 +5131,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=iTqcOmrcFcg",
+    "source": "https://www.youtube.com/watch?v=kUA8_wD2AP0",
     "vectorCount": 5,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 12.16.24"
+      "Fairfield City Council meeting on 12-17-12"
     ]
   },
   {
@@ -5146,13 +5161,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=kUA8_wD2AP0",
+    "source": "https://www.youtube.com/watch?v=iTqcOmrcFcg",
     "vectorCount": 5,
     "categories": {
       "government": []
     },
     "titles": [
-      "Fairfield City Council meeting on 12-17-12"
+      "City Council 12.16.24"
     ]
   },
   {
@@ -5166,16 +5181,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=sHzU1bQ41R4",
-    "vectorCount": 5,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "Fairfield City Council 8-24-15"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=sBp5dG-yLd8",
     "vectorCount": 5,
     "categories": {
@@ -5183,6 +5188,16 @@
     },
     "titles": [
       "City of Fairfield | Study Session & City Council 1.13.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=sHzU1bQ41R4",
+    "vectorCount": 5,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 8-24-15"
     ]
   },
   {
@@ -5248,23 +5263,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=147",
-    "vectorCount": 5,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=128",
-    "vectorCount": 5,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=150",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5288,7 +5287,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=228",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=147",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=150",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5304,7 +5311,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=224",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=236",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5312,7 +5319,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=236",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=228",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=224",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5344,7 +5359,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=316",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=308",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5352,7 +5367,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=309",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=316",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5368,7 +5383,15 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=308",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=315",
+    "vectorCount": 5,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=309",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5377,14 +5400,6 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=324",
-    "vectorCount": 5,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=315",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5416,7 +5431,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=366",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=383",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5424,7 +5439,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=383",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=366",
     "vectorCount": 5,
     "categories": {
       "(uncategorized)": []
@@ -5538,16 +5553,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=LbpoQQ39a-E",
-    "vectorCount": 4,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 7-23-18"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=NOp2kjWrJnA",
     "vectorCount": 4,
     "categories": {
@@ -5558,6 +5563,16 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=LbpoQQ39a-E",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 7-23-18"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=NrNwZeUEWGM",
     "vectorCount": 4,
     "categories": {
@@ -5565,6 +5580,16 @@
     },
     "titles": [
       "City Council 11.12.24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Seo1uXiCgtA",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council Meeting 2-9-15"
     ]
   },
   {
@@ -5588,16 +5613,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=Seo1uXiCgtA",
-    "vectorCount": 4,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council Meeting 2-9-15"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=V081K7mBOb4",
     "vectorCount": 4,
     "categories": {
@@ -5605,16 +5620,6 @@
     },
     "titles": [
       "Fairfield City Council 12-16-13"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=XdHUrZ70KNg",
-    "vectorCount": 4,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City of Fairfield | Special City Council Meeting 1.2.26"
     ]
   },
   {
@@ -5638,23 +5643,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=aOjwy72lP6E",
+    "source": "https://www.youtube.com/watch?v=XdHUrZ70KNg",
     "vectorCount": 4,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 10-22-18"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=cCNfxzQ4nN8",
-    "vectorCount": 4,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council Meeting 1-26-15"
+      "City of Fairfield | Special City Council Meeting 1.2.26"
     ]
   },
   {
@@ -5665,6 +5660,16 @@
     },
     "titles": [
       "City Council 4-11-16"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=aOjwy72lP6E",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 10-22-18"
     ]
   },
   {
@@ -5688,13 +5693,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=exIyNDdYFX8",
+    "source": "https://www.youtube.com/watch?v=cCNfxzQ4nN8",
     "vectorCount": 4,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 2-10-14"
+      "City Council Meeting 1-26-15"
     ]
   },
   {
@@ -5705,6 +5710,16 @@
     },
     "titles": [
       "Fairfield City Council 6-9-14"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=exIyNDdYFX8",
+    "vectorCount": 4,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 2-10-14"
     ]
   },
   {
@@ -5766,14 +5781,6 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/free_downloads",
-    "vectorCount": 4,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://www.intelligentcommunity.org/fredericton_new_brunswick_canada_a_connected_capital_building_an_inclusive_intelligent_future",
     "vectorCount": 4,
     "categories": {
@@ -5782,7 +5789,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/press_releases",
+    "source": "https://www.intelligentcommunity.org/free_downloads",
     "vectorCount": 4,
     "categories": {
       "civic-knowledge": []
@@ -5798,6 +5805,14 @@
     "titles": []
   },
   {
+    "source": "https://www.intelligentcommunity.org/press_releases",
+    "vectorCount": 4,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
     "source": "opportunityiowa.gov",
     "vectorCount": 4,
     "categories": {
@@ -5808,15 +5823,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=119",
-    "vectorCount": 4,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=116",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=106",
     "vectorCount": 4,
     "categories": {
       "(uncategorized)": []
@@ -5825,14 +5832,6 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=109",
-    "vectorCount": 4,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=106",
     "vectorCount": 4,
     "categories": {
       "(uncategorized)": []
@@ -5849,6 +5848,22 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=126",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=119",
+    "vectorCount": 4,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=116",
     "vectorCount": 4,
     "categories": {
       "(uncategorized)": []
@@ -5888,7 +5903,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=394",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=369",
     "vectorCount": 4,
     "categories": {
       "(uncategorized)": []
@@ -5896,7 +5911,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=369",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=394",
     "vectorCount": 4,
     "categories": {
       "(uncategorized)": []
@@ -5920,7 +5935,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=53",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=51",
     "vectorCount": 4,
     "categories": {
       "(uncategorized)": []
@@ -5928,7 +5943,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=51",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=53",
     "vectorCount": 4,
     "categories": {
       "(uncategorized)": []
@@ -6000,16 +6015,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=6BW0BgiYmuo",
-    "vectorCount": 3,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "Fairfield City Council 2-11-13"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=5msEmMYeEks",
     "vectorCount": 3,
     "categories": {
@@ -6020,23 +6025,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=8eVSY9CsBZA",
+    "source": "https://www.youtube.com/watch?v=6BW0BgiYmuo",
     "vectorCount": 3,
     "categories": {
       "government": []
     },
     "titles": [
-      "Fairfield City Council 3-25-13"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=7ENcGqpvz8s",
-    "vectorCount": 3,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "Special Fairfield City Council Meeting"
+      "Fairfield City Council 2-11-13"
     ]
   },
   {
@@ -6057,6 +6052,26 @@
     },
     "titles": [
       "City of Fairfield | Proposed Fire Station Forum 2-7-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=8eVSY9CsBZA",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 3-25-13"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=7ENcGqpvz8s",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Special Fairfield City Council Meeting"
     ]
   },
   {
@@ -6180,16 +6195,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=mDOIUA_dOyA",
-    "vectorCount": 3,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "FFCC 3-12-12"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=m2UdXrq8n90",
     "vectorCount": 3,
     "categories": {
@@ -6210,13 +6215,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=nHznaeLNmms",
+    "source": "https://www.youtube.com/watch?v=mDOIUA_dOyA",
     "vectorCount": 3,
     "categories": {
       "government": []
     },
     "titles": [
-      "Fairfield Town Hall | Capital Improvements Reserve Fund Levy 10-16-23"
+      "FFCC 3-12-12"
     ]
   },
   {
@@ -6227,6 +6232,16 @@
     },
     "titles": [
       "City Council 6-11-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=nHznaeLNmms",
+    "vectorCount": 3,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Capital Improvements Reserve Fund Levy 10-16-23"
     ]
   },
   {
@@ -6280,7 +6295,7 @@
     ]
   },
   {
-    "source": "https://www.intelligentcommunity.org/2025_intelligent_community_of_the_year",
+    "source": "https://www.intelligentcommunity.org/privacy_policy",
     "vectorCount": 3,
     "categories": {
       "civic-knowledge": []
@@ -6296,39 +6311,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/2026_smart21_and_smart_city_expo_in_curitiba_brazil",
-    "vectorCount": 3,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/privacy_policy",
-    "vectorCount": 3,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://www.intelligentcommunity.org/icf_member_news",
-    "vectorCount": 3,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/looking_back_on_2025_and_forward_to_2026",
-    "vectorCount": 3,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/news_coverage",
     "vectorCount": 3,
     "categories": {
       "civic-knowledge": []
@@ -6344,7 +6327,23 @@
     "titles": []
   },
   {
+    "source": "https://www.intelligentcommunity.org/top7",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://www.intelligentcommunity.org/intelligent_community_forum_and_exxas_announce_partnership_to_support_brazilian_communities",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/2026_smart21_and_smart_city_expo_in_curitiba_brazil",
     "vectorCount": 3,
     "categories": {
       "civic-knowledge": []
@@ -6360,7 +6359,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/top7",
+    "source": "https://www.intelligentcommunity.org/2025_intelligent_community_of_the_year",
     "vectorCount": 3,
     "categories": {
       "civic-knowledge": []
@@ -6392,7 +6391,31 @@
     "titles": []
   },
   {
+    "source": "https://www.intelligentcommunity.org/news_coverage",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.extension.iastate.edu/legal",
+    "vectorCount": 3,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://www.intelligentcommunity.org/icf_2026_top7_conference_announcement",
+    "vectorCount": 3,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/looking_back_on_2025_and_forward_to_2026",
     "vectorCount": 3,
     "categories": {
       "civic-knowledge": []
@@ -6408,10 +6431,10 @@
     "titles": []
   },
   {
-    "source": "https://www.extension.iastate.edu/legal",
+    "source": "http://www.jeffersoncountytrails.org/news2009.htm",
     "vectorCount": 3,
     "categories": {
-      "education": []
+      "conservation": []
     },
     "titles": []
   },
@@ -6424,10 +6447,10 @@
     "titles": []
   },
   {
-    "source": "http://www.jeffersoncountytrails.org/news2009.htm",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=124",
     "vectorCount": 3,
     "categories": {
-      "conservation": []
+      "(uncategorized)": []
     },
     "titles": []
   },
@@ -6448,14 +6471,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=124",
-    "vectorCount": 3,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=222",
     "vectorCount": 3,
     "categories": {
@@ -6464,7 +6479,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=248",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=244",
     "vectorCount": 3,
     "categories": {
       "(uncategorized)": []
@@ -6472,7 +6487,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=244",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=248",
     "vectorCount": 3,
     "categories": {
       "(uncategorized)": []
@@ -6528,7 +6543,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=644",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=647",
     "vectorCount": 3,
     "categories": {
       "(uncategorized)": []
@@ -6536,7 +6551,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=647",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=644",
     "vectorCount": 3,
     "categories": {
       "(uncategorized)": []
@@ -6576,6 +6591,16 @@
     "titles": []
   },
   {
+    "source": "growfairfield.com",
+    "vectorCount": 3,
+    "categories": {
+      "economic_development": [
+        "entrepreneurship"
+      ]
+    },
+    "titles": []
+  },
+  {
     "source": "thewelliowa.org",
     "vectorCount": 3,
     "categories": {
@@ -6594,16 +6619,6 @@
     "titles": []
   },
   {
-    "source": "growfairfield.com",
-    "vectorCount": 3,
-    "categories": {
-      "economic_development": [
-        "entrepreneurship"
-      ]
-    },
-    "titles": []
-  },
-  {
     "source": "https://www.youtube.com/watch?v=26gLWhpNgrE",
     "vectorCount": 3,
     "categories": {
@@ -6611,16 +6626,6 @@
     },
     "titles": [
       "Traction Thursday | Dr. Eric Schaeffer & Dr. Apala Lahiri \"Human Factors Int.\""
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=4CMjpRsJe4M",
-    "vectorCount": 3,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Dee Sandquist \"Niman Ranch Farmer\""
     ]
   },
   {
@@ -6634,13 +6639,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=9oiCHpvdKcI",
+    "source": "https://www.youtube.com/watch?v=4CMjpRsJe4M",
     "vectorCount": 3,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursdays | Ron Doetch \"Solutions in the Land, Agronomist, and Whole Systems Farm Planner\""
+      "Traction Thursday | Dee Sandquist \"Niman Ranch Farmer\""
     ]
   },
   {
@@ -6651,6 +6656,16 @@
     },
     "titles": [
       "Traction Thursday | Christina Moffatt \"Strategist of Customer Growth\""
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9oiCHpvdKcI",
+    "vectorCount": 3,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursdays | Ron Doetch \"Solutions in the Land, Agronomist, and Whole Systems Farm Planner\""
     ]
   },
   {
@@ -6738,16 +6753,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=9PalXMP3PHA",
-    "vectorCount": 2,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 11-12-19"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=9JwzE0q6-qQ",
     "vectorCount": 2,
     "categories": {
@@ -6755,6 +6760,16 @@
     },
     "titles": [
       "City Council - Special Meeting 4-12-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=9PalXMP3PHA",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-12-19"
     ]
   },
   {
@@ -6818,6 +6833,16 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=OaEWVA3Va6A",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council 8-13-12"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=Q32QhJdpsKg",
     "vectorCount": 2,
     "categories": {
@@ -6848,16 +6873,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=OaEWVA3Va6A",
-    "vectorCount": 2,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "Fairfield City Council 8-13-12"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=R0UCvZ4SMbU",
     "vectorCount": 2,
     "categories": {
@@ -6868,13 +6883,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=Vt_QLjY9qmI",
+    "source": "https://www.youtube.com/watch?v=Tgk8rZsXcl8",
     "vectorCount": 2,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 3 -26-18"
+      "City Council 6-14-21"
     ]
   },
   {
@@ -6888,13 +6903,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=Tgk8rZsXcl8",
+    "source": "https://www.youtube.com/watch?v=Vt_QLjY9qmI",
     "vectorCount": 2,
     "categories": {
       "government": []
     },
     "titles": [
-      "City Council 6-14-21"
+      "City Council 3 -26-18"
     ]
   },
   {
@@ -6928,16 +6943,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=ZXIEBfiPZ-U",
-    "vectorCount": 2,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 4-22-19"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=aWSBXkdR_eg",
     "vectorCount": 2,
     "categories": {
@@ -6958,6 +6963,16 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=ZXIEBfiPZ-U",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 4-22-19"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=oznxOBaGOh0",
     "vectorCount": 2,
     "categories": {
@@ -6968,16 +6983,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=sss-p-VN-o4",
-    "vectorCount": 2,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "Fairfield Town Hall | Mans Best Friend | 4-25-22"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=uotEv7rUQAU",
     "vectorCount": 2,
     "categories": {
@@ -6985,6 +6990,16 @@
     },
     "titles": [
       "Special City Council 1-2-20"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=sss-p-VN-o4",
+    "vectorCount": 2,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Mans Best Friend | 4-25-22"
     ]
   },
   {
@@ -7008,34 +7023,10 @@
     ]
   },
   {
-    "source": "https://www.intelligentcommunity.org/icf_global_summits",
-    "vectorCount": 2,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://www.fairfieldmediacenter.com/fairfieldcitycouncil",
     "vectorCount": 2,
     "categories": {
       "arts-culture": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/icf_podcast",
-    "vectorCount": 2,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/icf_partner_events",
-    "vectorCount": 2,
-    "categories": {
-      "civic-knowledge": []
     },
     "titles": []
   },
@@ -7056,14 +7047,6 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/speakers",
-    "vectorCount": 2,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://fairfieldeducationfoundation.com/directors",
     "vectorCount": 2,
     "categories": {
@@ -7072,7 +7055,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/accelerator_training",
+    "source": "https://www.intelligentcommunity.org/icf_partner_events",
     "vectorCount": 2,
     "categories": {
       "civic-knowledge": []
@@ -7080,7 +7063,15 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/what_is_an_intelligent_community",
+    "source": "https://www.intelligentcommunity.org/speakers",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_global_summits",
     "vectorCount": 2,
     "categories": {
       "civic-knowledge": []
@@ -7096,7 +7087,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/innovation",
+    "source": "https://www.intelligentcommunity.org/your_intelligent_community_journey",
     "vectorCount": 2,
     "categories": {
       "civic-knowledge": []
@@ -7104,7 +7095,15 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/your_intelligent_community_journey",
+    "source": "https://www.intelligentcommunity.org/what_is_an_intelligent_community",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_podcast",
     "vectorCount": 2,
     "categories": {
       "civic-knowledge": []
@@ -7128,7 +7127,23 @@
     "titles": []
   },
   {
-    "source": "https://www.iowasource.com/2012/12/05/fairfield2012_12_gisella",
+    "source": "https://www.intelligentcommunity.org/innovation",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/accelerator_training",
+    "vectorCount": 2,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.iowasource.com/2017/11/28/laura-ingalls-wilder",
     "vectorCount": 2,
     "categories": {
       "media": []
@@ -7136,7 +7151,7 @@
     "titles": []
   },
   {
-    "source": "https://www.iowasource.com/2017/11/28/laura-ingalls-wilder",
+    "source": "https://www.iowasource.com/2012/12/05/fairfield2012_12_gisella",
     "vectorCount": 2,
     "categories": {
       "media": []
@@ -7224,14 +7239,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=195",
-    "vectorCount": 2,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=165",
     "vectorCount": 2,
     "categories": {
@@ -7248,6 +7255,14 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=195",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=225",
     "vectorCount": 2,
     "categories": {
@@ -7256,7 +7271,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=271",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=242",
     "vectorCount": 2,
     "categories": {
       "(uncategorized)": []
@@ -7264,7 +7279,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=242",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=251",
     "vectorCount": 2,
     "categories": {
       "(uncategorized)": []
@@ -7288,14 +7303,6 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=251",
-    "vectorCount": 2,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=294",
     "vectorCount": 2,
     "categories": {
@@ -7304,7 +7311,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=304",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=271",
     "vectorCount": 2,
     "categories": {
       "(uncategorized)": []
@@ -7312,7 +7319,7 @@
     "titles": []
   },
   {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=320",
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=304",
     "vectorCount": 2,
     "categories": {
       "(uncategorized)": []
@@ -7336,6 +7343,22 @@
     "titles": []
   },
   {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=320",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=385",
+    "vectorCount": 2,
+    "categories": {
+      "(uncategorized)": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=367",
     "vectorCount": 2,
     "categories": {
@@ -7345,14 +7368,6 @@
   },
   {
     "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=384",
-    "vectorCount": 2,
-    "categories": {
-      "(uncategorized)": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://cityoffairfieldiowa.com/Archive.aspx?ADID=385",
     "vectorCount": 2,
     "categories": {
       "(uncategorized)": []
@@ -7410,16 +7425,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=9kOuvq46Boo",
-    "vectorCount": 2,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Corey Morrow \"Fairsight Society\""
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=7bt63528Qe4",
     "vectorCount": 2,
     "categories": {
@@ -7430,13 +7435,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=NFOPEgNTQRk",
+    "source": "https://www.youtube.com/watch?v=9kOuvq46Boo",
     "vectorCount": 2,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursdays |  Kelly Prickett & Kaitlin Byers 3-22-24"
+      "Traction Thursday | Corey Morrow \"Fairsight Society\""
     ]
   },
   {
@@ -7447,6 +7452,16 @@
     },
     "titles": [
       "Traction Thursdays | Stuart Valentine \"Centered Wealth\" 2-29-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=NFOPEgNTQRk",
+    "vectorCount": 2,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursdays |  Kelly Prickett & Kaitlin Byers 3-22-24"
     ]
   },
   {
@@ -7522,6 +7537,14 @@
     "titles": []
   },
   {
+    "source": "https://www.fairfieldacc.com/programs",
+    "vectorCount": 1,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://www.fairfieldiowa.com/news/boutique_therapy",
     "vectorCount": 1,
     "categories": {
@@ -7538,22 +7561,6 @@
     "titles": []
   },
   {
-    "source": "https://fairfieldiowafarmersmarket.farm/contact",
-    "vectorCount": 1,
-    "categories": {
-      "community": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.fairfieldacc.com/programs",
-    "vectorCount": 1,
-    "categories": {
-      "arts-culture": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://www.fairfieldacc.com/about",
     "vectorCount": 1,
     "categories": {
@@ -7562,14 +7569,12 @@
     "titles": []
   },
   {
-    "source": "https://www.youtube.com/watch?v=-mauGgrzWCY",
+    "source": "https://fairfieldiowafarmersmarket.farm/contact",
     "vectorCount": 1,
     "categories": {
-      "government": []
+      "community": []
     },
-    "titles": [
-      "City Council 11-8-21"
-    ]
+    "titles": []
   },
   {
     "source": "https://www.youtube.com/watch?v=-v9R9pl6Mbo",
@@ -7590,6 +7595,16 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=-mauGgrzWCY",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 11-8-21"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=4P0PLmBLWT0",
     "vectorCount": 1,
     "categories": {
@@ -7607,16 +7622,6 @@
     },
     "titles": [
       "City Council 10-13-14"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=6JuNsrZ8Qug",
-    "vectorCount": 1,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "Fairfield Town Hall | Building & Zoning Permits | 3-28-22"
     ]
   },
   {
@@ -7650,6 +7655,36 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=6JuNsrZ8Qug",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Town Hall | Building & Zoning Permits | 3-28-22"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BdZicyyIOiM",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 5-14-18"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=BTTOcJJz_dw",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council 6-25-18"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=ATJD8rPxgG8",
     "vectorCount": 1,
     "categories": {
@@ -7680,16 +7715,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=BTTOcJJz_dw",
-    "vectorCount": 1,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 6-25-18"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=CYqkSLGf4zg",
     "vectorCount": 1,
     "categories": {
@@ -7697,16 +7722,6 @@
     },
     "titles": [
       "6-8-15 City Council Meeting"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=BdZicyyIOiM",
-    "vectorCount": 1,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council 5-14-18"
     ]
   },
   {
@@ -7740,16 +7755,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=NMNQbINXW-A",
-    "vectorCount": 1,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "City Council Work Session 10-21-19"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=LU_YR0bL-wc",
     "vectorCount": 1,
     "categories": {
@@ -7760,13 +7765,23 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=OYVj52O58Ls",
+    "source": "https://www.youtube.com/watch?v=NMNQbINXW-A",
     "vectorCount": 1,
     "categories": {
       "government": []
     },
     "titles": [
-      "Special Council Meeting 2-10-20"
+      "City Council Work Session 10-21-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=OyRBwpqV8rc",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "5-26-15 City Council Meeting"
     ]
   },
   {
@@ -7780,13 +7795,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=OyRBwpqV8rc",
+    "source": "https://www.youtube.com/watch?v=OYVj52O58Ls",
     "vectorCount": 1,
     "categories": {
       "government": []
     },
     "titles": [
-      "5-26-15 City Council Meeting"
+      "Special Council Meeting 2-10-20"
     ]
   },
   {
@@ -7820,16 +7835,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=cI0D8khIR48",
-    "vectorCount": 1,
-    "categories": {
-      "government": []
-    },
-    "titles": [
-      "FF City Council Meeting 4-23-12"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=dbsBlnH-qRU",
     "vectorCount": 1,
     "categories": {
@@ -7837,6 +7842,16 @@
     },
     "titles": [
       "City Council 8-26-19"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=cI0D8khIR48",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "FF City Council Meeting 4-23-12"
     ]
   },
   {
@@ -7930,10 +7945,18 @@
     ]
   },
   {
-    "source": "http://www.fairfieldculturaldistrict.org/heritage/new-sweden.htm",
+    "source": "http://www.fairfieldculturaldistrict.org/photos.htm",
     "vectorCount": 1,
     "categories": {
       "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldsfuture.org/page/elementary-parent-group",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
     },
     "titles": []
   },
@@ -7954,6 +7977,14 @@
     "titles": []
   },
   {
+    "source": "http://www.fairfieldculturaldistrict.org/heritage/new-sweden.htm",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
     "source": "http://www.fairfieldculturaldistrict.org/heritage/sitelist.htm",
     "vectorCount": 1,
     "categories": {
@@ -7962,66 +7993,10 @@
     "titles": []
   },
   {
-    "source": "https://www.fairfieldsfuture.org/page/elementary-parent-group",
+    "source": "https://fairfieldeducationfoundation.com/contact",
     "vectorCount": 1,
     "categories": {
       "education": []
-    },
-    "titles": []
-  },
-  {
-    "source": "http://www.fairfieldculturaldistrict.org/photos.htm",
-    "vectorCount": 1,
-    "categories": {
-      "arts": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://fairfieldfirstfridays.org/about-us",
-    "vectorCount": 1,
-    "categories": {
-      "arts": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.fnll.org",
-    "vectorCount": 1,
-    "categories": {
-      "youth-sports": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.greaterjeffersoncountyfoundation.org/what-we-do",
-    "vectorCount": 1,
-    "categories": {
-      "civic": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/tags/video",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.fnll.org/news",
-    "vectorCount": 1,
-    "categories": {
-      "youth-sports": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/assess",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
     },
     "titles": []
   },
@@ -8034,42 +8009,10 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/how_chattanooga_accelerated",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://freeformartgallery.com/product-category/jewelry",
     "vectorCount": 1,
     "categories": {
       "arts-culture": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/events",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.fairfieldmediacenter.com/copy-of-great-taste",
-    "vectorCount": 1,
-    "categories": {
-      "arts-culture": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/webinar_events",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
     },
     "titles": []
   },
@@ -8082,7 +8025,31 @@
     "titles": []
   },
   {
+    "source": "https://www.intelligentcommunity.org/tags/video",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/contact_us",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://www.intelligentcommunity.org/participate",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/reports",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8098,7 +8065,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/start_nomination",
+    "source": "https://www.intelligentcommunity.org/how_chattanooga_accelerated",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8106,26 +8073,34 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/the_network",
+    "source": "https://www.fairfieldfriendschurch.org/connect",
     "vectorCount": 1,
     "categories": {
-      "civic-knowledge": []
+      "faith-community": []
     },
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/accelerator",
+    "source": "https://www.fnll.org/news",
     "vectorCount": 1,
     "categories": {
-      "civic-knowledge": []
+      "youth-sports": []
     },
     "titles": []
   },
   {
-    "source": "https://fairfieldeducationfoundation.com/contact",
+    "source": "https://www.greaterjeffersoncountyfoundation.org/what-we-do",
     "vectorCount": 1,
     "categories": {
-      "education": []
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fnll.org",
+    "vectorCount": 1,
+    "categories": {
+      "youth-sports": []
     },
     "titles": []
   },
@@ -8146,23 +8121,15 @@
     "titles": []
   },
   {
-    "source": "https://www.fairfieldfriendschurch.org/connect",
+    "source": "https://fairfieldfirstfridays.org/about-us",
     "vectorCount": 1,
     "categories": {
-      "faith-community": []
+      "arts": []
     },
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/contact_us",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/reports",
+    "source": "https://www.intelligentcommunity.org/start_nomination",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8170,7 +8137,15 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/what_we_do",
+    "source": "https://www.fairfieldmediacenter.com/copy-of-great-taste",
+    "vectorCount": 1,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/content",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8178,47 +8153,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/how_stratford_accelerated",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/how_dundee_accelerated",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/how_sunshine_coast_accelerated",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/delegations",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/broadband",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/sustainability",
+    "source": "https://www.intelligentcommunity.org/events",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8234,22 +8169,6 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/knowledge_workforce",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/how_columbus_accelerated",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
     "source": "https://www.intelligentcommunity.org/connect_with_communities",
     "vectorCount": 1,
     "categories": {
@@ -8258,95 +8177,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/intelligent_community_network",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/our_mission",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/who_we_are",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/use_cases",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/members",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/top7_announcements",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/digital_equality",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/how_taichung_accelerated",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/icf_institutes",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/benefit_from_network",
-    "vectorCount": 1,
-    "categories": {
-      "civic-knowledge": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.intelligentcommunity.org/improve",
+    "source": "https://www.intelligentcommunity.org/accelerator",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8362,6 +8193,62 @@
     "titles": []
   },
   {
+    "source": "https://www.intelligentcommunity.org/webinar_events",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/sustainability",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_columbus_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/what_we_do",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/the_network",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/knowledge_workforce",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/top7_announcements",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://www.intelligentcommunity.org/how_eindhoven_accelerated",
     "vectorCount": 1,
     "categories": {
@@ -8370,7 +8257,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/content",
+    "source": "https://www.intelligentcommunity.org",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8378,7 +8265,7 @@
     "titles": []
   },
   {
-    "source": "https://www.intelligentcommunity.org/news",
+    "source": "https://www.intelligentcommunity.org/assess",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8394,15 +8281,111 @@
     "titles": []
   },
   {
-    "source": "https://www.extension.iastate.edu/jefferson/iowa-state-university-extension-and-outreach-host-2026-dairy-days-across-iowa",
+    "source": "https://www.intelligentcommunity.org/who_we_are",
     "vectorCount": 1,
     "categories": {
-      "education": []
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/benefit_from_network",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/members",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_sunshine_coast_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/icf_institutes",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/broadband",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/digital_equality",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/our_mission",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/use_cases",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.icon-art.org/currentevents",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.icon-art.org/arc-specialevents",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/news",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
     },
     "titles": []
   },
   {
     "source": "https://www.intelligentcommunity.org/icf_nations",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/delegations",
     "vectorCount": 1,
     "categories": {
       "civic-knowledge": []
@@ -8418,18 +8401,42 @@
     "titles": []
   },
   {
-    "source": "https://www.icon-art.org/arc-specialevents",
+    "source": "https://www.intelligentcommunity.org/how_dundee_accelerated",
     "vectorCount": 1,
     "categories": {
-      "arts": []
+      "civic-knowledge": []
     },
     "titles": []
   },
   {
-    "source": "https://www.icon-art.org/currentevents",
+    "source": "https://www.extension.iastate.edu/jefferson/iowa-state-university-extension-and-outreach-host-2026-dairy-days-across-iowa",
     "vectorCount": 1,
     "categories": {
-      "arts": []
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/improve",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_taichung_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.intelligentcommunity.org/how_stratford_accelerated",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
     },
     "titles": []
   },
@@ -8442,10 +8449,26 @@
     "titles": []
   },
   {
-    "source": "https://www.jeffersoncountyheritage.org/maasdam-barns",
+    "source": "https://www.intelligentcommunity.org/intelligent_community_network",
+    "vectorCount": 1,
+    "categories": {
+      "civic-knowledge": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncountyheritage.org/events",
     "vectorCount": 1,
     "categories": {
       "heritage": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://jeffersoncounty.iowa.gov/road-equipment-operator",
+    "vectorCount": 1,
+    "categories": {
+      "government": []
     },
     "titles": []
   },
@@ -8466,15 +8489,7 @@
     "titles": []
   },
   {
-    "source": "https://jeffersoncounty.iowa.gov/road-equipment-operator",
-    "vectorCount": 1,
-    "categories": {
-      "government": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.jeffersoncountyheritage.org/events",
+    "source": "https://www.jeffersoncountyheritage.org/maasdam-barns",
     "vectorCount": 1,
     "categories": {
       "heritage": []
@@ -8498,14 +8513,6 @@
     "titles": []
   },
   {
-    "source": "http://www.jeffersoncountytrails.org/news/waltonbridge.htm",
-    "vectorCount": 1,
-    "categories": {
-      "conservation": []
-    },
-    "titles": []
-  },
-  {
     "source": "http://www.jeffersoncountytrails.org/news/bridge.htm",
     "vectorCount": 1,
     "categories": {
@@ -8522,18 +8529,10 @@
     "titles": []
   },
   {
-    "source": "https://www.maharishischool.org/admissions",
+    "source": "http://www.jeffersoncountytrails.org/news/waltonbridge.htm",
     "vectorCount": 1,
     "categories": {
-      "education": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.kufnerart.com/new-products",
-    "vectorCount": 1,
-    "categories": {
-      "arts": []
+      "conservation": []
     },
     "titles": []
   },
@@ -8542,6 +8541,22 @@
     "vectorCount": 1,
     "categories": {
       "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.maharishischool.org/admissions",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.kufnerart.com/about",
+    "vectorCount": 1,
+    "categories": {
+      "arts": []
     },
     "titles": []
   },
@@ -8562,7 +8577,7 @@
     "titles": []
   },
   {
-    "source": "http://www.kufnerart.com/about",
+    "source": "https://www.kufnerart.com/new-products",
     "vectorCount": 1,
     "categories": {
       "arts": []
@@ -8594,23 +8609,7 @@
     "titles": []
   },
   {
-    "source": "https://www.miu.edu/ma-in-consciousness-and-human-potential",
-    "vectorCount": 1,
-    "categories": {
-      "education": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://pathfindersrcd.org/news-events",
-    "vectorCount": 1,
-    "categories": {
-      "civic": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://pathfindersrcd.org/research-on-grassfed-beef",
+    "source": "https://pathfindersrcd.org/community-guide/american-homefinding-association",
     "vectorCount": 1,
     "categories": {
       "civic": []
@@ -8634,15 +8633,7 @@
     "titles": []
   },
   {
-    "source": "https://pathfindersrcd.org/community-guide/american-homefinding-association",
-    "vectorCount": 1,
-    "categories": {
-      "civic": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.tm.org/en-us/benefits",
+    "source": "https://www.miu.edu/ma-in-consciousness-and-human-potential",
     "vectorCount": 1,
     "categories": {
       "education": []
@@ -8650,7 +8641,31 @@
     "titles": []
   },
   {
+    "source": "https://pathfindersrcd.org/research-on-grassfed-beef",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://pathfindersrcd.org/news-events",
+    "vectorCount": 1,
+    "categories": {
+      "civic": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://www.tm.org/en-us/tm-course",
+    "vectorCount": 1,
+    "categories": {
+      "education": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.tm.org/en-us/benefits",
     "vectorCount": 1,
     "categories": {
       "education": []
@@ -8673,36 +8688,6 @@
     },
     "titles": [
       "Traction Thursday | Meghan Dowd \"Cado Ice Cream\""
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=669_lKkME8M",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Kim Strubell \"Charity Seeds\" 8-8-24"
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=9dpKiXwDwNI",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Dr.  Sean Stokes \"Research Director Rodale Organic Center\""
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=E9blyWhxUE8",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Danny Standly \"Revata Consulting\""
     ]
   },
   {
@@ -8736,43 +8721,33 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=H0dVVyUWtDw",
+    "source": "https://www.youtube.com/watch?v=669_lKkME8M",
     "vectorCount": 1,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursday | Deborah Williamson \"Chairwoman, Fairfield Beautification Commission\" 2.27.25"
+      "Traction Thursday | Kim Strubell \"Charity Seeds\" 8-8-24"
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=GeyByyiWPmY",
+    "source": "https://www.youtube.com/watch?v=9dpKiXwDwNI",
     "vectorCount": 1,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursdays | Jim Belilove 3-28-24"
+      "Traction Thursday | Dr.  Sean Stokes \"Research Director Rodale Organic Center\""
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=HZ52R7YvGHQ",
+    "source": "https://www.youtube.com/watch?v=E9blyWhxUE8",
     "vectorCount": 1,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursday | Phyllis Khare \"Email Marketing\""
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=FzO0EMlhrMA",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Mayor Connie Boyer"
+      "Traction Thursday | Danny Standly \"Revata Consulting\""
     ]
   },
   {
@@ -8786,6 +8761,16 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=GeyByyiWPmY",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursdays | Jim Belilove 3-28-24"
+    ]
+  },
+  {
     "source": "https://www.youtube.com/watch?v=KZR25ThHWmc",
     "vectorCount": 1,
     "categories": {
@@ -8796,13 +8781,33 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=WUw9am1jz8I",
+    "source": "https://www.youtube.com/watch?v=HZ52R7YvGHQ",
     "vectorCount": 1,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursdays | Ed Malloy \"FEDA\" 2-22-24"
+      "Traction Thursday | Phyllis Khare \"Email Marketing\""
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=H0dVVyUWtDw",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Deborah Williamson \"Chairwoman, Fairfield Beautification Commission\" 2.27.25"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=FzO0EMlhrMA",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Mayor Connie Boyer"
     ]
   },
   {
@@ -8816,23 +8821,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=YKJiPJ6Mf9Q",
+    "source": "https://www.youtube.com/watch?v=PdXtS42ce1c",
     "vectorCount": 1,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursday | Eric Shaffer and Apala Lahiri \"HFI Framework\""
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=Up3DnK7NtOE",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Dave Eastburn 4-11-24"
+      "Traction Thursday | Clarissa Schmidt \"Yinja Moves and Rissa's Healthy Delights\""
     ]
   },
   {
@@ -8846,13 +8841,43 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=PdXtS42ce1c",
+    "source": "https://www.youtube.com/watch?v=ZkQLGE8dulA",
     "vectorCount": 1,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursday | Clarissa Schmidt \"Yinja Moves and Rissa's Healthy Delights\""
+      "Traction Thursday | Andrew Nash \"Sweet Green Arbor and Native Plants\""
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=WUw9am1jz8I",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursdays | Ed Malloy \"FEDA\" 2-22-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=Up3DnK7NtOE",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Dave Eastburn 4-11-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=YKJiPJ6Mf9Q",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Eric Shaffer and Apala Lahiri \"HFI Framework\""
     ]
   },
   {
@@ -8866,33 +8891,13 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=ZkQLGE8dulA",
+    "source": "https://www.youtube.com/watch?v=fXiSXShCXkw",
     "vectorCount": 1,
     "categories": {
       "economic": []
     },
     "titles": [
-      "Traction Thursday | Andrew Nash \"Sweet Green Arbor and Native Plants\""
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=pMKXJl0DC7Q",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Phyllis Khare \"Co Founded Social Media Manager School\""
-    ]
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=i3SzyDBDfe4",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Jeff Topel 4-4-24"
+      "Traction Thursdays | Frank Cicela 6-5-24"
     ]
   },
   {
@@ -8906,16 +8911,6 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=fXiSXShCXkw",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursdays | Frank Cicela 6-5-24"
-    ]
-  },
-  {
     "source": "https://www.youtube.com/watch?v=ord3FOp1dkE",
     "vectorCount": 1,
     "categories": {
@@ -8926,7 +8921,63 @@
     ]
   },
   {
+    "source": "https://www.youtube.com/watch?v=i3SzyDBDfe4",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Jeff Topel 4-4-24"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=pMKXJl0DC7Q",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Phyllis Khare \"Co Founded Social Media Manager School\""
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=sn7WeDjwUfY",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Tom Morgan \"Morgan Intercultural\""
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=rNp-8qLuwDo",
+    "vectorCount": 1,
+    "categories": {
+      "economic": []
+    },
+    "titles": [
+      "Traction Thursday | Food Market Maker Update"
+    ]
+  },
+  {
+    "source": "http://www.visitfairfieldiowa.com",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
     "source": "https://www.visitfairfieldiowa.com/blog",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.visitfairfieldiowa.com/blog-posts/whats-new-in-fairfield-feb-2026",
     "vectorCount": 1,
     "categories": {
       "tourism": []
@@ -8944,43 +8995,7 @@
     ]
   },
   {
-    "source": "https://www.youtube.com/watch?v=sn7WeDjwUfY",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Tom Morgan \"Morgan Intercultural\""
-    ]
-  },
-  {
     "source": "https://www.visitfairfieldiowa.com/blog-posts/the-best-day-trip-from-des-moines",
-    "vectorCount": 1,
-    "categories": {
-      "tourism": []
-    },
-    "titles": []
-  },
-  {
-    "source": "http://www.visitfairfieldiowa.com",
-    "vectorCount": 1,
-    "categories": {
-      "tourism": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.youtube.com/watch?v=rNp-8qLuwDo",
-    "vectorCount": 1,
-    "categories": {
-      "economic": []
-    },
-    "titles": [
-      "Traction Thursday | Food Market Maker Update"
-    ]
-  },
-  {
-    "source": "https://www.visitfairfieldiowa.com/art-adventures",
     "vectorCount": 1,
     "categories": {
       "tourism": []
@@ -8996,7 +9011,7 @@
     "titles": []
   },
   {
-    "source": "https://www.wegecenter.org/legup",
+    "source": "https://www.wegecenter.org/ferrigno/lombard",
     "vectorCount": 1,
     "categories": {
       "arts": []
@@ -9004,7 +9019,7 @@
     "titles": []
   },
   {
-    "source": "https://www.wegecenter.org/ferrigno/lombard",
+    "source": "https://www.wegecenter.org/legup",
     "vectorCount": 1,
     "categories": {
       "arts": []
