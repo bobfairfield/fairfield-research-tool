@@ -13,6 +13,7 @@ if (fs.existsSync(envPath)) {
 const pdf = require("pdf-parse");
 const { Pinecone } = require("@pinecone-database/pinecone");
 const OpenAI = require("openai");
+const { validateMetadata } = require("./lib/metadata-schema");
 
 const pinecone = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -37,7 +38,9 @@ async function processFile(filePath, metadata = {}) {
     const chunk = chunks[i];
     if (!chunk || chunk.length === 0) continue;
     const embedding = await openai.embeddings.create({ model: "text-embedding-3-small", input: chunk });
-    await index.upsert([{ id: `${fileName}-chunk-${i}`, values: embedding.data[0].embedding, metadata: { ...metadata, text: chunk, file: fileName } }]);
+    const fullMetadata = { ...metadata, text: chunk, filename: fileName, chunkIndex: i };
+    validateMetadata(fullMetadata, { context: "document-processor.js" });
+    await index.upsert([{ id: `${fileName}-chunk-${i}`, values: embedding.data[0].embedding, metadata: fullMetadata }]);
     process.stdout.write(`  Uploaded chunk ${i + 1}/${chunks.length}\r`);
   }
   console.log(`\n  Done: ${fileName}`);

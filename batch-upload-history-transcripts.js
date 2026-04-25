@@ -16,6 +16,7 @@ const pdfParse = require('pdf-parse');
 const crypto   = require('crypto');
 const { Pinecone } = require('@pinecone-database/pinecone');
 const { OpenAI }   = require('openai');
+const { validateMetadata } = require('./lib/metadata-schema');
 
 const PDF_DIR    = path.join(process.env.HOME, 'fairfield-research-tool', 'history-transcripts');
 const ORG_ID     = 'fairfield-history-series';
@@ -90,6 +91,11 @@ async function uploadFile(filePath) {
       totalChunks: chunks.length,
     },
   }));
+
+  // Validate metadata against canonical schema before upsert
+  for (const v of vectors) {
+    validateMetadata(v.metadata, { context: 'batch-upload-history-transcripts.js' });
+  }
 
   for (let i = 0; i < vectors.length; i += BATCH_SIZE) {
     await index.upsert(vectors.slice(i, i + BATCH_SIZE));

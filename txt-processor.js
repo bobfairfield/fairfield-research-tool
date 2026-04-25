@@ -10,6 +10,7 @@ const fs = require('fs');
 const path = require('path');
 const { Pinecone } = require('@pinecone-database/pinecone');
 const OpenAI = require('openai');
+const { validateMetadata } = require('./lib/metadata-schema');
 
 const filePath = process.argv[2];
 const metadata = JSON.parse(process.argv[3] || '{}');
@@ -59,10 +60,15 @@ async function main() {
       metadata: {
         ...metadata,
         text: chunks[i],
-        fileName,
+        filename: fileName,
         chunkIndex: i,
       },
     });
+  }
+
+  // Validate metadata against canonical schema before upsert
+  for (const v of vectors) {
+    validateMetadata(v.metadata, { context: 'txt-processor.js' });
   }
 
   // Upsert in batches of 100

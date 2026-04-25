@@ -16,6 +16,7 @@
  */
 
 require('dotenv').config({ path: '.env.local' });
+const { validateMetadata } = require('../lib/metadata-schema');
 const https  = require('https');
 const http   = require('http');
 const crypto = require('crypto');
@@ -213,6 +214,10 @@ async function embed(text, retries = 3) {
 
 // ─── Upsert vectors in batches ───────────────────────────────────────────────
 async function upsertBatch(vectors) {
+  // Validate metadata against canonical schema before upsert
+  for (const v of vectors) {
+    validateMetadata(v.metadata, { context: 'scrapers/scraper-base.js' });
+  }
   for (let i = 0; i < vectors.length; i += 100) {
     await index.upsert(vectors.slice(i, i + 100));
     await sleep(300);
@@ -334,12 +339,13 @@ async function runScraper(config) {
           id: `${orgId}-${Buffer.from(page.url).toString('base64').slice(0, 20)}-${i}`,
           values: embedding,
           metadata: {
-            text:     chunks[i].slice(0, 1000),
-            source:   page.url,
-            org:      orgName,
-            category: category,
-            type:     'community_org',
-            file:     `${orgName} — ${page.url}`
+            text:       chunks[i].slice(0, 1000),
+            source:     page.url,
+            sourceUrl:  page.url,
+            org:        orgName,
+            category:   category,
+            type:       'community_org',
+            chunkIndex: i,
           }
         });
         await sleep(80);

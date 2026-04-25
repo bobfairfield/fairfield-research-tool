@@ -16,6 +16,7 @@ require('dotenv').config({ path: '.env.local' });
 
 const fs   = require('fs');
 const path = require('path');
+const { validateMetadata } = require('./lib/metadata-schema');
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 
@@ -203,6 +204,11 @@ async function uploadFile({ filePath, yearFolder, filename }) {
       totalChunks: chunks.length,
     },
   }));
+
+  // Validate metadata against canonical schema before upsert
+  for (const v of vectors) {
+    validateMetadata(v.metadata, { context: 'batch-upload-school-board.js' });
+  }
 
   // Upsert in batches
   for (let i = 0; i < vectors.length; i += BATCH_SIZE) {

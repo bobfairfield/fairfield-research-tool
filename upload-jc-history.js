@@ -11,6 +11,7 @@ const path    = require('path');
 const crypto  = require('crypto');
 const { Pinecone } = require('@pinecone-database/pinecone');
 const { OpenAI }   = require('openai');
+const { validateMetadata } = require('./lib/metadata-schema');
 
 const FILE_PATH  = path.join(__dirname, 'jefferson-county-history', 'historyofjeffers01fult_djvuFullText.txt');
 const ORG_ID     = 'jefferson-county-history';
@@ -84,6 +85,11 @@ async function main() {
         totalChunks: chunks.length,
       },
     }));
+
+    // Validate metadata against canonical schema before upsert
+    for (const v of vectors) {
+      validateMetadata(v.metadata, { context: 'upload-jc-history.js' });
+    }
 
     // Upsert in sub-batches of 100
     for (let k = 0; k < vectors.length; k += BATCH_SIZE) {
