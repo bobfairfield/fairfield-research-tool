@@ -26,3 +26,11 @@ jefferson-county-history/
 school-board-docs/
 walton-lake-docs/
 *.bak
+
+# RAG audit & migration artifacts (regenerate on every run)
+audit-report.json
+audit-report.md
+field-alias-migration-plan.json
+field-alias-migration-progress.json
+field-alias-migration-report.md
+field-alias-migration-summary.md
