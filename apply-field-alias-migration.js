@@ -139,8 +139,11 @@ async function main() {
   for (let i = 0; i < todoLimited.length; i++) {
     const entry = todoLimited[i];
     const patch = MODE === 'aggressive' ? entry.aggressivePatch : entry.conservativePatch;
+    const fieldsToRemove = (MODE === 'aggressive') ? (entry.fieldsToRemoveInAggressive || []) : [];
+    const hasPatch = patch && Object.keys(patch).length > 0;
+    const hasRemovals = fieldsToRemove.length > 0;
 
-    if (!patch || Object.keys(patch).length === 0) {
+    if (!hasPatch && !hasRemovals) {
       stats.skippedNoChange++;
       processed.add(entry.id);
       continue;
