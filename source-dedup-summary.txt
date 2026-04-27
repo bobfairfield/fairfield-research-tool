@@ -1,0 +1,27 @@
+=== Source Dedup Plan Summary ===
+Generated: 2026-04-27T20:59:17.047Z
+
+Sources to merge: 10
+Destination keys: 7
+Total vectors affected: 1413
+
+--- Merge map (source → destination, vector count) ---
+  "City of Fairfield" → "cityoffairfieldiowa.com"  (716 vectors)
+  "City of Fairfield Website" → "cityoffairfieldiowa.com"  (146 vectors)
+  "City Attorney" → "cityoffairfieldiowa.com"  (14 vectors)
+  "Fairfield Public Library" → "fairfield-public-library"  (262 vectors)
+  "Iowa Dance Collective" → "iowa-dance-collective"  (126 vectors)
+  "Grow Fairfield" → "grow-fairfield"  (101 vectors)
+  "Fairfield Area Chamber of Commerce" → "fairfieldiowa.com"  (30 vectors)
+  "Fairfield Cares" → "fairfield-cares"  (7 vectors)
+  "Fairfield Beautification Commission Weed Team" → "fairfield-beautification"  (6 vectors)
+  "Fairfield Beautification Commission 2025 Volunteers" → "fairfield-beautification"  (5 vectors)
+
+--- SOURCE_CATALOG status ---
+  ✅  cityoffairfieldiowa.com
+  ✅  fairfield-public-library
+  ✅  iowa-dance-collective
+  ✅  grow-fairfield
+  ✅  fairfieldiowa.com
+  ✅  fairfield-cares
+  ✅  fairfield-beautification

@@ -18,7 +18,7 @@ const CONCURRENCY = 10;
 // ADD NEW SOURCES HERE as you upload them.
 // ─────────────────────────────────────────────────────────────────────────────
 const SOURCE_CATALOG = {
-  'Iowa Dance Collective': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Iowa Dance Collective', emoji: '💃', color: '#5b3ea6', url: 'iowadancecollective.org' },
+  'iowa-dance-collective': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Iowa Dance Collective', emoji: '💃', color: '#5b3ea6', url: 'iowadancecollective.org' },
   'visit-fairfield': { group: 'tourism', coverage: 'SUBSTANTIAL', displayName: 'Visit Fairfield Iowa (CVB)', emoji: '🗺️', color: '#b06a20', url: 'visitfairfieldiowa.com' },
   'https://freeformartgallery.com/product-category/jewelry': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Freeform Art Gallery', emoji: '🖼️', color: '#7c3d6b', url: 'freeformartgallery.com' },
   'freeform-gallery': { group: 'arts', coverage: 'SUBSTANTIAL', displayName: 'Freeform Art Gallery', emoji: '🖼️', color: '#7c3d6b', url: 'freeformartgallery.com' },
@@ -56,22 +56,7 @@ const SOURCE_CATALOG = {
 
 
   // ── CITY OF FAIRFIELD ──────────────────────────────────────────────────────
-  'City of Fairfield': {
-    group: 'city',
-    displayName: 'City of Fairfield',
-    mergeInto: 'city-fairfield-main',   // merge duplicate labels together
-  },
   'cityoffairfieldiowa.com': {
-    group: 'city',
-    displayName: 'City of Fairfield',
-    mergeInto: 'city-fairfield-main',
-  },
-  'City of Fairfield Website': {
-    group: 'city',
-    displayName: 'City of Fairfield',
-    mergeInto: 'city-fairfield-main',
-  },
-  'City Attorney': {
     group: 'city',
     displayName: 'City of Fairfield',
     mergeInto: 'city-fairfield-main',
@@ -131,7 +116,7 @@ const SOURCE_CATALOG = {
     color: '#5b3ea6',
     url: 'miu.edu',
   },
-  'Fairfield Public Library': {
+  'fairfield-public-library': {
     group: 'higher_ed',
     displayName: 'Fairfield Public Library',
     emoji: '📚',
@@ -157,15 +142,22 @@ const SOURCE_CATALOG = {
     color: '#1e7268',
     url: 'thewelliowa.org',
   },
-  'Fairfield Cares': {
+  'fairfield-cares': {
     group: 'health',
     displayName: 'Fairfield Cares',
     emoji: '❤️',
     color: '#a33030',
   },
 
+  'fairfield-beautification': {
+    group: 'civic',
+    displayName: 'Fairfield Beautification Commission',
+    emoji: '🌸',
+    color: '#7c3d6b',
+  },
+
   // ── ECONOMIC DEVELOPMENT ──────────────────────────────────────────────────
-  'Grow Fairfield': {
+  'grow-fairfield': {
     group: 'economic',
     displayName: 'Grow Fairfield / FEDA',
     mergeInto: 'grow-fairfield-main',
@@ -176,11 +168,6 @@ const SOURCE_CATALOG = {
     mergeInto: 'grow-fairfield-main',
   },
   'fairfieldiowa.com': {
-    group: 'economic',
-    displayName: 'Fairfield Area Chamber of Commerce',
-    mergeInto: 'chamber-main',
-  },
-  'Fairfield Area Chamber of Commerce': {
     group: 'economic',
     displayName: 'Fairfield Area Chamber of Commerce',
     mergeInto: 'chamber-main',
