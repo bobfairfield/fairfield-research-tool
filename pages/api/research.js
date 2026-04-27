@@ -91,9 +91,9 @@ export default async function handler(req, res) {
         if (mergedMatches.length > 0) {
           hasRAGResults = true;
           documentCount = mergedMatches.length;
-          sources = [...new Set(mergedMatches.map(m => m.metadata?.file).filter(Boolean))];
+          sources = [...new Set(mergedMatches.map(m => m.metadata?.filename || m.metadata?.source).filter(Boolean))];
           ragContext = mergedMatches.map(match => {
-            const file = match.metadata?.file || 'Unknown document';
+            const file = match.metadata?.filename || match.metadata?.source || 'Unknown document';
             const type = match.metadata?.type || 'document';
             const text = match.metadata?.text || '';
             return `[Source: ${file} | Type: ${type}]\n${text}`;
