@@ -18,12 +18,25 @@ function run(cmd, opts = {}) {
 
 console.log('\n=== Civic Intelligence Hub — Deploy ===\n');
 
-// ── Step 1: Regenerate the map ────────────────────────────────────────────────
-console.log('Step 1: Regenerating knowledge base map...');
+// ── Step 1: Audit codebase for forbidden metadata field reads ────────────────
+console.log('Step 1: Auditing codebase for legacy metadata field reads...');
+try {
+  run('node audit-field-reads.js', { silent: true });
+  console.log('✅ No forbidden field reads detected.\n');
+} catch (err) {
+  console.log(err.stdout || '');
+  console.log('\n❌ DEPLOY BLOCKED — Forbidden metadata field reads detected.');
+  console.log('   Fix the reads above (use canonical fields per lib/metadata-schema.js),');
+  console.log('   then re-run: node deploy.js\n');
+  process.exit(1);
+}
+
+// ── Step 2: Regenerate the map ────────────────────────────────────────────────
+console.log('Step 2: Regenerating knowledge base map...');
 const mapOutput = run('node generate-map.js', { silent: true });
 process.stdout.write(mapOutput);
 
-// ── Step 2: Check for unmapped sources ───────────────────────────────────────
+// ── Step 2b: Check for unmapped sources ──────────────────────────────────────
 if (mapOutput.includes('New sources not yet in SOURCE_CATALOG')) {
   console.log('\n❌ DEPLOY BLOCKED — Unmapped sources detected.');
   console.log('   Add all sources to SOURCE_CATALOG and URL_DOMAIN_MAP in generate-map.js,');
@@ -34,7 +47,7 @@ if (mapOutput.includes('New sources not yet in SOURCE_CATALOG')) {
 console.log('✅ No unmapped sources. Proceeding to deploy.\n');
 
 // ── Step 3: Commit and push ───────────────────────────────────────────────────
-console.log('Step 2: Committing and pushing to GitHub → Vercel...');
+console.log('Step 3: Committing and pushing to GitHub → Vercel...');
 try {
   run('git add -A');
   run(`git commit -m "${commitMsg}" || true`);
