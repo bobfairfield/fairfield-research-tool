@@ -1,0 +1,333 @@
+{
+  "timestamp": "2026-05-08T17:02:11.826Z",
+  "planFile": "rag-audit-plan.json",
+  "planGenerated": "2026-05-08T14:56:23.039Z",
+  "indexName": "fairfield-civic-docs",
+  "vectorsUpdated": 11586,
+  "vectorsErrored": 0,
+  "perActionCounts": {
+    "A002": 12,
+    "A001": 4,
+    "A003": 62,
+    "A004": 2,
+    "A005": 4,
+    "A006": 724,
+    "A007": 3646,
+    "A008": 1,
+    "A009": 29,
+    "A010": 1,
+    "A011": 569,
+    "A012": 13,
+    "A013": 11,
+    "A014": 2,
+    "A016": 2,
+    "A015": 3,
+    "A018": 1,
+    "A017": 1,
+    "A019": 1,
+    "A020": 146,
+    "A024": 4,
+    "A021": 164,
+    "A023": 13,
+    "A022": 8,
+    "A025": 9,
+    "A026": 2,
+    "A027": 4,
+    "A028": 10,
+    "A029": 11,
+    "A030": 2,
+    "A031": 1672,
+    "A033": 2874,
+    "A034": 4,
+    "A032": 4,
+    "A035": 37,
+    "A036": 16,
+    "A037": 3,
+    "A038": 1506,
+    "A039": 6,
+    "A040": 3
+  },
+  "actionsExecuted": [
+    {
+      "id": "A001",
+      "type": "collapse_url_to_org",
+      "to": "carry-on-bags",
+      "vectorsExpected": 4,
+      "vectorsActuallyUpdated": 4
+    },
+    {
+      "id": "A002",
+      "type": "collapse_url_to_org",
+      "to": "area15rpc",
+      "vectorsExpected": 12,
+      "vectorsActuallyUpdated": 12
+    },
+    {
+      "id": "A003",
+      "type": "collapse_url_to_org",
+      "to": "fairfieldiowa.com",
+      "vectorsExpected": 62,
+      "vectorsActuallyUpdated": 62
+    },
+    {
+      "id": "A004",
+      "type": "collapse_url_to_org",
+      "to": "fairfield-acc",
+      "vectorsExpected": 2,
+      "vectorsActuallyUpdated": 2
+    },
+    {
+      "id": "A005",
+      "type": "collapse_url_to_org",
+      "to": "fairfield-farmers-market",
+      "vectorsExpected": 4,
+      "vectorsActuallyUpdated": 4
+    },
+    {
+      "id": "A006",
+      "type": "collapse_url_to_org",
+      "to": "fairfield-history-series",
+      "vectorsExpected": 724,
+      "vectorsActuallyUpdated": 724
+    },
+    {
+      "id": "A007",
+      "type": "collapse_url_to_org",
+      "to": "city-council-videos",
+      "vectorsExpected": 3646,
+      "vectorsActuallyUpdated": 3646
+    },
+    {
+      "id": "A008",
+      "type": "collapse_url_to_org",
+      "to": "fall",
+      "vectorsExpected": 1,
+      "vectorsActuallyUpdated": 1
+    },
+    {
+      "id": "A009",
+      "type": "collapse_url_to_org",
+      "to": "fairfield-cultural-alliance",
+      "vectorsExpected": 29,
+      "vectorsActuallyUpdated": 29
+    },
+    {
+      "id": "A010",
+      "type": "collapse_url_to_org",
+      "to": "fairfield_community_school_district",
+      "vectorsExpected": 1,
+      "vectorsActuallyUpdated": 1
+    },
+    {
+      "id": "A011",
+      "type": "collapse_url_to_org",
+      "to": "fcsd-board-minutes",
+      "vectorsExpected": 569,
+      "vectorsActuallyUpdated": 569
+    },
+    {
+      "id": "A012",
+      "type": "collapse_url_to_org",
+      "to": "gjcf",
+      "vectorsExpected": 13,
+      "vectorsActuallyUpdated": 13
+    },
+    {
+      "id": "A013",
+      "type": "collapse_url_to_org",
+      "to": "fmc",
+      "vectorsExpected": 11,
+      "vectorsActuallyUpdated": 11
+    },
+    {
+      "id": "A014",
+      "type": "collapse_url_to_org",
+      "to": "fairfield-first-fridays",
+      "vectorsExpected": 2,
+      "vectorsActuallyUpdated": 2
+    },
+    {
+      "id": "A015",
+      "type": "collapse_url_to_org",
+      "to": "fef",
+      "vectorsExpected": 3,
+      "vectorsActuallyUpdated": 3
+    },
+    {
+      "id": "A016",
+      "type": "collapse_url_to_org",
+      "to": "fnll",
+      "vectorsExpected": 2,
+      "vectorsActuallyUpdated": 2
+    },
+    {
+      "id": "A017",
+      "type": "collapse_url_to_org",
+      "to": "fumc",
+      "vectorsExpected": 1,
+      "vectorsActuallyUpdated": 1
+    },
+    {
+      "id": "A018",
+      "type": "collapse_url_to_org",
+      "to": "freeform-gallery",
+      "vectorsExpected": 1,
+      "vectorsActuallyUpdated": 1
+    },
+    {
+      "id": "A019",
+      "type": "collapse_url_to_org",
+      "to": "ffc",
+      "vectorsExpected": 1,
+      "vectorsActuallyUpdated": 1
+    },
+    {
+      "id": "A020",
+      "type": "collapse_url_to_org",
+      "to": "icf",
+      "vectorsExpected": 146,
+      "vectorsActuallyUpdated": 146
+    },
+    {
+      "id": "A021",
+      "type": "collapse_url_to_org",
+      "to": "jefferson-county",
+      "vectorsExpected": 164,
+      "vectorsActuallyUpdated": 164
+    },
+    {
+      "id": "A022",
+      "type": "collapse_url_to_org",
+      "to": "isu-extension",
+      "vectorsExpected": 8,
+      "vectorsActuallyUpdated": 8
+    },
+    {
+      "id": "A023",
+      "type": "collapse_url_to_org",
+      "to": "iowa-source",
+      "vectorsExpected": 13,
+      "vectorsActuallyUpdated": 13
+    },
+    {
+      "id": "A024",
+      "type": "collapse_url_to_org",
+      "to": "jc-fair",
+      "vectorsExpected": 4,
+      "vectorsActuallyUpdated": 4
+    },
+    {
+      "id": "A025",
+      "type": "collapse_url_to_org",
+      "to": "icon-art",
+      "vectorsExpected": 9,
+      "vectorsActuallyUpdated": 9
+    },
+    {
+      "id": "A026",
+      "type": "collapse_url_to_org",
+      "to": "jc-heritage",
+      "vectorsExpected": 2,
+      "vectorsActuallyUpdated": 2
+    },
+    {
+      "id": "A027",
+      "type": "collapse_url_to_org",
+      "to": "jeffersoncountyconservation.com",
+      "vectorsExpected": 4,
+      "vectorsActuallyUpdated": 4
+    },
+    {
+      "id": "A028",
+      "type": "collapse_url_to_org",
+      "to": "jeffersoncountyhealthcenter.org",
+      "vectorsExpected": 10,
+      "vectorsActuallyUpdated": 10
+    },
+    {
+      "id": "A029",
+      "type": "collapse_url_to_org",
+      "to": "jc-trails",
+      "vectorsExpected": 11,
+      "vectorsActuallyUpdated": 11
+    },
+    {
+      "id": "A030",
+      "type": "collapse_url_to_org",
+      "to": "jcll",
+      "vectorsExpected": 2,
+      "vectorsActuallyUpdated": 2
+    },
+    {
+      "id": "A031",
+      "type": "collapse_url_to_org",
+      "to": "jefferson-county-history",
+      "vectorsExpected": 1672,
+      "vectorsActuallyUpdated": 1672
+    },
+    {
+      "id": "A032",
+      "type": "collapse_url_to_org",
+      "to": "maharishi_school",
+      "vectorsExpected": 4,
+      "vectorsActuallyUpdated": 4
+    },
+    {
+      "id": "A033",
+      "type": "collapse_url_to_org",
+      "to": "cityoffairfieldiowa.com",
+      "vectorsExpected": 2874,
+      "vectorsActuallyUpdated": 2874
+    },
+    {
+      "id": "A034",
+      "type": "collapse_url_to_org",
+      "to": "kufner-art",
+      "vectorsExpected": 4,
+      "vectorsActuallyUpdated": 4
+    },
+    {
+      "id": "A035",
+      "type": "collapse_url_to_org",
+      "to": "miu",
+      "vectorsExpected": 37,
+      "vectorsActuallyUpdated": 37
+    },
+    {
+      "id": "A036",
+      "type": "collapse_url_to_org",
+      "to": "pathfinders-rcd",
+      "vectorsExpected": 16,
+      "vectorsActuallyUpdated": 16
+    },
+    {
+      "id": "A037",
+      "type": "collapse_url_to_org",
+      "to": "tm-southeast-iowa",
+      "vectorsExpected": 3,
+      "vectorsActuallyUpdated": 3
+    },
+    {
+      "id": "A038",
+      "type": "collapse_url_to_org",
+      "to": "walton-lake-bridge",
+      "vectorsExpected": 1506,
+      "vectorsActuallyUpdated": 1506
+    },
+    {
+      "id": "A039",
+      "type": "collapse_url_to_org",
+      "to": "visit-fairfield",
+      "vectorsExpected": 6,
+      "vectorsActuallyUpdated": 6
+    },
+    {
+      "id": "A040",
+      "type": "collapse_url_to_org",
+      "to": "wege-center",
+      "vectorsExpected": 3,
+      "vectorsActuallyUpdated": 3
+    }
+  ],
+  "errors": []
+}

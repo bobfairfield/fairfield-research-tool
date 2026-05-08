@@ -467,6 +467,8 @@ const URL_DOMAIN_MAP = [
   ['www.fairfield.ia.us/walton-lake-bridge','walton-lake-bridge'],
   ['archive.org','jefferson-county-history'],
   ['www.fairfieldmediacenter.com/copy-of-carnegie-museum-1','traction-thursdays'],
+  ['cityoffairfieldiowa.com', 'cityoffairfieldiowa.com'],
+  ['freeformartgallery.com', 'freeform-gallery'],
 ];
 function resolveCatalogKey(source) {
   if (!source) return null;
@@ -751,3 +753,4 @@ async function main() {
 }
 
 main().catch(err => { console.error('Error:', err.message); process.exit(1); });
+module.exports = { URL_DOMAIN_MAP, SOURCE_CATALOG };
