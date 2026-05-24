@@ -32,12 +32,15 @@ const YTDLP   = path.join(process.env.HOME, 'yt-dlp');
 const TMP_DIR = '/tmp/fc-council-vtt';
 const ORG_ID  = 'fc-council';
 
-// ── ADD NEW MEETINGS HERE ─────────────────────────────────────────────────────
+// -- ADD NEW MEETINGS HERE -----------------------------------------------------
 const VIDEOS = [
-  { videoId: 'vpwTLfdkNEs', title: 'Fairfield City Council Meeting',        publishedAt: '2026-04-13' },
-  { videoId: '82MsDUTSThU', title: 'City Council & County Supervisors — Data Center Discussion', publishedAt: '2026-05-18' },
+  { videoId: 'vpwTLfdkNEs', title: 'Fairfield City Council Meeting',                              publishedAt: '2026-04-13' },
+  { videoId: 'nIz0bQjP8Ag', title: 'Fairfield City Budget Session',                              publishedAt: '2026-04-23' },
+  { videoId: 'gGBh8GRbw20', title: 'Fairfield Study Session & City Council Meeting',             publishedAt: '2026-04-27' },
+  { videoId: 'wSdr6eEj_cY', title: 'Fairfield Study Session & City Council Meeting',             publishedAt: '2026-05-11' },
+  { videoId: '82MsDUTSThU', title: 'City Council & County Supervisors -- Data Center Discussion', publishedAt: '2026-05-18' },
 ];
-// ─────────────────────────────────────────────────────────────────────────────
+// ------------------------------------------------------------------------------
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -72,7 +75,6 @@ function parseVtt(vttFile) {
         line.startsWith('Kind:') || line.startsWith('Language:') || line.trim() === '') {
       continue;
     }
-    // strip inline timestamp/formatting tags like <00:00:01.359><c>
     const clean = line.replace(/<[^>]+>/g, '').trim();
     if (clean && !seen.has(clean)) {
       seen.add(clean);
@@ -104,21 +106,21 @@ async function embed(text) {
 
   for (let i = 0; i < VIDEOS.length; i++) {
     const { videoId, title, publishedAt } = VIDEOS[i];
-    console.log(`[${i + 1}/${VIDEOS.length}] ${publishedAt} — ${title}`);
+    console.log(`[${i + 1}/${VIDEOS.length}] ${publishedAt} -- ${title}`);
     console.log(`         https://www.youtube.com/watch?v=${videoId}`);
 
     let vttFile;
     try {
       vttFile = downloadVtt(videoId);
     } catch (e) {
-      console.log(`  ✗ yt-dlp error: ${e.message}`);
+      console.log(`  x yt-dlp error: ${e.message}`);
       errors++;
       await sleep(3000);
       continue;
     }
 
     if (!vttFile) {
-      console.log('  ✗ No captions available');
+      console.log('  x No captions available');
       skipped++;
       await sleep(2000);
       continue;
@@ -128,15 +130,15 @@ async function embed(text) {
     fs.unlinkSync(vttFile);
 
     if (transcript.length < 200) {
-      console.log(`  ✗ Too short (${transcript.length} chars) — likely no real captions`);
+      console.log(`  x Too short (${transcript.length} chars) -- likely no real captions`);
       skipped++;
       await sleep(2000);
       continue;
     }
 
-    const header = `Fairfield City Council Meeting — ${publishedAt}\nTitle: ${title}\n\n`;
+    const header = `Fairfield City Council Meeting -- ${publishedAt}\nTitle: ${title}\n\n`;
     const chunks = chunkText(header + transcript);
-    console.log(`  ✓ ${transcript.length} chars → ${chunks.length} chunks`);
+    console.log(`  ok ${transcript.length} chars -> ${chunks.length} chunks`);
 
     const vectors = [];
     for (let j = 0; j < chunks.length; j++) {
@@ -153,12 +155,12 @@ async function embed(text) {
             type:        'council_meeting',
             title,
             publishedAt,
-            file:        `City Council Meeting — ${publishedAt} — ${title}`,
+            file:        `City Council Meeting -- ${publishedAt} -- ${title}`,
           },
         });
         await sleep(80);
       } catch (e) {
-        console.error(`  ✗ Embed error chunk ${j}: ${e.message}`);
+        console.error(`  x Embed error chunk ${j}: ${e.message}`);
         errors++;
       }
     }
@@ -169,7 +171,7 @@ async function embed(text) {
 
     totalChunks += vectors.length;
     processed++;
-    console.log(`  ✓ Uploaded ${vectors.length} vectors\n`);
+    console.log(`  ok Uploaded ${vectors.length} vectors\n`);
 
     if (i < VIDEOS.length - 1) await sleep(3000);
   }
@@ -180,9 +182,9 @@ async function embed(text) {
   console.log(`  Errors    : ${errors}`);
   console.log(`  Chunks    : ${totalChunks}`);
   if (errors > 0 || skipped > 0) {
-    console.log('\n⚠ Some videos had issues — check output above.');
+    console.log('\n!! Some videos had issues -- check output above.');
   }
 })().catch(err => {
-  console.error('\n❌ Failed:', err);
+  console.error('\nFAILED:', err);
   process.exit(1);
 });
