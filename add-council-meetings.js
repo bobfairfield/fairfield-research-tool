@@ -1,20 +1,26 @@
 /**
  * add-council-meetings.js
  * Adds specific city council meeting videos to Pinecone by YouTube video ID.
- * Reuses the same VTT download + embed pipeline as city-council-youtube.js.
+ * Reuses the same VTT-download + chunk + embed pipeline as city-council-youtube.js.
  *
- * Usage: node add-council-meetings.js
- * To add more meetings in future: add video IDs to the VIDEOS array below.
+ * Vector IDs are deterministic: `fc-council-{videoId}-{chunkIndex}`.
+ * Re-running a video that's already indexed simply OVERWRITES in place —
+ * no duplicates, safe to re-run.
  *
+ * Usage:   node add-council-meetings.js
  * Run from: ~/fairfield-research-tool/
+ *
+ * To add future meetings: add one line to the VIDEOS array below.
+ *   videoId     = the 11-char ID from the YouTube URL (?v=XXXXXXXXXXX)
+ *   title       = descriptive name for the meeting
+ *   publishedAt = YYYY-MM-DD
  */
 
 require('dotenv').config({ path: '.env.local' });
 
-const fs      = require('fs');
-const path    = require('path');
+const fs   = require('fs');
+const path = require('path');
 const { spawnSync } = require('child_process');
-const { execSync }  = require('child_process');
 const { Pinecone }  = require('@pinecone-database/pinecone');
 const OpenAI        = require('openai');
 
@@ -27,16 +33,9 @@ const TMP_DIR = '/tmp/fc-council-vtt';
 const ORG_ID  = 'fc-council';
 
 // ── ADD NEW MEETINGS HERE ─────────────────────────────────────────────────────
-// Format: { videoId, title, publishedAt }
-// videoId: the 11-char ID from the Wix URL param wix-vod-video-id=XXXXXXXXXXX
-// title: descriptive name for the meeting
-// publishedAt: YYYY-MM-DD format
 const VIDEOS = [
-  { videoId: 'EVvKRKPGB1k', title: 'Fairfield City Council Meeting', publishedAt: '2026-02-23' },
-  { videoId: 'Eusdl4nerzQ', title: 'Fairfield City Council Meeting', publishedAt: '2026-03-09' },
-  { videoId: 'OLjRxJKfbJY', title: 'Fairfield City Council Wrap-Up', publishedAt: '2026-01-28' },
-  { videoId: '3SRubyrkcts', title: 'Fairfield City Council Wrap-Up', publishedAt: '2026-03-11' },
-  { videoId: 'KYhEgCEkBTo', title: 'Fairfield City Council Wrap-Up', publishedAt: '2026-03-25' },
+  { videoId: 'vpwTLfdkNEs', title: 'Fairfield City Council Meeting',        publishedAt: '2026-04-13' },
+  { videoId: '82MsDUTSThU', title: 'City Council & County Supervisors — Data Center Discussion', publishedAt: '2026-05-18' },
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -54,87 +53,64 @@ function downloadVtt(videoId) {
     '--no-warnings',
     '-o', outPattern,
     `https://www.youtube.com/watch?v=${videoId}`
-  ], { encoding: 'utf8', timeout: 30000 });
+  ], { encoding: 'utf8', timeout: 60000 });
 
-  const vttFile = path.join(TMP_DIR, `${videoId}.en.vtt`);
-  if (fs.existsSync(vttFile)) return vttFile;
+  const exact = path.join(TMP_DIR, `${videoId}.en.vtt`);
+  if (fs.existsSync(exact)) return exact;
 
   const files = fs.readdirSync(TMP_DIR).filter(f => f.startsWith(videoId) && f.endsWith('.vtt'));
   return files.length ? path.join(TMP_DIR, files[0]) : null;
 }
 
-function parseVtt(vttPath) {
-  const raw   = fs.readFileSync(vttPath, 'utf8');
+function parseVtt(vttFile) {
+  const raw = fs.readFileSync(vttFile, 'utf8');
   const lines = raw.split('\n');
-  const seen  = new Set();
-  const textLines = [];
-
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (!trimmed) continue;
-    if (trimmed.startsWith('WEBVTT') || trimmed.startsWith('Kind:') || trimmed.startsWith('Language:')) continue;
-    if (/^\d{2}:\d{2}:\d{2}/.test(trimmed)) continue;
-    if (/<\d{2}:\d{2}/.test(trimmed)) continue;
-
-    const clean = trimmed
-      .replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&')
-      .replace(/<[^>]+>/g, '').trim();
-
-    if (!clean || clean.length < 2 || seen.has(clean)) continue;
-    seen.add(clean);
-    textLines.push(clean);
+  const seen = new Set();
+  const out = [];
+  for (let line of lines) {
+    if (line.includes('-->') || line.startsWith('WEBVTT') ||
+        line.startsWith('Kind:') || line.startsWith('Language:') || line.trim() === '') {
+      continue;
+    }
+    // strip inline timestamp/formatting tags like <00:00:01.359><c>
+    const clean = line.replace(/<[^>]+>/g, '').trim();
+    if (clean && !seen.has(clean)) {
+      seen.add(clean);
+      out.push(clean);
+    }
   }
-  return textLines.join(' ').replace(/\s+/g, ' ').trim();
+  return out.join(' ');
 }
 
-function chunkText(text, maxWords = 400) {
-  const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+function chunkText(text, size = 1200, overlap = 150) {
   const chunks = [];
-  let current = [], wordCount = 0;
-  const flush = () => {
-    if (current.length) {
-      const chunk = current.join(' ').trim();
-      if (chunk.length > 80) chunks.push(chunk);
-      current = []; wordCount = 0;
-    }
-  };
-  for (const sent of sentences) {
-    const words = sent.split(/\s+/).length;
-    if (wordCount + words > maxWords) flush();
-    current.push(sent.trim());
-    wordCount += words;
+  for (let i = 0; i < text.length; i += (size - overlap)) {
+    chunks.push(text.slice(i, i + size));
   }
-  flush();
   return chunks;
 }
 
-async function embed(text, retries = 3) {
-  for (let i = 0; i < retries; i++) {
-    try {
-      const res = await oai.embeddings.create({ model: 'text-embedding-3-small', input: text.slice(0, 8000) });
-      return res.data[0].embedding;
-    } catch(e) {
-      if (i < retries - 1) await sleep(2000 * (i + 1));
-      else throw e;
-    }
-  }
+async function embed(text) {
+  const resp = await oai.embeddings.create({
+    model: 'text-embedding-3-small',
+    input: text,
+  });
+  return resp.data[0].embedding;
 }
 
-async function main() {
-  console.log('\n=== Fairfield City Council — Add New Meetings ===\n');
-  console.log(`Processing ${VIDEOS.length} videos...\n`);
-
-  let totalChunks = 0, processed = 0, skipped = 0, errors = 0;
+(async function main() {
+  console.log(`\nProcessing ${VIDEOS.length} council meeting video(s)...\n`);
+  let processed = 0, skipped = 0, errors = 0, totalChunks = 0;
 
   for (let i = 0; i < VIDEOS.length; i++) {
     const { videoId, title, publishedAt } = VIDEOS[i];
-    console.log(`[${i+1}/${VIDEOS.length}] ${publishedAt} — ${title}`);
+    console.log(`[${i + 1}/${VIDEOS.length}] ${publishedAt} — ${title}`);
     console.log(`         https://www.youtube.com/watch?v=${videoId}`);
 
     let vttFile;
     try {
       vttFile = downloadVtt(videoId);
-    } catch(e) {
+    } catch (e) {
       console.log(`  ✗ yt-dlp error: ${e.message}`);
       errors++;
       await sleep(3000);
@@ -152,7 +128,7 @@ async function main() {
     fs.unlinkSync(vttFile);
 
     if (transcript.length < 200) {
-      console.log(`  ✗ Too short (${transcript.length} chars)`);
+      console.log(`  ✗ Too short (${transcript.length} chars) — likely no real captions`);
       skipped++;
       await sleep(2000);
       continue;
@@ -177,47 +153,36 @@ async function main() {
             type:        'council_meeting',
             title,
             publishedAt,
-            file:        `City Council Meeting — ${publishedAt} — ${title}`
-          }
+            file:        `City Council Meeting — ${publishedAt} — ${title}`,
+          },
         });
         await sleep(80);
-      } catch(e) {
+      } catch (e) {
         console.error(`  ✗ Embed error chunk ${j}: ${e.message}`);
         errors++;
       }
     }
 
-    // Upsert in batches of 100
     for (let k = 0; k < vectors.length; k += 100) {
       await index.upsert(vectors.slice(k, k + 100));
     }
 
     totalChunks += vectors.length;
     processed++;
-    console.log(`  ✓ Uploaded ${vectors.length} vectors`);
+    console.log(`  ✓ Uploaded ${vectors.length} vectors\n`);
 
     if (i < VIDEOS.length - 1) await sleep(3000);
   }
 
-  console.log(`\n=== Done ===`);
+  console.log('=== Done ===');
   console.log(`  Processed : ${processed}`);
   console.log(`  No caps   : ${skipped}`);
   console.log(`  Errors    : ${errors}`);
   console.log(`  Chunks    : ${totalChunks}`);
-
   if (errors > 0 || skipped > 0) {
     console.log('\n⚠ Some videos had issues — check output above.');
   }
-
-  if (processed > 0) {
-    console.log('\nRunning deploy...\n');
-    execSync('node deploy.js "Add city council meetings Feb-Mar 2026"', {
-      stdio: 'inherit', cwd: __dirname
-    });
-  }
-}
-
-main().catch(err => {
-  console.error('Fatal error:', err.message);
+})().catch(err => {
+  console.error('\n❌ Failed:', err);
   process.exit(1);
 });
