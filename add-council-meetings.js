@@ -39,6 +39,7 @@ const VIDEOS = [
   { videoId: 'gGBh8GRbw20', title: 'Fairfield Study Session & City Council Meeting',             publishedAt: '2026-04-27' },
   { videoId: 'wSdr6eEj_cY', title: 'Fairfield Study Session & City Council Meeting',             publishedAt: '2026-05-11' },
   { videoId: '82MsDUTSThU', title: 'City Council & County Supervisors -- Data Center Discussion', publishedAt: '2026-05-18' },
+  { videoId: 'IzZld7Cjj1Q', title: 'Fairfield Study Session & City Council 5.26.26',              publishedAt: '2026-05-26' },
 ];
 // ------------------------------------------------------------------------------
 
