@@ -16,6 +16,16 @@ export default async function handler(req, res) {
         <p style="margin:8px 0 0 0;font-size:15px;color:#374151;font-style:italic">"${comment}"</p>
       </div>` : '';
 
+    const contactParts = [];
+    if (constituentName)  contactParts.push(`<strong>Name:</strong> ${constituentName}`);
+    if (constituentEmail) contactParts.push(`<strong>Email:</strong> <a href="mailto:${constituentEmail}" style="color:#1a3a5c">${constituentEmail}</a>`);
+    if (constituentPhone) contactParts.push(`<strong>Phone:</strong> ${constituentPhone}`);
+    const contactSection = contactParts.length ? `
+      <div style="background:#f0f7f0;padding:20px 32px;border-left:4px solid #2e7d32;margin-bottom:0">
+        <p style="margin:0;font-size:13px;color:#666;font-weight:600;text-transform:uppercase;letter-spacing:1px">Constituent Contact</p>
+        <p style="margin:8px 0 0 0;font-size:15px;color:#374151;line-height:1.7">${contactParts.join('<br>')}</p>
+      </div>` : '';
+
     const summarySection = summary ? `
       <div style="background:#eef6ff;padding:20px 32px;border-left:4px solid #1a3a5c;margin-bottom:0">
         <p style="margin:0;font-size:13px;color:#666;font-weight:600;text-transform:uppercase;letter-spacing:1px">Council Briefing</p>
