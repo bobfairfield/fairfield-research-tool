@@ -653,12 +653,52 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=wSdr6eEj_cY",
+    "vectorCount": 124,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Study Session & City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=gGBh8GRbw20",
+    "vectorCount": 122,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield Study Session & City Council Meeting"
+    ]
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=nIz0bQjP8Ag",
+    "vectorCount": 112,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Budget Session"
+    ]
+  },
+  {
     "source": "grow-fairfield",
     "vectorCount": 101,
     "categories": {
       "Community Organizations": []
     },
     "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=vpwTLfdkNEs",
+    "vectorCount": 83,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "Fairfield City Council Meeting"
+    ]
   },
   {
     "source": "fran",
@@ -691,6 +731,16 @@
     "titles": []
   },
   {
+    "source": "https://www.youtube.com/watch?v=82MsDUTSThU",
+    "vectorCount": 57,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City Council & County Supervisors -- Data Center Discussion"
+    ]
+  },
+  {
     "source": "singing_cedars_school",
     "vectorCount": 52,
     "categories": {
@@ -699,6 +749,16 @@
       ]
     },
     "titles": []
+  },
+  {
+    "source": "https://www.youtube.com/watch?v=IzZld7Cjj1Q",
+    "vectorCount": 52,
+    "categories": {
+      "government": []
+    },
+    "titles": [
+      "City of Fairfield | Study Session & City Council 5.26.26"
+    ]
   },
   {
     "source": "jefferson.iowaassessors.com",
@@ -768,14 +828,6 @@
     "titles": []
   },
   {
-    "source": "https://www.miu.edu/bachelors-in-creative-writing",
-    "vectorCount": 12,
-    "categories": {
-      "education": []
-    },
-    "titles": []
-  },
-  {
     "source": "fairfield-beautification",
     "vectorCount": 11,
     "categories": {
@@ -786,10 +838,26 @@
     "titles": []
   },
   {
+    "source": "https://www.iowasource.com/2018/01/05/events-calendar",
+    "vectorCount": 11,
+    "categories": {
+      "media": []
+    },
+    "titles": []
+  },
+  {
     "source": "jc-trails",
     "vectorCount": 11,
     "categories": {
       "conservation": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.miu.edu/bachelors-in-creative-writing",
+    "vectorCount": 11,
+    "categories": {
+      "education": []
     },
     "titles": []
   },
@@ -812,26 +880,10 @@
     "titles": []
   },
   {
-    "source": "https://www.fairfieldmediacenter.com/fairfieldcitycouncil",
-    "vectorCount": 9,
-    "categories": {
-      "arts-culture": []
-    },
-    "titles": []
-  },
-  {
     "source": "icon-art",
     "vectorCount": 9,
     "categories": {
       "arts": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.miu.edu/ma-in-consciousness-and-human-potential",
-    "vectorCount": 9,
-    "categories": {
-      "education": []
     },
     "titles": []
   },
@@ -852,10 +904,18 @@
     "titles": []
   },
   {
-    "source": "visit-fairfield",
-    "vectorCount": 6,
+    "source": "https://www.fairfieldmediacenter.com/fairfieldcitycouncil",
+    "vectorCount": 7,
     "categories": {
-      "tourism": []
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.miu.edu/ma-in-enlightenment-leadership",
+    "vectorCount": 7,
+    "categories": {
+      "education": []
     },
     "titles": []
   },
@@ -866,6 +926,14 @@
       "economic_development": [
         "entrepreneurship"
       ]
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldmediacenter.com/chambertalk",
+    "vectorCount": 5,
+    "categories": {
+      "arts-culture": []
     },
     "titles": []
   },
@@ -894,20 +962,20 @@
     "titles": []
   },
   {
-    "source": "kufner-art",
-    "vectorCount": 4,
-    "categories": {
-      "arts": []
-    },
-    "titles": []
-  },
-  {
     "source": "opportunityiowa.gov",
     "vectorCount": 4,
     "categories": {
       "economic_development": [
         "downtown_revitalization"
       ]
+    },
+    "titles": []
+  },
+  {
+    "source": "kufner-art",
+    "vectorCount": 4,
+    "categories": {
+      "arts": []
     },
     "titles": []
   },
@@ -930,15 +998,7 @@
     "titles": []
   },
   {
-    "source": "https://www.iowasource.com/2018/01/05/events-calendar",
-    "vectorCount": 3,
-    "categories": {
-      "media": []
-    },
-    "titles": []
-  },
-  {
-    "source": "https://www.iowasource.com/2012/11/01/tv2012_11-1",
+    "source": "https://www.iowasource.com/2015/11/06/fairfield2015_11",
     "vectorCount": 3,
     "categories": {
       "media": []
@@ -954,20 +1014,20 @@
     "titles": []
   },
   {
-    "source": "https://www.miu.edu/bachelors-in-ayurveda-wellness-and-integrative-health",
-    "vectorCount": 3,
-    "categories": {
-      "education": []
-    },
-    "titles": []
-  },
-  {
     "source": "growfairfield.com",
     "vectorCount": 3,
     "categories": {
       "economic_development": [
         "entrepreneurship"
       ]
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.miu.edu/bachelors-in-ayurveda-wellness-and-integrative-health",
+    "vectorCount": 3,
+    "categories": {
+      "education": []
     },
     "titles": []
   },
@@ -990,6 +1050,14 @@
     "titles": []
   },
   {
+    "source": "https://www.visitfairfieldiowa.com/blog-posts/america-250",
+    "vectorCount": 3,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
     "source": "wege-center",
     "vectorCount": 3,
     "categories": {
@@ -1004,14 +1072,6 @@
       "community_organizations": [
         "food_security"
       ]
-    },
-    "titles": []
-  },
-  {
-    "source": "fnll",
-    "vectorCount": 2,
-    "categories": {
-      "youth-sports": []
     },
     "titles": []
   },
@@ -1032,14 +1092,6 @@
     "titles": []
   },
   {
-    "source": "https://www.iowasource.com/2012/12/05/fairfield2012_12_gisella",
-    "vectorCount": 2,
-    "categories": {
-      "media": []
-    },
-    "titles": []
-  },
-  {
     "source": "jc-heritage",
     "vectorCount": 2,
     "categories": {
@@ -1048,15 +1100,23 @@
     "titles": []
   },
   {
-    "source": "jcll",
+    "source": "https://www.miu.edu/ma-in-consciousness-and-human-potential",
     "vectorCount": 2,
     "categories": {
-      "youth-sports": []
+      "education": []
     },
     "titles": []
   },
   {
-    "source": "fall",
+    "source": "https://www.visitfairfieldiowa.com/blog-posts/the-best-day-trip-from-des-moines",
+    "vectorCount": 2,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.fairfieldatlanticlittleleague.org",
     "vectorCount": 1,
     "categories": {
       "youth-sports": []
@@ -1072,15 +1132,15 @@
     "titles": []
   },
   {
-    "source": "https://www.fairfieldmediacenter.com/jeffersoncountysupervisors",
+    "source": "https://www.fnll.org",
     "vectorCount": 1,
     "categories": {
-      "arts-culture": []
+      "youth-sports": []
     },
     "titles": []
   },
   {
-    "source": "https://www.fairfieldmethodistchurch.org/news/sample-news-post-2--1",
+    "source": "ffc",
     "vectorCount": 1,
     "categories": {
       "faith-community": []
@@ -1088,10 +1148,10 @@
     "titles": []
   },
   {
-    "source": "freeform-gallery",
+    "source": "https://www.fairfieldmethodistchurch.org/news/sample-news-post-3",
     "vectorCount": 1,
     "categories": {
-      "arts-culture": []
+      "faith-community": []
     },
     "titles": []
   },
@@ -1104,10 +1164,74 @@
     "titles": []
   },
   {
-    "source": "ffc",
+    "source": "https://www.fnll.org/news",
     "vectorCount": 1,
     "categories": {
-      "faith-community": []
+      "youth-sports": []
+    },
+    "titles": []
+  },
+  {
+    "source": "freeform-gallery",
+    "vectorCount": 1,
+    "categories": {
+      "arts-culture": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.iowasource.com/2012/12/05/fairfield2012_12_gisella",
+    "vectorCount": 1,
+    "categories": {
+      "media": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.iowasource.com/2012/12/06/food2012_12_gisella",
+    "vectorCount": 1,
+    "categories": {
+      "media": []
+    },
+    "titles": []
+  },
+  {
+    "source": "jcll",
+    "vectorCount": 1,
+    "categories": {
+      "youth-sports": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.jeffersoncountylittleleague.com/registration",
+    "vectorCount": 1,
+    "categories": {
+      "youth-sports": []
+    },
+    "titles": []
+  },
+  {
+    "source": "http://www.visitfairfieldiowa.com",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.visitfairfieldiowa.com/plan/weather",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
+    },
+    "titles": []
+  },
+  {
+    "source": "https://www.visitfairfieldiowa.com/business/hudson-collection",
+    "vectorCount": 1,
+    "categories": {
+      "tourism": []
     },
     "titles": []
   }
